@@ -1,0 +1,1153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../">
+  <title data-ice="title">Manual</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+<link data-ice="userStyle" rel="stylesheet" href="user/css/0-main.css">
+</head>
+<body class="layout-container manual-root manual-index" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <a data-ice="repoURL" href="https://github.com/geospatial-services-framework" class="repo-url-github">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div class="manual-toc-root">
+  
+<div data-ice="manual" data-toc-name="installation">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h2" data-link="manual/installation/installation.html"><a href="manual/installation/installation.html#installation-guide" data-ice="link">Installation Guide</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="tutorial">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1 manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;&#x25A0;" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#getting-started" data-ice="link">Getting Started</a></li>
+<li data-ice="manualNav" class="indent-h1 manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;&#x25A0;" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#gsf-javascript-client-sdk" data-ice="link">GSF JavaScript Client SDK</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#about-the-sdk" data-ice="link">About the SDK</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#basic-usage" data-ice="link">Basic Usage</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#requirements" data-ice="link">Requirements</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#building-the-sdk" data-ice="link">Building the SDK</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#testing-the-sdk" data-ice="link">Testing the SDK</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#using-a-test-server" data-ice="link">Using a Test Server</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#using-an-existing-gsf-server" data-ice="link">Using an Existing GSF Server</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#building-the-documentation" data-ice="link">Building the Documentation</a></li>
+<li data-ice="manualNav" class="indent-h1 manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;&#x25A0;&#x25A0;" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html" data-ice="link">Examples</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#list-available-services" data-ice="link">List Available Services</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#list-available-tasks" data-ice="link">List Available Tasks</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#get-task-information" data-ice="link">Get Task Information</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#run-a-task" data-ice="link">Run a Task</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#using-promises" data-ice="link">Using Promises</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#1-use-wait-" data-ice="link">1. Use .wait()</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#2-use-submitandwait-" data-ice="link">2. Use .submitAndWait()</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#using-server-events" data-ice="link">Using Server Events</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#tracking-job-progress" data-ice="link">Tracking Job Progress</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#progress-callbacks" data-ice="link">Progress Callbacks</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#progress-events" data-ice="link">Progress Events</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#server-progress-events" data-ice="link">Server Progress Events</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#job-progress-events" data-ice="link">Job Progress Events</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#cancelling-jobs" data-ice="link">Cancelling Jobs</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="reference">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1 manual-color manual-color-reference" data-section-count="&#x25A0;&#x25A0;&#x25A0;&#x25A0;&#x25A0;" data-link="identifiers.html"><a href="identifiers.html" data-ice="link">Reference</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="identifiers.html"><a href="identifiers.html#class" data-ice="link">Class</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="identifiers.html"><a href="identifiers.html#typedef" data-ice="link">Typedef</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="changelog">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1 manual-color manual-color-changelog" data-section-count="&#x25A0;" data-link="manual/changelog/CHANGELOG.html"><a href="manual/changelog/CHANGELOG.html" data-ice="link">Change Log</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/changelog/CHANGELOG.html"><a href="manual/changelog/CHANGELOG.html#1-0-0-2017-02-26" data-ice="link">1.0.0 / 2017-02-26</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/changelog/CHANGELOG.html"><a href="manual/changelog/CHANGELOG.html#new-features" data-ice="link">New Features</a></li>
+</ul>
+  </div>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div class="github-markdown">
+  
+
+  <p class="manual-badge" data-ice="manualBadge"><img src="./manual-badge.svg"></p>
+
+  <div class="manual-cards">
+    
+  <div class="manual-card-wrap" data-ice="cards">
+      <h1 data-ice="label" class="manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;&#x25A0;"><span data-ice="label-inner">GSF JavaScript Client SDK</span></h1>
+      <div class="manual-card">
+        <div data-ice="card"><h1>GSF JavaScript Client SDK</h1><h2>About the SDK</h2><p>The GSF JavaScript Client SDK provides a client-side JavaScript library for interacting with GSF.</p><ol>
+<li>This repository contains pre-built distributable files located in the <code>/dist/</code> directory.<ul>
+<li><code>/dist/GSF.js</code> - The non-minified bundle.</li>
+<li><code>/dist/GSF.map.js</code> - The non-minified bundle source map file.</li>
+<li><code>/dist/GSF.min.js</code> - The minified bundle.</li>
+<li><code>/dist/GSF.min.js.map</code> - The minified bundle source map file.</li>
+</ul>
+</li>
+</ol><h2>Basic Usage</h2><ol>
+<li><p>Include the GSF JavaScript Client SDK in your project.  The example below assumes the SDK file is located next to your html file.</p>
+<p> <code>&lt;script src=&quot;GSF.min.js&quot;&gt;&lt;/script&gt;</code></p>
+</li>
+<li><p>Access the SDK using the global <a href="./manual/../class/src/GSF.js~GSF.html"><strong>GSF</strong></a> object.</p>
+<p> <code>&lt;script&gt;console.log(GSF);&lt;/script&gt;</code></p>
+</li>
+<li><p>Below is a simple example of running a job and retrieving the results.  You will need to update the server address and port below to reflect the server that you are using.</p>
+</li>
+</ol><pre><code class="lang-javascript"><code class="source-code prettyprint">// GSF Server
+const server = GSF.server({
+  address: &apos;MyServer&apos;,
+  port: &apos;9191&apos;
+  });
+
+// Create a service object.
+const service = server.service(&apos;ENVI&apos;);
+
+// Create a task object.
+const task = service.task(&apos;SpectralIndex&apos;);
+
+const NDVIParameters = {
+  parameters: {
+    INPUT_RASTER: {
+      FACTORY: &apos;URLRaster&apos;,
+      URL: &apos;http://MyServer:9191/ese/data/qb_boulder_msi&apos;
+    },
+    INDEX: &apos;Normalized Difference Vegetation Index&apos;
+  }
+};
+
+// Submit a job.
+task.submitAndWait(NDVIParameters).then((results) =&gt; {
+    // Do something with results.
+    AddToMap(results.OUTPUT_RASTER);
+  }).catch((err) =&gt; {
+    // Display error.
+  });</code>
+</code></pre><h2>Requirements</h2><p>The GSF JavaScript Client SDK relies on <a href="https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events">server-sent events</a> for communication with the server.  Developers who wish to build apps that run on browsers lacking EventSource support may want to use a polyfill.</p><h2>Building the SDK</h2><ol>
+<li><p>Clone the repository.</p>
+<p>$ git clone <a href="https://github.com/geospatial-services-framework/gsf-js-client-sdk">https://github.com/geospatial-services-framework/gsf-js-client-sdk</a></p>
+</li>
+<li><p>From the root directory of the project install the dependencies.</p>
+<p>$ npm install</p>
+</li>
+<li><p>Run the build script.</p>
+<p>$ npm run build</p>
+</li>
+</ol><h2>Testing the SDK</h2><h4>Using a Test Server</h4><p>We have provided a simple mock server implementation that can be used for very basic testing of the SDK.</p><p>  $ npm run unit-test</p><h4>Using an Existing GSF Server</h4><p>It is also possible to run the tests against a running GSF server.</p><p>  $ npm run test</p><h2>Building the Documentation</h2><ol>
+<li><p>Build the documentation.</p>
+<p>$ npm run help</p>
+</li>
+<li><p>View the generated help files located in the <code>/help</code> directory (on Windows).</p>
+<p>$ start help/index.html</p>
+</li>
+</ol></div>
+        <a data-ice="link" href="manual/tutorial/getting-started.html#gsf-javascript-client-sdk"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <h1 data-ice="label" class="manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;&#x25A0;&#x25A0;"><span data-ice="label-inner">Examples</span></h1>
+      <div class="manual-card">
+        <div data-ice="card"><h1>Examples</h1><p>Below are several examples of using the SDK.</p><h2>List Available Services</h2><p>The GSF <a href="./manual/../class/src/Server.js~Server.html"><strong>Server</strong></a> object provides the ability to list the available services on the server.</p><pre><code class="lang-javascript"><code class="source-code prettyprint">// GSF Server
+const server = GSF.server({
+    address: &apos;MyServer&apos;,
+    port: &apos;9191&apos;
+  });
+
+// Get an array of available services.
+server.services().then((services) =&gt; {
+  services.forEach((service) =&gt; {
+    // Print each service name.
+    console.log(service.name);
+  });
+}).catch((err) =&gt; {
+  // There was an error.
+});</code>
+</code></pre><h2>List Available Tasks</h2><p>The <a href="./manual/../class/src/Service.js~Service.html"><strong>Service</strong></a> object provides the ability to list the available tasks on the service.  The example below lists all tasks associated with the ENVI service.</p><pre><code class="lang-javascript"><code class="source-code prettyprint">// GSF Server
+const server = GSF.server({
+    address: &apos;MyServer&apos;,
+    port: &apos;9191&apos;
+  });
+
+// Get the ENVI service.
+const service = server.service(&apos;ENVI&apos;);
+
+// Get an array of available tasks.
+service.tasks().then((tasks) =&gt; {
+  tasks.forEach((task) =&gt; {
+    // Print each task name.
+    console.log(task.name);
+  });
+}).catch((err) =&gt; {
+  // There was an error.
+});</code>
+</code></pre><h2>Get Task Information</h2><p>The <a href="./manual/../class/src/Task.js~Task.html"><strong>Task</strong></a> object allows you to query the task and its parameters.  This may be useful when dynamically constructing UI elements representing task input parameters.</p><pre><code class="lang-javascript"><code class="source-code prettyprint">// GSF Server
+const server = GSF.server({
+    address: &apos;MyServer&apos;,
+    port: &apos;9191&apos;
+  });
+
+// Get the ENVI service.
+const service = server.service(&apos;ENVI&apos;);
+
+// Get a task.
+const task = service.task(&apos;SpectralIndex&apos;);
+
+task.info().then((info) =&gt; {
+  // Print the task info.
+  console.log(info);
+}).catch((err) =&gt; {
+  // There was an error.
+});</code>
+</code></pre><h2>Run a Task</h2><p>There are many ways to run tasks and retrieve results using the GSF JavaScript SDK.  The following examples assume you have completed the steps below to create a task object.</p><pre><code class="lang-javascript"><code class="source-code prettyprint">// Get a task.  
+const task = GSF.server({address:&apos;MyServer&apos;,port:&apos;9191&apos;}).service(&apos;ENVI&apos;).task(&apos;SpectralIndex&apos;);
+
+const taskParameters = {
+  parameters: {
+    INPUT_RASTER: {
+      FACTORY: &apos;URLRaster&apos;,
+      URL: &apos;http://MyServer:9191/ese/data/qb_boulder_msi&apos;
+    },
+    INDEX: &apos;Normalized Difference Vegetation Index&apos;
+  }
+};</code>
+</code></pre><h3>Using Promises</h3><p>The SDK provides a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"><strong>Promise</strong></a>-based interface for submitting tasks.  If the task succeeds, the promise will be fulfilled.  If the job fails, the job will be rejected.  There are two ways to use promises for job resolution.</p><h5>1. Use <a href="./manual/../class/src/Job.js~Job.html#instance-method-wait"><strong>.wait()</strong></a></h5><p>This function returns a <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"><strong>Promise</strong></a> to the job results.  The <a href="./manual/../class/src/Task.js~Task.html#instance-method-submit"><strong>.submit()</strong></a> function will return a Promise to a <a href="./manual/../class/src/Job.js~Job.html"><strong>Job</strong></a> object.  You may use this object to query for job information such as ID and status.</p><pre><code class="lang-javascript"><code class="source-code prettyprint">// Submit a job.
+task.submit(taskParameters)
+.then(job =&gt; job.wait()) // Waits for job to complete.
+.then((results) =&gt; {
+  // Do something with results.
+  // This function is an example and is not provided by the SDK.
+  AddToMap(results.OUTPUT_RASTER);
+}).catch((jobErrorMessage) =&gt; {
+  // Display error.
+});</code>
+</code></pre><h5>2. Use <a href="./manual/../class/src/Task.js~Task.html#instance-method-submitAndWait"><strong>.submitAndWait()</strong></a></h5><p>This function simply combines the <a href="./manual/../class/src/Task.js~Task.html#instance-method-submit"><strong>.submit()</strong></a> and <a href="./manual/../class/src/Job.js~Job.html#instance-method-wait"><strong>.wait()</strong></a> functions.  This is perhaps the simplest way to submit a job and retrieve the results.  Use this if you are only intereseted in results and do not wish to interact with the <a href="./manual/../class/src/Job.js~Job.html"><strong>Job</strong></a> object.</p><pre><code class="lang-javascript"><code class="source-code prettyprint">// Submit a job.
+task.submitAndWait(taskParameters).then((results) =&gt; {
+    // Do something with results.
+    // This function is an example and is not provided by the SDK.
+    AddToMap(results.OUTPUT_RASTER);
+  }).catch((jobErrorMessage) =&gt; {
+    // Display error.
+  });</code>
+</code></pre><h3>Using Server Events</h3><p>The <a href="./manual/../class/src/Server.js~Server.html"><strong>Server</strong></a> and <a href="./manual/../class/src/Job.js~Job.html"><strong>Job</strong></a> objects emits all job events related to that server.  These classes inheret from Node&apos;s <a href="https://nodejs.org/api/events.html"><strong>EventEmitter</strong></a> and support methods such as .on(), .once(), .removeAllListeners(), etc.  The following example shows how to listen for job events.</p><pre><code class="lang-javascript"><code class="source-code prettyprint">// GSF Server
+const server = GSF.server({
+    address: &apos;MyServer&apos;,
+    port: &apos;9191&apos;
+  });
+
+// Set up an event listeners.
+server.once(&apos;JobSucceeded&apos;, (data) =&gt; {
+  console.log(&apos;Job Succeeded: &apos;, data.jobId);
+});  
+
+server.once(&apos;JobFailed&apos;, (data) =&gt; {
+  console.log(&apos;Job Failed: &apos;, data.jobId);
+});
+
+// Create a service object.
+const service = server.service(&apos;ENVI&apos;);
+
+// Create a task object.
+const task = service.task(&apos;SpectralIndex&apos;);
+
+const NDVIParameters = {
+  parameters: {
+    INPUT_RASTER: {
+      FACTORY: &apos;URLRaster&apos;,
+      URL: &apos;http://MyServer:9191/ese/data/qb_boulder_msi&apos;
+    },
+    INDEX: &apos;Normalized Difference Vegetation Index&apos;
+  }
+};
+
+// Submit a job.
+task.submit(NDVIParameters);</code>
+</code></pre><p>For a complete list of available events, please see the <a href="./manual/../class/src/Server.js~Server.html"><strong>Server</strong></a> class documentation.</p><h2>Tracking Job Progress</h2><p>There are two ways to track the progress of a single job.</p><h3>Progress Callbacks</h3><p>The <a href="./manual/../class/src/Task.js~Task.html#instance-method-submit"><strong>.submit()</strong></a> and <a href="./manual/../class/src/Task.js~Task.html#instance-method-submitAndWait"><strong>.submitAndWait()</strong></a> functions support the inclusion of a progress callback for reporting job progress.</p><pre><code class="lang-javascript"><code class="source-code prettyprint">const progressCallback = function (data) {
+  console.log(&apos;Job progress percent: &apos;, data.progress);
+  console.log(&apos;Job progress message: &apos;, data.message);
+};
+
+// Submit a job.
+task.submitAndWait(parameters, progressCallback).then((results) =&gt; {
+    // Do something with results.
+    // This function is an example and is not provided by the SDK.
+    AddToMap(results.OUTPUT_RASTER);
+  }).catch((jobErrorMessage) =&gt; {
+    // Display error.
+  });</code>
+</code></pre><h3>Progress Events</h3><p>Job progress events are emitted by the <a href="./manual/../class/src/Server.js~Server.html"><strong>Server</strong></a> and <a href="./manual/../class/src/Job.js~Job.html"><strong>Job</strong></a> objects.</p><h4>Server Progress Events</h4><p>It is possible to listen to all job progress events using the <a href="./manual/../class/src/Server.js~Server.html"><strong>Server</strong></a> object.</p><pre><code class="lang-javascript"><code class="source-code prettyprint">// GSF Server
+const server = GSF.server({
+    address: &apos;MyServer&apos;,
+    port: &apos;9191&apos;
+  });
+
+// Set up an event listeners.
+server.on(&apos;JobProgress&apos;, (data) =&gt; {
+  console.log(&apos;Job &apos;, data.jobId, &apos; progress percent: &apos;, data.progress);
+  console.log(&apos;Job &apos;, data.jobId, &apos; progress message: &apos;, data.message);
+});  
+
+// Create a service object.
+const service = server.service(&apos;ENVI&apos;);
+
+// Create a task object.
+const task = service.task(&apos;SpectralIndex&apos;);
+
+const NDVIParameters = {
+  parameters: {
+    INPUT_RASTER: {
+      FACTORY: &apos;URLRaster&apos;,
+      URL: &apos;http://MyServer:9191/ese/data/qb_boulder_msi&apos;
+    },
+    INDEX: &apos;Normalized Difference Vegetation Index&apos;
+  }
+};
+
+// Submit a job.
+task.submit(NDVIParameters);</code>
+</code></pre><h4>Job Progress Events</h4><p>A <a href="./manual/../class/src/Job.js~Job.html"><strong>Job</strong></a> object emits progress events for the particular job which it represents.</p><pre><code class="lang-javascript"><code class="source-code prettyprint">// GSF Server
+const server = GSF.server({
+    address: &apos;MyServer&apos;,
+    port: &apos;9191&apos;
+  });
+
+// Create a service object.
+const service = server.service(&apos;ENVI&apos;);
+
+// Create a task object.
+const task = service.task(&apos;SpectralIndex&apos;);
+
+const NDVIParameters = {
+  parameters: {
+    INPUT_RASTER: {
+      FACTORY: &apos;URLRaster&apos;,
+      URL: &apos;http://MyServer:9191/ese/data/qb_boulder_msi&apos;
+    },
+    INDEX: &apos;Normalized Difference Vegetation Index&apos;
+  }
+};
+
+// Submit a job.
+task.submit(NDVIParameters).then((job) =&gt; {
+  // Set up an event listeners.
+  job.on(&apos;Progress&apos;, (data) =&gt; {
+    console.log(&apos;Job &apos;, data.jobId, &apos; progress percent: &apos;, data.progress);
+    console.log(&apos;Job &apos;, data.jobId, &apos; progress message: &apos;, data.message);
+  });  
+}).catch((jobErrorMessage) =&gt; {
+  // Display error.
+});</code>
+</code></pre><h2>Cancelling Jobs</h2><p>Below is an example of cancelling a job based on its job ID.</p><pre><code class="lang-javascript"><code class="source-code prettyprint">const myJobId = 1;
+const job = new server.job(myJobId);
+const force = false; // Do not force cancel.
+
+// Cancel Job
+job.cancel(force).then(() =&gt; {
+  console.log(&apos;Cancel has been successfully requested.&apos;);
+}).catch((err) =&gt; {
+  // Display error.
+});</code>
+</code></pre></div>
+        <a data-ice="link" href="manual/tutorial/examples.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <h1 data-ice="label" class="manual-color manual-color-reference" data-section-count="&#x25A0;&#x25A0;&#x25A0;&#x25A0;&#x25A0;"><span data-ice="label-inner">References</span></h1>
+      <div class="manual-card">
+        <div data-ice="card"><h1>References</h1>
+<div data-ice="classSummary"><h2 id="class">Class Summary</h2><table class="summary" data-ice="summary">
+  <thead><tr><td data-ice="title" colspan="3">Static Public Class Summary</td></tr></thead>
+  <tbody>
+  
+  <tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="class/src/Job.js~Job.html">Job</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>The Job class is used for job operations.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="class/src/Server.js~Server.html">Server</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>The Server class is used to connect to the server and retrieve information
+ about available services and jobs.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="class/src/Service.js~Service.html">Service</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>The Service class is used to inspect and create tasks for a service.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="class/src/Task.js~Task.html">Task</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>The Task class is used to submit and inspect tasks.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+
+
+<div data-ice="typedefSummary"><h2 id="typedef">Typedef Summary</h2><table class="summary" data-ice="summary">
+  <thead><tr><td data-ice="title" colspan="3">Static Public Typedef Summary</td></tr></thead>
+  <tbody>
+  
+  <tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-Accepted">Accepted</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Emitted when a job is accepted by the server.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-Completed">Completed</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Emitted when a job completes.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-Failed">Failed</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Emitted when a job fails.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-GSF">GSF</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>The GSF object provides an entry point to the SDK.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobAccepted">JobAccepted</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Emitted when a job is accepted.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobCompleted">JobCompleted</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Emitted when a job completes.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobFailed">JobFailed</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Emitted when a job fails.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobInfo">JobInfo</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>The JobInfo object contains information about a job.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobListOptions">JobListOptions</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Filtering options for listing jobs.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobProgress">JobProgress</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Emitted when job progress is updated.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobProgressInfo">JobProgressInfo</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Information about job progress.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobResults">JobResults</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>The JobResults object contains the job results.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobStarted">JobStarted</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Emitted when a job starts.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobStartedInfo">JobStartedInfo</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Called when a job starts processing.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobSucceeded">JobSucceeded</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Emitted when a job succeeds.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-Progress">Progress</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Emitted when a job reports progress.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-ServerArgs">ServerArgs</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>The ServerArgs object contains information about the server.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-ServiceInfo">ServiceInfo</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>The ServiceInfo object contains information about a service.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-Started">Started</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Emitted when a job starts.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-SubmitOptions">SubmitOptions</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Options for submitting a job.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-Succeeded">Succeeded</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">Object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>Emitted when a job succeeds.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+<tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">public</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          <span data-ice="name"><span><a href="typedef/index.html#static-typedef-TaskInfo">TaskInfo</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object">object</a></span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        <div data-ice="description"><p>The TaskInfo object contains information about a task.</p>
+</div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+</tbody>
+</table>
+</div>
+
+</div>
+        <a data-ice="link" href="identifiers.html"></a>
+      </div>
+    </div>
+<div class="manual-card-wrap" data-ice="cards">
+      <h1 data-ice="label" class="manual-color manual-color-changelog" data-section-count="&#x25A0;"><span data-ice="label-inner">Change Log</span></h1>
+      <div class="manual-card">
+        <div data-ice="card"><h1>Change Log</h1><p>All notable changes to this project will be documented in this file.</p><h2>1.0.0 / 2017-02-26</h2><h3>New Features</h3><ul>
+<li>Add a change log.</li>
+</ul></div>
+        <a data-ice="link" href="manual/changelog/CHANGELOG.html"></a>
+      </div>
+    </div>
+</div>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.5.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
