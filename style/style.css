@@ -1,0 +1,15 @@
+
+.jumbotron {
+  background-image: url("../assets/img/hero.jpg");
+  background-size: cover;
+  text-align: center;
+}
+
+.btn {
+  color: #FFFFFF;
+  background-color: #e51937;
+}
+
+.btn-primary:hover {
+  background-color: #666666;
+}
