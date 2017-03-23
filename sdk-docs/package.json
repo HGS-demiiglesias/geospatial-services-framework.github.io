@@ -1,10 +1,10 @@
 {
   "name": "gsf-js-client-sdk",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "GSF JavaScript Client SDK",
   "author": "Exelis Visual Information Solutions, Inc., a subsidiary of Harris Corporation.",
   "license": "MIT",
-  "main": "src/GSF.js",
+  "main": "dist/GSF.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/geospatial-services-framework"
@@ -15,20 +15,18 @@
     "build-all": "npm run build && npm run build-dev",
     "watch": "./node_modules/.bin/webpack --progress --colors --watch",
     "test": "npm run test-phantom",
-    "test-phantom": "./node_modules/.bin/karma start --browsers PhantomJS",
-    "test-chrome": "./node_modules/.bin/karma start --browsers Chrome",
-    "test-firefox": "./node_modules/.bin/karma start --browsers Firefox",
-    "test-all": "./node_modules/.bin/karma start --browsers PhantomJS,Chrome,Firefox",
-    "unit-test": "npm run unit-test-phantom",
-    "unit-test-phantom": "concurrently --kill-others --success first \"node ./test/fake-server/server.js\" \"npm run test-phantom\"",
-    "unit-test-chrome": "concurrently --kill-others --success first \"node ./test/fake-server/server.js\" \"npm run test-chrome\"",
-    "unit-test-firefox": "concurrently --kill-others --success first \"node ./test/fake-server/server.js\" \"npm run test-firefox\"",
-    "unit-test-all": "concurrently --kill-others --success first \"node ./test/fake-server/server.js\" \"npm run test-all\"",
+    "test-phantom": "concurrently --kill-others --success first \"node ./test/fake-server/server.js\" \"npm run prod-test-phantom\"",
+    "test-chrome": "concurrently --kill-others --success first \"node ./test/fake-server/server.js\" \"npm run prod-test-chrome\"",
+    "test-firefox": "concurrently --kill-others --success first \"node ./test/fake-server/server.js\" \"npm run prod-test-firefox\"",
+    "test-all": "concurrently --kill-others --success first \"node ./test/fake-server/server.js\" \"npm run prod-test-all\"",
+    "prod-test-phantom": "./node_modules/.bin/karma start --browsers PhantomJS",
+    "prod-test-chrome": "./node_modules/.bin/karma start --browsers Chrome",
+    "prod-test-firefox": "./node_modules/.bin/karma start --browsers Firefox",
+    "prod-test-all": "./node_modules/.bin/karma start --browsers PhantomJS,Chrome,Firefox",
     "help": "./node_modules/.bin/esdoc"
   },
   "dependencies": {
-    "babel-runtime": "^6.22.0",
-    "superagent-no-cache": "^0.1.0"
+    "babel-runtime": "^6.22.0"
   },
   "devDependencies": {
     "babel": "^6.23.0",
@@ -44,6 +42,7 @@
     "concurrently": "^3.4.0",
     "cors": "^2.8.1",
     "esdoc": "^0.5.2",
+    "esdoc-importpath-plugin": "^0.1.1",
     "eslint": "^3.17.1",
     "eslint-loader": "^1.6.3",
     "express": "^4.15.2",
@@ -61,6 +60,7 @@
     "mocha": "^3.2.0",
     "sse-channel": "^2.0.5",
     "superagent": "^3.3.2",
+    "superagent-no-cache": "^0.1.0",
     "webpack": "^2.2.1"
   }
 }
