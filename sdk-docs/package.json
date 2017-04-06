@@ -1,10 +1,11 @@
 {
   "name": "gsf-js-client-sdk",
-  "version": "1.0.7",
+  "version": "1.0.10",
   "description": "GSF JavaScript Client SDK",
   "author": "Exelis Visual Information Solutions, Inc., a subsidiary of Harris Corporation.",
   "license": "MIT",
   "main": "dist/GSF.js",
+  "types": "./index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/geospatial-services-framework"
