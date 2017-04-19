@@ -41,10 +41,12 @@
 <div data-ice="manual" data-toc-name="tutorial">
     <ul class="manual-toc">
       
-    <li data-ice="manualNav" class="indent-h1 manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#getting-started" data-ice="link">Getting Started</a></li>
-<li data-ice="manualNav" class="indent-h1 manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#gsf-javascript-client-sdk" data-ice="link">GSF JavaScript Client SDK</a></li>
+    <li data-ice="manualNav" class="indent-h1 manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;&#x25A0;" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#getting-started" data-ice="link">Getting Started</a></li>
+<li data-ice="manualNav" class="indent-h1 manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;&#x25A0;" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#gsf-javascript-client-sdk" data-ice="link">GSF JavaScript Client SDK</a></li>
 <li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#about-the-sdk" data-ice="link">About the SDK</a></li>
 <li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#basic-usage" data-ice="link">Basic Usage</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#importing-the-sdk" data-ice="link">Importing the SDK</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#including-the-sdk-with-a-script-tag" data-ice="link">Including the SDK with a Script Tag</a></li>
 <li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#requirements" data-ice="link">Requirements</a></li>
 <li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#building-the-sdk" data-ice="link">Building the SDK</a></li>
 <li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#testing-the-sdk" data-ice="link">Testing the SDK</a></li>
@@ -65,6 +67,9 @@
 <li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#server-progress-events" data-ice="link">Server Progress Events</a></li>
 <li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#job-progress-events" data-ice="link">Job Progress Events</a></li>
 <li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#cancelling-jobs" data-ice="link">Cancelling Jobs</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#-a-name-typescript-a-typescript-example" data-ice="link"> Typescript Example</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#-a-name-bestpractices-a-best-practices" data-ice="link"> Best Practices</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#connecting-to-servers" data-ice="link">Connecting to Servers</a></li>
 </ul>
   </div>
 <div data-ice="manual" data-toc-name="reference">
@@ -93,7 +98,7 @@
     <span data-ice="title">Tutorial</span>
   </div>
   <div data-ice="content"><h1 id="examples">Examples</h1>
-<p>Below are several examples of using the SDK.</p>
+<p>Below are several examples of using the SDK with JavaScript.  For TypeScript specific examples please see the <a href="#typescript">TypeScript example</a>.  Before using the SDK, it is also recommended that you read the <a href="#bestPractices">best practices</a> section.</p>
 <h2 id="list-available-services">List Available Services</h2>
 <p>The GSF <a href="./manual/../class/src/Server.js~Server.html"><strong>Server</strong></a> object provides the ability to list the available services on the server.</p>
 <pre><code class="lang-javascript"><code class="source-code prettyprint">// GSF Server
@@ -333,6 +338,39 @@ job.cancel(force).then(() =&gt; {
   // Display error.
 });</code>
 </code></pre>
+<h2 id="-a-name-typescript-a-typescript-example"><a name="typescript"></a> Typescript Example</h2>
+<p>Below is an example of submitting a job using typescript.</p>
+<pre><code class="lang-typescript"><code class="source-code prettyprint">import * as GSF from &apos;gsf-js-client-sdk&apos;;
+
+// Get a task.
+const serverArgs: GSF.ServerArgs = {address: &apos;MyServer&apos;, port: &apos;9191&apos;};
+const myServer: GSF.Server = GSF.server(serverArgs);
+const ENVIService: GSF.Service = myServer.service(&apos;ENVI&apos;);
+const myTask: GSF.Task = ENVIService.task(&apos;SpectralIndex&apos;);
+
+const taskParameters: GSF.SubmitOptions = {
+    parameters: {
+        INPUT_RASTER: {
+            FACTORY: &apos;URLRaster&apos;,
+            URL: &apos;http://MyServer:9191/ese/data/qb_boulder_msi&apos;
+        },
+        INDEX: &apos;Normalized Difference Vegetation Index&apos;
+    }
+};
+
+// Submit a job.
+task.submitAndWait(taskParameters)
+    .then((results: GSF.JobResults) =&gt; {
+        // Do something with results.
+        // This function is an example and is not provided by the SDK.
+        AddToMap(results.OUTPUT_RASTER);
+    }).catch((jobErrorMessage) =&gt; {
+        // Display error.
+    });</code>
+</code></pre>
+<h2 id="-a-name-bestpractices-a-best-practices"><a name="bestPractices"></a> Best Practices</h2>
+<h3 id="connecting-to-servers">Connecting to Servers</h3>
+<p>The examples throughout this documentation explain various concepts within the SDK using complete examples.  Most of the examples create a new &apos;GSF.server&apos; object for every example.  This is to ensure a fully functional and self-contained example but is not a good practice when developing web apps.  It is recommended that you limit the number of Server (GSF.Server()) objects that you create.  Ideally, your app will create only one instance of this class and pass the reference around where needed.  This helps ensure consistency and prevent the possibility of exceeding the browser&apos;s per-domain connection limit.</p>
 </div>
 </div>
 </div>

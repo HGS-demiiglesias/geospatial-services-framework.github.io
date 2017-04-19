@@ -648,6 +648,12 @@ window.esdocSearchIndex = [
     "member"
   ],
   [
+    "src/task.js~task#service",
+    "class/src/Task.js~Task.html#instance-member-service",
+    "src/Task.js~Task#service",
+    "member"
+  ],
+  [
     "src/task.js~task#submit",
     "class/src/Task.js~Task.html#instance-method-submit",
     "src/Task.js~Task#submit",

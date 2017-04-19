@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 142,
+  "end": 148,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 142,
+    "end": 148,
     "loc": {
       "start": {
         "line": 1,
@@ -31,7 +31,7 @@
       {
         "type": "ExportDefaultDeclaration",
         "start": 0,
-        "end": 141,
+        "end": 146,
         "loc": {
           "start": {
             "line": 1,
@@ -45,7 +45,7 @@
         "declaration": {
           "type": "ObjectExpression",
           "start": 15,
-          "end": 140,
+          "end": 145,
           "loc": {
             "start": {
               "line": 1,
@@ -59,8 +59,8 @@
           "properties": [
             {
               "type": "ObjectProperty",
-              "start": 19,
-              "end": 48,
+              "start": 20,
+              "end": 49,
               "loc": {
                 "start": {
                   "line": 2,
@@ -76,8 +76,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 19,
-                "end": 35,
+                "start": 20,
+                "end": 36,
                 "loc": {
                   "start": {
                     "line": 2,
@@ -93,8 +93,8 @@
               },
               "value": {
                 "type": "StringLiteral",
-                "start": 37,
-                "end": 48,
+                "start": 38,
+                "end": 49,
                 "loc": {
                   "start": {
                     "line": 2,
@@ -114,8 +114,8 @@
             },
             {
               "type": "ObjectProperty",
-              "start": 52,
-              "end": 75,
+              "start": 54,
+              "end": 77,
               "loc": {
                 "start": {
                   "line": 3,
@@ -131,8 +131,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 52,
-                "end": 65,
+                "start": 54,
+                "end": 67,
                 "loc": {
                   "start": {
                     "line": 3,
@@ -148,8 +148,8 @@
               },
               "value": {
                 "type": "StringLiteral",
-                "start": 67,
-                "end": 75,
+                "start": 69,
+                "end": 77,
                 "loc": {
                   "start": {
                     "line": 3,
@@ -169,8 +169,8 @@
             },
             {
               "type": "ObjectProperty",
-              "start": 79,
-              "end": 107,
+              "start": 82,
+              "end": 110,
               "loc": {
                 "start": {
                   "line": 4,
@@ -186,8 +186,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 79,
-                "end": 95,
+                "start": 82,
+                "end": 98,
                 "loc": {
                   "start": {
                     "line": 4,
@@ -203,8 +203,8 @@
               },
               "value": {
                 "type": "StringLiteral",
-                "start": 97,
-                "end": 107,
+                "start": 100,
+                "end": 110,
                 "loc": {
                   "start": {
                     "line": 4,
@@ -224,8 +224,8 @@
             },
             {
               "type": "ObjectProperty",
-              "start": 111,
-              "end": 138,
+              "start": 115,
+              "end": 142,
               "loc": {
                 "start": {
                   "line": 5,
@@ -241,8 +241,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 111,
-                "end": 127,
+                "start": 115,
+                "end": 131,
                 "loc": {
                   "start": {
                     "line": 5,
@@ -258,8 +258,8 @@
               },
               "value": {
                 "type": "StringLiteral",
-                "start": 129,
-                "end": 138,
+                "start": 133,
+                "end": 142,
                 "loc": {
                   "start": {
                     "line": 5,
@@ -381,8 +381,8 @@
         "binop": null
       },
       "value": "esriJobSucceeded",
-      "start": 19,
-      "end": 35,
+      "start": 20,
+      "end": 36,
       "loc": {
         "start": {
           "line": 2,
@@ -407,8 +407,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 35,
-      "end": 36,
+      "start": 36,
+      "end": 37,
       "loc": {
         "start": {
           "line": 2,
@@ -434,8 +434,8 @@
         "updateContext": null
       },
       "value": "Succeeded",
-      "start": 37,
-      "end": 48,
+      "start": 38,
+      "end": 49,
       "loc": {
         "start": {
           "line": 2,
@@ -460,8 +460,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 48,
-      "end": 49,
+      "start": 49,
+      "end": 50,
       "loc": {
         "start": {
           "line": 2,
@@ -486,8 +486,8 @@
         "binop": null
       },
       "value": "esriJobFailed",
-      "start": 52,
-      "end": 65,
+      "start": 54,
+      "end": 67,
       "loc": {
         "start": {
           "line": 3,
@@ -512,8 +512,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 65,
-      "end": 66,
+      "start": 67,
+      "end": 68,
       "loc": {
         "start": {
           "line": 3,
@@ -539,8 +539,8 @@
         "updateContext": null
       },
       "value": "Failed",
-      "start": 67,
-      "end": 75,
+      "start": 69,
+      "end": 77,
       "loc": {
         "start": {
           "line": 3,
@@ -565,8 +565,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 75,
-      "end": 76,
+      "start": 77,
+      "end": 78,
       "loc": {
         "start": {
           "line": 3,
@@ -591,8 +591,8 @@
         "binop": null
       },
       "value": "esriJobSubmitted",
-      "start": 79,
-      "end": 95,
+      "start": 82,
+      "end": 98,
       "loc": {
         "start": {
           "line": 4,
@@ -617,8 +617,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 95,
-      "end": 96,
+      "start": 98,
+      "end": 99,
       "loc": {
         "start": {
           "line": 4,
@@ -644,8 +644,8 @@
         "updateContext": null
       },
       "value": "Accepted",
-      "start": 97,
-      "end": 107,
+      "start": 100,
+      "end": 110,
       "loc": {
         "start": {
           "line": 4,
@@ -670,8 +670,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 107,
-      "end": 108,
+      "start": 110,
+      "end": 111,
       "loc": {
         "start": {
           "line": 4,
@@ -696,8 +696,8 @@
         "binop": null
       },
       "value": "esriJobExecuting",
-      "start": 111,
-      "end": 127,
+      "start": 115,
+      "end": 131,
       "loc": {
         "start": {
           "line": 5,
@@ -722,8 +722,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 127,
-      "end": 128,
+      "start": 131,
+      "end": 132,
       "loc": {
         "start": {
           "line": 5,
@@ -749,8 +749,8 @@
         "updateContext": null
       },
       "value": "Started",
-      "start": 129,
-      "end": 138,
+      "start": 133,
+      "end": 142,
       "loc": {
         "start": {
           "line": 5,
@@ -774,8 +774,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 139,
-      "end": 140,
+      "start": 144,
+      "end": 145,
       "loc": {
         "start": {
           "line": 6,
@@ -800,8 +800,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 140,
-      "end": 141,
+      "start": 145,
+      "end": 146,
       "loc": {
         "start": {
           "line": 6,
@@ -826,8 +826,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 142,
-      "end": 142,
+      "start": 148,
+      "end": 148,
       "loc": {
         "start": {
           "line": 7,
