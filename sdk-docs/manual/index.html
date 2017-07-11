@@ -48,6 +48,7 @@
 <li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#importing-the-sdk" data-ice="link">Importing the SDK</a></li>
 <li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#including-the-sdk-with-a-script-tag" data-ice="link">Including the SDK with a Script Tag</a></li>
 <li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#requirements" data-ice="link">Requirements</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#server-sent-events" data-ice="link">Server Sent Events</a></li>
 <li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#building-the-sdk" data-ice="link">Building the SDK</a></li>
 <li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#testing-the-sdk" data-ice="link">Testing the SDK</a></li>
 <li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#using-a-test-server" data-ice="link">Using a Test Server</a></li>
@@ -154,7 +155,7 @@ task.submitAndWait(NDVIParameters).then((results) =&gt; {
   }).catch((err) =&gt; {
     // Display error.
   });</code>
-</code></pre><h2>Requirements</h2><p>The GSF JavaScript Client SDK relies on <a href="https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events">server-sent events</a> for communication with the server.  Developers who wish to build apps that run on browsers lacking EventSource support may want to use a polyfill.</p><h2>Building the SDK</h2><ol>
+</code></pre><h2>Requirements</h2><h3>Server Sent Events</h3><p>The GSF JavaScript Client SDK relies on <a href="https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events">server-sent events</a> for communication with the server.  Developers who wish to build apps that run on browsers lacking EventSource support will want to use a polyfill.</p><p>To view a list of the browsers that support EventSource please go here: <a href="https://caniuse.com/#search=eventsource">https://caniuse.com/#search=eventsource</a></p><p>There are several polyfills available that provide implementations of the EventSource API.  One such polyfill that is available from the npm and Bower package managers is called &apos;eventsource-polyfill&apos;.  For information on installation and usage, see <a href="https://github.com/amvtek/EventSource">https://github.com/amvtek/EventSource</a>.</p><h2>Building the SDK</h2><ol>
 <li><p>Clone the repository.</p>
 <p>$ git clone <a href="https://github.com/geospatial-services-framework/gsf-js-client-sdk">https://github.com/geospatial-services-framework/gsf-js-client-sdk</a></p>
 </li>

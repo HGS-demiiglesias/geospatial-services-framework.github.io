@@ -594,6 +594,12 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/service.js~service#taskinfolist",
+    "class/src/Service.js~Service.html#instance-method-taskInfoList",
+    "src/Service.js~Service#taskInfoList",
+    "method"
+  ],
+  [
     "src/service.js~service#tasks",
     "class/src/Service.js~Service.html#instance-method-tasks",
     "src/Service.js~Service#tasks",
