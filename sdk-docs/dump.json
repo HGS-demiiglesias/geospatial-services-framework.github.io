@@ -56,6 +56,32 @@
   },
   {
     "__docId__": 3,
+    "kind": "variable",
+    "name": "nocache",
+    "memberof": "src/Job.js",
+    "static": true,
+    "longname": "src/Job.js~nocache",
+    "access": null,
+    "export": false,
+    "importPath": "gsf-js-client-sdk/src/Job.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "unknown": [
+      {
+        "tagName": "@_undocument",
+        "tagValue": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 4,
     "kind": "class",
     "name": "Job",
     "memberof": "src/Job.js",
@@ -63,17 +89,17 @@
     "longname": "src/Job.js~Job",
     "access": null,
     "export": true,
-    "importPath": "gsf-js-client-sdk/dist/Job.js",
+    "importPath": "gsf-js-client-sdk/src/Job.js",
     "importStyle": "Job",
     "description": "The Job class is used for job operations.",
-    "lineNumber": 12,
+    "lineNumber": 15,
     "interface": false,
     "extends": [
       "events~EventEmitter"
     ]
   },
   {
-    "__docId__": 4,
+    "__docId__": 5,
     "kind": "typedef",
     "name": "Failed",
     "memberof": "src/Job.js",
@@ -102,7 +128,7 @@
     }
   },
   {
-    "__docId__": 5,
+    "__docId__": 6,
     "kind": "typedef",
     "name": "Succeeded",
     "memberof": "src/Job.js",
@@ -131,7 +157,7 @@
     }
   },
   {
-    "__docId__": 6,
+    "__docId__": 7,
     "kind": "typedef",
     "name": "Completed",
     "memberof": "src/Job.js",
@@ -170,7 +196,7 @@
     }
   },
   {
-    "__docId__": 7,
+    "__docId__": 8,
     "kind": "typedef",
     "name": "Started",
     "memberof": "src/Job.js",
@@ -199,7 +225,7 @@
     }
   },
   {
-    "__docId__": 8,
+    "__docId__": 9,
     "kind": "typedef",
     "name": "Accepted",
     "memberof": "src/Job.js",
@@ -228,7 +254,7 @@
     }
   },
   {
-    "__docId__": 9,
+    "__docId__": 10,
     "kind": "typedef",
     "name": "Progress",
     "memberof": "src/Job.js",
@@ -277,7 +303,7 @@
     }
   },
   {
-    "__docId__": 10,
+    "__docId__": 11,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "src/Job.js~Job",
@@ -287,7 +313,7 @@
     "longname": "src/Job.js~Job#constructor",
     "access": null,
     "description": "",
-    "lineNumber": 28,
+    "lineNumber": 31,
     "params": [
       {
         "nullable": null,
@@ -370,7 +396,7 @@
     ]
   },
   {
-    "__docId__": 11,
+    "__docId__": 12,
     "kind": "member",
     "name": "jobId",
     "memberof": "src/Job.js~Job",
@@ -378,7 +404,7 @@
     "longname": "src/Job.js~Job#jobId",
     "access": null,
     "description": "The job Id.",
-    "lineNumber": 36,
+    "lineNumber": 39,
     "type": {
       "nullable": null,
       "types": [
@@ -389,35 +415,12 @@
     }
   },
   {
-    "__docId__": 12,
+    "__docId__": 13,
     "kind": "member",
     "name": "_server",
     "memberof": "src/Job.js~Job",
     "static": false,
     "longname": "src/Job.js~Job#_server",
-    "access": null,
-    "description": null,
-    "lineNumber": 39,
-    "undocument": true,
-    "unknown": [
-      {
-        "tagName": "@_undocument",
-        "tagValue": ""
-      }
-    ],
-    "type": {
-      "types": [
-        "*"
-      ]
-    }
-  },
-  {
-    "__docId__": 13,
-    "kind": "member",
-    "name": "_jobURL",
-    "memberof": "src/Job.js~Job",
-    "static": false,
-    "longname": "src/Job.js~Job#_jobURL",
     "access": null,
     "description": null,
     "lineNumber": 42,
@@ -437,13 +440,13 @@
   {
     "__docId__": 14,
     "kind": "member",
-    "name": "_jobStatusURL",
+    "name": "_jobURL",
     "memberof": "src/Job.js~Job",
     "static": false,
-    "longname": "src/Job.js~Job#_jobStatusURL",
+    "longname": "src/Job.js~Job#_jobURL",
     "access": null,
     "description": null,
-    "lineNumber": 46,
+    "lineNumber": 45,
     "undocument": true,
     "unknown": [
       {
@@ -460,13 +463,13 @@
   {
     "__docId__": 15,
     "kind": "member",
-    "name": "_waiting",
+    "name": "_jobStatusURL",
     "memberof": "src/Job.js~Job",
     "static": false,
-    "longname": "src/Job.js~Job#_waiting",
+    "longname": "src/Job.js~Job#_jobStatusURL",
     "access": null,
     "description": null,
-    "lineNumber": 52,
+    "lineNumber": 49,
     "undocument": true,
     "unknown": [
       {
@@ -483,13 +486,13 @@
   {
     "__docId__": 16,
     "kind": "member",
-    "name": "_handler",
+    "name": "_waiting",
     "memberof": "src/Job.js~Job",
     "static": false,
-    "longname": "src/Job.js~Job#_handler",
+    "longname": "src/Job.js~Job#_waiting",
     "access": null,
     "description": null,
-    "lineNumber": 59,
+    "lineNumber": 55,
     "undocument": true,
     "unknown": [
       {
@@ -505,36 +508,14 @@
   },
   {
     "__docId__": 17,
-    "kind": "method",
-    "name": "wait",
-    "memberof": "src/Job.js~Job",
-    "generator": false,
-    "async": false,
-    "static": false,
-    "longname": "src/Job.js~Job#wait",
-    "access": null,
-    "description": "Waits for the job to complete.",
-    "lineNumber": 83,
-    "params": [],
-    "return": {
-      "nullable": null,
-      "types": [
-        "Promise<JobResults, error>"
-      ],
-      "spread": false,
-      "description": "Returns a promise that is resolved when a job is\n successful, returning the job results object.\n If a job fails, the promise is rejected with an error message."
-    }
-  },
-  {
-    "__docId__": 18,
     "kind": "member",
-    "name": "_waiting",
+    "name": "_handler",
     "memberof": "src/Job.js~Job",
     "static": false,
-    "longname": "src/Job.js~Job#_waiting",
+    "longname": "src/Job.js~Job#_handler",
     "access": null,
     "description": null,
-    "lineNumber": 85,
+    "lineNumber": 62,
     "undocument": true,
     "unknown": [
       {
@@ -549,7 +530,52 @@
     }
   },
   {
+    "__docId__": 18,
+    "kind": "method",
+    "name": "wait",
+    "memberof": "src/Job.js~Job",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Job.js~Job#wait",
+    "access": null,
+    "description": "Waits for the job to complete.",
+    "lineNumber": 86,
+    "params": [],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<JobResults, error>"
+      ],
+      "spread": false,
+      "description": "Returns a promise that is resolved when a job is\n successful, returning the job results object.\n If a job fails, the promise is rejected with an error message."
+    }
+  },
+  {
     "__docId__": 19,
+    "kind": "member",
+    "name": "_waiting",
+    "memberof": "src/Job.js~Job",
+    "static": false,
+    "longname": "src/Job.js~Job#_waiting",
+    "access": null,
+    "description": null,
+    "lineNumber": 88,
+    "undocument": true,
+    "unknown": [
+      {
+        "tagName": "@_undocument",
+        "tagValue": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 20,
     "kind": "typedef",
     "name": "JobInfo",
     "memberof": "src/Job.js~Job",
@@ -688,7 +714,7 @@
     }
   },
   {
-    "__docId__": 20,
+    "__docId__": 21,
     "kind": "method",
     "name": "info",
     "memberof": "src/Job.js~Job",
@@ -698,7 +724,7 @@
     "longname": "src/Job.js~Job#info",
     "access": null,
     "description": "Retrieves the job information.",
-    "lineNumber": 136,
+    "lineNumber": 139,
     "params": [],
     "return": {
       "nullable": null,
@@ -710,7 +736,7 @@
     }
   },
   {
-    "__docId__": 21,
+    "__docId__": 22,
     "kind": "method",
     "name": "cancel",
     "memberof": "src/Job.js~Job",
@@ -720,7 +746,7 @@
     "longname": "src/Job.js~Job#cancel",
     "access": null,
     "description": "Cancels the job.",
-    "lineNumber": 180,
+    "lineNumber": 183,
     "params": [
       {
         "nullable": null,
@@ -743,7 +769,7 @@
     }
   },
   {
-    "__docId__": 22,
+    "__docId__": 23,
     "kind": "file",
     "name": "src/Server.js",
     "content": "",
@@ -754,7 +780,33 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 23,
+    "__docId__": 24,
+    "kind": "variable",
+    "name": "nocache",
+    "memberof": "src/Server.js",
+    "static": true,
+    "longname": "src/Server.js~nocache",
+    "access": null,
+    "export": false,
+    "importPath": "gsf-js-client-sdk/src/Server.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "unknown": [
+      {
+        "tagName": "@_undocument",
+        "tagValue": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 25,
     "kind": "class",
     "name": "Server",
     "memberof": "src/Server.js",
@@ -762,20 +814,20 @@
     "longname": "src/Server.js~Server",
     "access": null,
     "export": true,
-    "importPath": "gsf-js-client-sdk/dist/Server.js",
+    "importPath": "gsf-js-client-sdk/src/Server.js",
     "importStyle": "Server",
     "description": "The Server class is used to connect to the server and retrieve information\n about available services and jobs.",
     "examples": [
       "// Obtain server object from GSF.\nconst server = GSF.server({address:'MyServer',port:9191});"
     ],
-    "lineNumber": 18,
+    "lineNumber": 20,
     "interface": false,
     "extends": [
       "events~EventEmitter"
     ]
   },
   {
-    "__docId__": 24,
+    "__docId__": 26,
     "kind": "typedef",
     "name": "JobCompleted",
     "memberof": "src/Server.js",
@@ -814,7 +866,7 @@
     }
   },
   {
-    "__docId__": 25,
+    "__docId__": 27,
     "kind": "typedef",
     "name": "JobSucceeded",
     "memberof": "src/Server.js",
@@ -843,7 +895,7 @@
     }
   },
   {
-    "__docId__": 26,
+    "__docId__": 28,
     "kind": "typedef",
     "name": "JobFailed",
     "memberof": "src/Server.js",
@@ -872,7 +924,7 @@
     }
   },
   {
-    "__docId__": 27,
+    "__docId__": 29,
     "kind": "typedef",
     "name": "JobProgress",
     "memberof": "src/Server.js",
@@ -921,7 +973,7 @@
     }
   },
   {
-    "__docId__": 28,
+    "__docId__": 30,
     "kind": "typedef",
     "name": "JobStarted",
     "memberof": "src/Server.js",
@@ -950,7 +1002,7 @@
     }
   },
   {
-    "__docId__": 29,
+    "__docId__": 31,
     "kind": "typedef",
     "name": "JobAccepted",
     "memberof": "src/Server.js",
@@ -979,7 +1031,7 @@
     }
   },
   {
-    "__docId__": 30,
+    "__docId__": 32,
     "kind": "typedef",
     "name": "ServerArgs",
     "memberof": "src/Server.js~Server",
@@ -1044,7 +1096,7 @@
     }
   },
   {
-    "__docId__": 31,
+    "__docId__": 33,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "src/Server.js~Server",
@@ -1054,7 +1106,7 @@
     "longname": "src/Server.js~Server#constructor",
     "access": null,
     "description": "",
-    "lineNumber": 37,
+    "lineNumber": 39,
     "params": [
       {
         "nullable": null,
@@ -1107,7 +1159,7 @@
     ]
   },
   {
-    "__docId__": 32,
+    "__docId__": 34,
     "kind": "member",
     "name": "address",
     "memberof": "src/Server.js~Server",
@@ -1115,45 +1167,7 @@
     "longname": "src/Server.js~Server#address",
     "access": null,
     "description": "The server address/name.",
-    "lineNumber": 45,
-    "type": {
-      "nullable": null,
-      "types": [
-        "string"
-      ],
-      "spread": false,
-      "description": null
-    }
-  },
-  {
-    "__docId__": 33,
-    "kind": "member",
-    "name": "port",
-    "memberof": "src/Server.js~Server",
-    "static": false,
-    "longname": "src/Server.js~Server#port",
-    "access": null,
-    "description": "The server port.",
-    "lineNumber": 51,
-    "type": {
-      "nullable": null,
-      "types": [
-        "number"
-      ],
-      "spread": false,
-      "description": null
-    }
-  },
-  {
-    "__docId__": 34,
-    "kind": "member",
-    "name": "APIRoot",
-    "memberof": "src/Server.js~Server",
-    "static": false,
-    "longname": "src/Server.js~Server#APIRoot",
-    "access": null,
-    "description": "The API root endpoint.  If none, set to empty string.",
-    "lineNumber": 57,
+    "lineNumber": 47,
     "type": {
       "nullable": null,
       "types": [
@@ -1166,17 +1180,17 @@
   {
     "__docId__": 35,
     "kind": "member",
-    "name": "protocol",
+    "name": "port",
     "memberof": "src/Server.js~Server",
     "static": false,
-    "longname": "src/Server.js~Server#protocol",
+    "longname": "src/Server.js~Server#port",
     "access": null,
-    "description": "The protocol to use.",
-    "lineNumber": 63,
+    "description": "The server port.",
+    "lineNumber": 53,
     "type": {
       "nullable": null,
       "types": [
-        "string"
+        "number"
       ],
       "spread": false,
       "description": null
@@ -1185,13 +1199,13 @@
   {
     "__docId__": 36,
     "kind": "member",
-    "name": "URL",
+    "name": "APIRoot",
     "memberof": "src/Server.js~Server",
     "static": false,
-    "longname": "src/Server.js~Server#URL",
+    "longname": "src/Server.js~Server#APIRoot",
     "access": null,
-    "description": "The server url.",
-    "lineNumber": 69,
+    "description": "The API root endpoint.  If none, set to empty string.",
+    "lineNumber": 59,
     "type": {
       "nullable": null,
       "types": [
@@ -1204,13 +1218,13 @@
   {
     "__docId__": 37,
     "kind": "member",
-    "name": "rootURL",
+    "name": "protocol",
     "memberof": "src/Server.js~Server",
     "static": false,
-    "longname": "src/Server.js~Server#rootURL",
+    "longname": "src/Server.js~Server#protocol",
     "access": null,
-    "description": "The API root url.",
-    "lineNumber": 76,
+    "description": "The protocol to use.",
+    "lineNumber": 65,
     "type": {
       "nullable": null,
       "types": [
@@ -1223,13 +1237,51 @@
   {
     "__docId__": 38,
     "kind": "member",
+    "name": "URL",
+    "memberof": "src/Server.js~Server",
+    "static": false,
+    "longname": "src/Server.js~Server#URL",
+    "access": null,
+    "description": "The server url.",
+    "lineNumber": 71,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 39,
+    "kind": "member",
+    "name": "rootURL",
+    "memberof": "src/Server.js~Server",
+    "static": false,
+    "longname": "src/Server.js~Server#rootURL",
+    "access": null,
+    "description": "The API root url.",
+    "lineNumber": 78,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 40,
+    "kind": "member",
     "name": "_events",
     "memberof": "src/Server.js~Server",
     "static": false,
     "longname": "src/Server.js~Server#_events",
     "access": null,
     "description": null,
-    "lineNumber": 82,
+    "lineNumber": 92,
     "undocument": true,
     "unknown": [
       {
@@ -1244,7 +1296,7 @@
     }
   },
   {
-    "__docId__": 39,
+    "__docId__": 41,
     "kind": "method",
     "name": "services",
     "memberof": "src/Server.js~Server",
@@ -1254,7 +1306,7 @@
     "longname": "src/Server.js~Server#services",
     "access": null,
     "description": "Retrieves an array of available services from the server.",
-    "lineNumber": 115,
+    "lineNumber": 125,
     "params": [],
     "return": {
       "nullable": null,
@@ -1266,7 +1318,7 @@
     }
   },
   {
-    "__docId__": 40,
+    "__docId__": 42,
     "kind": "typedef",
     "name": "JobListOptions",
     "memberof": "src/Server.js~Server",
@@ -1325,7 +1377,7 @@
     }
   },
   {
-    "__docId__": 41,
+    "__docId__": 43,
     "kind": "method",
     "name": "jobs",
     "memberof": "src/Server.js~Server",
@@ -1335,7 +1387,7 @@
     "longname": "src/Server.js~Server#jobs",
     "access": null,
     "description": "Retrieves an array of jobs on the server.",
-    "lineNumber": 160,
+    "lineNumber": 170,
     "params": [
       {
         "nullable": null,
@@ -1358,7 +1410,7 @@
     }
   },
   {
-    "__docId__": 42,
+    "__docId__": 44,
     "kind": "method",
     "name": "service",
     "memberof": "src/Server.js~Server",
@@ -1368,7 +1420,7 @@
     "longname": "src/Server.js~Server#service",
     "access": null,
     "description": "Returns the Service object based on service name.",
-    "lineNumber": 209,
+    "lineNumber": 219,
     "params": [
       {
         "nullable": null,
@@ -1391,7 +1443,7 @@
     }
   },
   {
-    "__docId__": 43,
+    "__docId__": 45,
     "kind": "method",
     "name": "job",
     "memberof": "src/Server.js~Server",
@@ -1401,7 +1453,7 @@
     "longname": "src/Server.js~Server#job",
     "access": null,
     "description": "Retrieves job object based on the job ID.",
-    "lineNumber": 223,
+    "lineNumber": 233,
     "params": [
       {
         "nullable": null,
@@ -1444,7 +1496,7 @@
     }
   },
   {
-    "__docId__": 44,
+    "__docId__": 46,
     "kind": "file",
     "name": "src/Service.js",
     "content": "",
@@ -1455,7 +1507,33 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 45,
+    "__docId__": 47,
+    "kind": "variable",
+    "name": "nocache",
+    "memberof": "src/Service.js",
+    "static": true,
+    "longname": "src/Service.js~nocache",
+    "access": null,
+    "export": false,
+    "importPath": "gsf-js-client-sdk/src/Service.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "unknown": [
+      {
+        "tagName": "@_undocument",
+        "tagValue": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 48,
     "kind": "class",
     "name": "Service",
     "memberof": "src/Service.js",
@@ -1463,14 +1541,14 @@
     "longname": "src/Service.js~Service",
     "access": null,
     "export": true,
-    "importPath": "gsf-js-client-sdk/dist/Service.js",
+    "importPath": "gsf-js-client-sdk/src/Service.js",
     "importStyle": "Service",
     "description": "The Service class is used to inspect and create tasks for a service.",
-    "lineNumber": 11,
+    "lineNumber": 13,
     "interface": false
   },
   {
-    "__docId__": 46,
+    "__docId__": 49,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "src/Service.js~Service",
@@ -1480,7 +1558,7 @@
     "longname": "src/Service.js~Service#constructor",
     "access": null,
     "description": "",
-    "lineNumber": 16,
+    "lineNumber": 18,
     "params": [
       {
         "nullable": null,
@@ -1505,7 +1583,7 @@
     ]
   },
   {
-    "__docId__": 47,
+    "__docId__": 50,
     "kind": "member",
     "name": "name",
     "memberof": "src/Service.js~Service",
@@ -1513,7 +1591,7 @@
     "longname": "src/Service.js~Service#name",
     "access": null,
     "description": "The service name.",
-    "lineNumber": 21,
+    "lineNumber": 23,
     "type": {
       "nullable": null,
       "types": [
@@ -1524,7 +1602,7 @@
     }
   },
   {
-    "__docId__": 48,
+    "__docId__": 51,
     "kind": "member",
     "name": "_server",
     "memberof": "src/Service.js~Service",
@@ -1532,7 +1610,7 @@
     "longname": "src/Service.js~Service#_server",
     "access": null,
     "description": null,
-    "lineNumber": 24,
+    "lineNumber": 26,
     "undocument": true,
     "unknown": [
       {
@@ -1547,7 +1625,7 @@
     }
   },
   {
-    "__docId__": 49,
+    "__docId__": 52,
     "kind": "typedef",
     "name": "ServiceInfo",
     "memberof": "src/Service.js~Service",
@@ -1596,7 +1674,7 @@
     }
   },
   {
-    "__docId__": 50,
+    "__docId__": 53,
     "kind": "method",
     "name": "info",
     "memberof": "src/Service.js~Service",
@@ -1606,7 +1684,7 @@
     "longname": "src/Service.js~Service#info",
     "access": null,
     "description": "Retrieves the service information.",
-    "lineNumber": 40,
+    "lineNumber": 42,
     "params": [],
     "return": {
       "nullable": null,
@@ -1618,7 +1696,7 @@
     }
   },
   {
-    "__docId__": 51,
+    "__docId__": 54,
     "kind": "method",
     "name": "task",
     "memberof": "src/Service.js~Service",
@@ -1628,7 +1706,7 @@
     "longname": "src/Service.js~Service#task",
     "access": null,
     "description": "Returns a task object.",
-    "lineNumber": 73,
+    "lineNumber": 75,
     "params": [
       {
         "nullable": null,
@@ -1651,7 +1729,7 @@
     }
   },
   {
-    "__docId__": 52,
+    "__docId__": 55,
     "kind": "method",
     "name": "taskInfoList",
     "memberof": "src/Service.js~Service",
@@ -1661,7 +1739,8 @@
     "longname": "src/Service.js~Service#taskInfoList",
     "access": null,
     "description": "Retrieves the array of task info objects available on the service.",
-    "lineNumber": 81,
+    "lineNumber": 84,
+    "version": "1.1.0",
     "params": [],
     "return": {
       "nullable": null,
@@ -1673,7 +1752,7 @@
     }
   },
   {
-    "__docId__": 53,
+    "__docId__": 56,
     "kind": "method",
     "name": "tasks",
     "memberof": "src/Service.js~Service",
@@ -1683,7 +1762,7 @@
     "longname": "src/Service.js~Service#tasks",
     "access": null,
     "description": "Retrieves the array of task objects available on the service.",
-    "lineNumber": 123,
+    "lineNumber": 125,
     "params": [],
     "return": {
       "nullable": null,
@@ -1695,7 +1774,7 @@
     }
   },
   {
-    "__docId__": 54,
+    "__docId__": 57,
     "kind": "file",
     "name": "src/Task.js",
     "content": "",
@@ -1706,7 +1785,33 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 55,
+    "__docId__": 58,
+    "kind": "variable",
+    "name": "nocache",
+    "memberof": "src/Task.js",
+    "static": true,
+    "longname": "src/Task.js~nocache",
+    "access": null,
+    "export": false,
+    "importPath": "gsf-js-client-sdk/src/Task.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "unknown": [
+      {
+        "tagName": "@_undocument",
+        "tagValue": ""
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
     "kind": "class",
     "name": "Task",
     "memberof": "src/Task.js",
@@ -1714,14 +1819,14 @@
     "longname": "src/Task.js~Task",
     "access": null,
     "export": true,
-    "importPath": "gsf-js-client-sdk/dist/Task.js",
+    "importPath": "gsf-js-client-sdk/src/Task.js",
     "importStyle": "Task",
     "description": "The Task class is used to submit and inspect tasks.",
-    "lineNumber": 12,
+    "lineNumber": 13,
     "interface": false
   },
   {
-    "__docId__": 56,
+    "__docId__": 60,
     "kind": "typedef",
     "name": "TaskInfo",
     "memberof": "src/Task.js",
@@ -1759,6 +1864,16 @@
         "optional": true,
         "name": "description",
         "description": "A description of the task."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "parameters.<parameterName>.name",
+        "description": "The parameter name."
       },
       {
         "nullable": null,
@@ -1840,7 +1955,7 @@
     }
   },
   {
-    "__docId__": 57,
+    "__docId__": 61,
     "kind": "typedef",
     "name": "JobResults",
     "memberof": "src/Task.js",
@@ -1857,7 +1972,7 @@
     }
   },
   {
-    "__docId__": 58,
+    "__docId__": 62,
     "kind": "typedef",
     "name": "JobProgressInfo",
     "memberof": "src/Task.js",
@@ -1906,7 +2021,7 @@
     }
   },
   {
-    "__docId__": 59,
+    "__docId__": 63,
     "kind": "typedef",
     "name": "JobStartedInfo",
     "memberof": "src/Task.js",
@@ -1935,7 +2050,7 @@
     }
   },
   {
-    "__docId__": 60,
+    "__docId__": 64,
     "kind": "constructor",
     "name": "constructor",
     "memberof": "src/Task.js~Task",
@@ -1950,22 +2065,12 @@
       {
         "nullable": null,
         "types": [
-          "GSF"
+          "Service"
         ],
         "spread": false,
         "optional": false,
-        "name": "server",
-        "description": "The server object."
-      },
-      {
-        "nullable": null,
-        "types": [
-          "string"
-        ],
-        "spread": false,
-        "optional": false,
-        "name": "serviceName",
-        "description": "The name of the service."
+        "name": "service",
+        "description": "The service object."
       },
       {
         "nullable": null,
@@ -1980,7 +2085,7 @@
     ]
   },
   {
-    "__docId__": 61,
+    "__docId__": 65,
     "kind": "member",
     "name": "name",
     "memberof": "src/Task.js~Task",
@@ -1999,7 +2104,7 @@
     }
   },
   {
-    "__docId__": 62,
+    "__docId__": 66,
     "kind": "member",
     "name": "service",
     "memberof": "src/Task.js~Task",
@@ -2018,7 +2123,7 @@
     }
   },
   {
-    "__docId__": 63,
+    "__docId__": 67,
     "kind": "member",
     "name": "_server",
     "memberof": "src/Task.js~Task",
@@ -2041,7 +2146,7 @@
     }
   },
   {
-    "__docId__": 64,
+    "__docId__": 68,
     "kind": "member",
     "name": "_taskURL",
     "memberof": "src/Task.js~Task",
@@ -2064,7 +2169,7 @@
     }
   },
   {
-    "__docId__": 65,
+    "__docId__": 69,
     "kind": "method",
     "name": "info",
     "memberof": "src/Task.js~Task",
@@ -2086,7 +2191,7 @@
     }
   },
   {
-    "__docId__": 66,
+    "__docId__": 70,
     "kind": "typedef",
     "name": "SubmitOptions",
     "memberof": "src/Task.js~Task",
@@ -2125,7 +2230,7 @@
     }
   },
   {
-    "__docId__": 67,
+    "__docId__": 71,
     "kind": "method",
     "name": "submit",
     "memberof": "src/Task.js~Task",
@@ -2135,7 +2240,7 @@
     "longname": "src/Task.js~Task#submit",
     "access": null,
     "description": "Submits the job.",
-    "lineNumber": 93,
+    "lineNumber": 92,
     "params": [
       {
         "nullable": null,
@@ -2178,7 +2283,7 @@
     }
   },
   {
-    "__docId__": 68,
+    "__docId__": 72,
     "kind": "method",
     "name": "submitAndWait",
     "memberof": "src/Task.js~Task",
@@ -2188,7 +2293,7 @@
     "longname": "src/Task.js~Task#submitAndWait",
     "access": null,
     "description": "Submits the job and waits for results.  Resolves the promise if the job\n succeeds and rejects the promise if the job fails.",
-    "lineNumber": 137,
+    "lineNumber": 136,
     "params": [
       {
         "nullable": null,
@@ -2231,7 +2336,7 @@
     }
   },
   {
-    "__docId__": 69,
+    "__docId__": 73,
     "kind": "file",
     "name": "src/utils/ESE_API.js",
     "content": "",
@@ -2242,7 +2347,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 70,
+    "__docId__": 74,
     "kind": "file",
     "name": "src/utils/ESE_STATUS_MAP.js",
     "content": "",
@@ -2253,7 +2358,7 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 71,
+    "__docId__": 75,
     "kind": "file",
     "name": "src/utils/EVENTS.js",
     "content": "",
@@ -2264,7 +2369,47 @@
     "lineNumber": 1
   },
   {
-    "__docId__": 73,
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/utils/utils.js",
+    "content": "",
+    "static": true,
+    "longname": "src/utils/utils.js",
+    "access": null,
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "isIE",
+    "memberof": "src/utils/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils/utils.js~isIE",
+    "access": null,
+    "export": false,
+    "importPath": "gsf-js-client-sdk/src/utils/utils.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "unknown": [
+      {
+        "tagName": "@_undocument",
+        "tagValue": ""
+      }
+    ],
+    "params": [],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    }
+  },
+  {
+    "__docId__": 79,
     "kind": "external",
     "name": "Infinity",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
@@ -2276,7 +2421,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 74,
+    "__docId__": 80,
     "kind": "external",
     "name": "NaN",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
@@ -2288,7 +2433,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 75,
+    "__docId__": 81,
     "kind": "external",
     "name": "undefined",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
@@ -2300,7 +2445,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 76,
+    "__docId__": 82,
     "kind": "external",
     "name": "null",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
@@ -2312,7 +2457,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 77,
+    "__docId__": 83,
     "kind": "external",
     "name": "Object",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
@@ -2324,7 +2469,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 78,
+    "__docId__": 84,
     "kind": "external",
     "name": "object",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
@@ -2336,7 +2481,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 79,
+    "__docId__": 85,
     "kind": "external",
     "name": "Function",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
@@ -2348,7 +2493,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 80,
+    "__docId__": 86,
     "kind": "external",
     "name": "function",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
@@ -2360,7 +2505,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 81,
+    "__docId__": 87,
     "kind": "external",
     "name": "Boolean",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
@@ -2372,7 +2517,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 82,
+    "__docId__": 88,
     "kind": "external",
     "name": "boolean",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
@@ -2384,7 +2529,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 83,
+    "__docId__": 89,
     "kind": "external",
     "name": "Symbol",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
@@ -2396,7 +2541,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 84,
+    "__docId__": 90,
     "kind": "external",
     "name": "Error",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
@@ -2408,7 +2553,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 85,
+    "__docId__": 91,
     "kind": "external",
     "name": "EvalError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
@@ -2420,7 +2565,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 86,
+    "__docId__": 92,
     "kind": "external",
     "name": "InternalError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
@@ -2432,7 +2577,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 87,
+    "__docId__": 93,
     "kind": "external",
     "name": "RangeError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
@@ -2444,7 +2589,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 88,
+    "__docId__": 94,
     "kind": "external",
     "name": "ReferenceError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
@@ -2456,7 +2601,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 89,
+    "__docId__": 95,
     "kind": "external",
     "name": "SyntaxError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
@@ -2468,7 +2613,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 90,
+    "__docId__": 96,
     "kind": "external",
     "name": "TypeError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
@@ -2480,7 +2625,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 91,
+    "__docId__": 97,
     "kind": "external",
     "name": "URIError",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
@@ -2492,7 +2637,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 92,
+    "__docId__": 98,
     "kind": "external",
     "name": "Number",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
@@ -2504,7 +2649,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 93,
+    "__docId__": 99,
     "kind": "external",
     "name": "number",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
@@ -2516,7 +2661,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 94,
+    "__docId__": 100,
     "kind": "external",
     "name": "Date",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
@@ -2528,7 +2673,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 95,
+    "__docId__": 101,
     "kind": "external",
     "name": "String",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
@@ -2540,7 +2685,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 96,
+    "__docId__": 102,
     "kind": "external",
     "name": "string",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
@@ -2552,7 +2697,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 97,
+    "__docId__": 103,
     "kind": "external",
     "name": "RegExp",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
@@ -2564,7 +2709,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 98,
+    "__docId__": 104,
     "kind": "external",
     "name": "Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
@@ -2576,7 +2721,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 99,
+    "__docId__": 105,
     "kind": "external",
     "name": "Int8Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
@@ -2588,7 +2733,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 100,
+    "__docId__": 106,
     "kind": "external",
     "name": "Uint8Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
@@ -2600,7 +2745,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 101,
+    "__docId__": 107,
     "kind": "external",
     "name": "Uint8ClampedArray",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
@@ -2612,7 +2757,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 102,
+    "__docId__": 108,
     "kind": "external",
     "name": "Int16Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
@@ -2624,7 +2769,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 103,
+    "__docId__": 109,
     "kind": "external",
     "name": "Uint16Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
@@ -2636,7 +2781,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 104,
+    "__docId__": 110,
     "kind": "external",
     "name": "Int32Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
@@ -2648,7 +2793,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 105,
+    "__docId__": 111,
     "kind": "external",
     "name": "Uint32Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
@@ -2660,7 +2805,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 106,
+    "__docId__": 112,
     "kind": "external",
     "name": "Float32Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
@@ -2672,7 +2817,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 107,
+    "__docId__": 113,
     "kind": "external",
     "name": "Float64Array",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
@@ -2684,7 +2829,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 108,
+    "__docId__": 114,
     "kind": "external",
     "name": "Map",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
@@ -2696,7 +2841,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 109,
+    "__docId__": 115,
     "kind": "external",
     "name": "Set",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
@@ -2708,7 +2853,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 110,
+    "__docId__": 116,
     "kind": "external",
     "name": "WeakMap",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
@@ -2720,7 +2865,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 111,
+    "__docId__": 117,
     "kind": "external",
     "name": "WeakSet",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
@@ -2732,7 +2877,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 112,
+    "__docId__": 118,
     "kind": "external",
     "name": "ArrayBuffer",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
@@ -2744,7 +2889,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 113,
+    "__docId__": 119,
     "kind": "external",
     "name": "DataView",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
@@ -2756,7 +2901,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 114,
+    "__docId__": 120,
     "kind": "external",
     "name": "JSON",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
@@ -2768,7 +2913,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 115,
+    "__docId__": 121,
     "kind": "external",
     "name": "Promise",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
@@ -2780,7 +2925,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 116,
+    "__docId__": 122,
     "kind": "external",
     "name": "Generator",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
@@ -2792,7 +2937,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 117,
+    "__docId__": 123,
     "kind": "external",
     "name": "GeneratorFunction",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
@@ -2804,7 +2949,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 118,
+    "__docId__": 124,
     "kind": "external",
     "name": "Reflect",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
@@ -2816,7 +2961,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 119,
+    "__docId__": 125,
     "kind": "external",
     "name": "Proxy",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
@@ -2829,7 +2974,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 121,
+    "__docId__": 127,
     "kind": "external",
     "name": "CanvasRenderingContext2D",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D",
@@ -2841,7 +2986,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 122,
+    "__docId__": 128,
     "kind": "external",
     "name": "DocumentFragment",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment",
@@ -2853,7 +2998,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 123,
+    "__docId__": 129,
     "kind": "external",
     "name": "Element",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Element",
@@ -2865,7 +3010,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 124,
+    "__docId__": 130,
     "kind": "external",
     "name": "Event",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Event",
@@ -2877,7 +3022,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 125,
+    "__docId__": 131,
     "kind": "external",
     "name": "Node",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/Node",
@@ -2889,7 +3034,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 126,
+    "__docId__": 132,
     "kind": "external",
     "name": "NodeList",
     "externalLink": "https://developer.mozilla.org/en-US/docs/Web/API/NodeList",
@@ -2901,7 +3046,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 127,
+    "__docId__": 133,
     "kind": "external",
     "name": "XMLHttpRequest",
     "externalLink": "https://developer.mozilla.org/en/docs/Web/API/XMLHttpRequest",
@@ -2913,7 +3058,7 @@
     "builtinExternal": true
   },
   {
-    "__docId__": 128,
+    "__docId__": 134,
     "kind": "external",
     "name": "AudioContext",
     "externalLink": "https://developer.mozilla.org/en/docs/Web/API/AudioContext",

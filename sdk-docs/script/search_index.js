@@ -1,26 +1,26 @@
 window.esdocSearchIndex = [
   [
-    "gsf-js-client-sdk/dist/job.js~job",
+    "gsf-js-client-sdk/src/job.js~job",
     "class/src/Job.js~Job.html",
-    "<span>Job</span> <span class=\"search-result-import-path\">gsf-js-client-sdk/dist/Job.js</span>",
+    "<span>Job</span> <span class=\"search-result-import-path\">gsf-js-client-sdk/src/Job.js</span>",
     "class"
   ],
   [
-    "gsf-js-client-sdk/dist/server.js~server",
+    "gsf-js-client-sdk/src/server.js~server",
     "class/src/Server.js~Server.html",
-    "<span>Server</span> <span class=\"search-result-import-path\">gsf-js-client-sdk/dist/Server.js</span>",
+    "<span>Server</span> <span class=\"search-result-import-path\">gsf-js-client-sdk/src/Server.js</span>",
     "class"
   ],
   [
-    "gsf-js-client-sdk/dist/service.js~service",
+    "gsf-js-client-sdk/src/service.js~service",
     "class/src/Service.js~Service.html",
-    "<span>Service</span> <span class=\"search-result-import-path\">gsf-js-client-sdk/dist/Service.js</span>",
+    "<span>Service</span> <span class=\"search-result-import-path\">gsf-js-client-sdk/src/Service.js</span>",
     "class"
   ],
   [
-    "gsf-js-client-sdk/dist/task.js~task",
+    "gsf-js-client-sdk/src/task.js~task",
     "class/src/Task.js~Task.html",
-    "<span>Task</span> <span class=\"search-result-import-path\">gsf-js-client-sdk/dist/Task.js</span>",
+    "<span>Task</span> <span class=\"search-result-import-path\">gsf-js-client-sdk/src/Task.js</span>",
     "class"
   ],
   [
@@ -699,6 +699,12 @@ window.esdocSearchIndex = [
     "src/utils/events.js",
     "file/src/utils/EVENTS.js.html",
     "src/utils/EVENTS.js",
+    "file"
+  ],
+  [
+    "src/utils/utils.js",
+    "file/src/utils/utils.js.html",
+    "src/utils/utils.js",
     "file"
   ]
 ]

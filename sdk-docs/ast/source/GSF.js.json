@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 403,
+  "end": 405,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 403,
+    "end": 405,
     "loc": {
       "start": {
         "line": 1,
@@ -31,7 +31,7 @@
       {
         "type": "ImportDeclaration",
         "start": 0,
-        "end": 28,
+        "end": 30,
         "loc": {
           "start": {
             "line": 1,
@@ -39,7 +39,7 @@
           },
           "end": {
             "line": 1,
-            "column": 28
+            "column": 30
           }
         },
         "specifiers": [
@@ -79,7 +79,7 @@
         "source": {
           "type": "StringLiteral",
           "start": 19,
-          "end": 27,
+          "end": 29,
           "loc": {
             "start": {
               "line": 1,
@@ -87,21 +87,21 @@
             },
             "end": {
               "line": 1,
-              "column": 27
+              "column": 29
             }
           },
           "extra": {
-            "rawValue": "Server",
-            "raw": "'Server'"
+            "rawValue": "./Server",
+            "raw": "'./Server'"
           },
-          "value": "Server"
+          "value": "./Server"
         },
         "trailingComments": [
           {
             "type": "CommentBlock",
             "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const server = GSF.server({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(serverArgs: ServerArgs): Server} server - The function for creating a new Server object.\r\n ",
-            "start": 32,
-            "end": 314,
+            "start": 34,
+            "end": 316,
             "loc": {
               "start": {
                 "line": 3,
@@ -117,8 +117,8 @@
       },
       {
         "type": "ExportDefaultDeclaration",
-        "start": 316,
-        "end": 401,
+        "start": 318,
+        "end": 403,
         "loc": {
           "start": {
             "line": 11,
@@ -131,8 +131,8 @@
         },
         "declaration": {
           "type": "ObjectExpression",
-          "start": 331,
-          "end": 400,
+          "start": 333,
+          "end": 402,
           "loc": {
             "start": {
               "line": 11,
@@ -146,8 +146,8 @@
           "properties": [
             {
               "type": "ObjectMethod",
-              "start": 336,
-              "end": 397,
+              "start": 338,
+              "end": 399,
               "loc": {
                 "start": {
                   "line": 12,
@@ -163,8 +163,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 336,
-                "end": 342,
+                "start": 338,
+                "end": 344,
                 "loc": {
                   "start": {
                     "line": 12,
@@ -187,8 +187,8 @@
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 343,
-                  "end": 353,
+                  "start": 345,
+                  "end": 355,
                   "loc": {
                     "start": {
                       "line": 12,
@@ -205,8 +205,8 @@
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 355,
-                "end": 397,
+                "start": 357,
+                "end": 399,
                 "loc": {
                   "start": {
                     "line": 12,
@@ -220,8 +220,8 @@
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 362,
-                    "end": 392,
+                    "start": 364,
+                    "end": 394,
                     "loc": {
                       "start": {
                         "line": 13,
@@ -234,8 +234,8 @@
                     },
                     "argument": {
                       "type": "NewExpression",
-                      "start": 369,
-                      "end": 391,
+                      "start": 371,
+                      "end": 393,
                       "loc": {
                         "start": {
                           "line": 13,
@@ -248,8 +248,8 @@
                       },
                       "callee": {
                         "type": "Identifier",
-                        "start": 373,
-                        "end": 379,
+                        "start": 375,
+                        "end": 381,
                         "loc": {
                           "start": {
                             "line": 13,
@@ -266,8 +266,8 @@
                       "arguments": [
                         {
                           "type": "Identifier",
-                          "start": 380,
-                          "end": 390,
+                          "start": 382,
+                          "end": 392,
                           "loc": {
                             "start": {
                               "line": 13,
@@ -294,8 +294,8 @@
             {
               "type": "CommentBlock",
               "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const server = GSF.server({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(serverArgs: ServerArgs): Server} server - The function for creating a new Server object.\r\n ",
-              "start": 32,
-              "end": 314,
+              "start": 34,
+              "end": 316,
               "loc": {
                 "start": {
                   "line": 3,
@@ -314,8 +314,8 @@
           {
             "type": "CommentBlock",
             "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const server = GSF.server({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(serverArgs: ServerArgs): Server} server - The function for creating a new Server object.\r\n ",
-            "start": 32,
-            "end": 314,
+            "start": 34,
+            "end": 316,
             "loc": {
               "start": {
                 "line": 3,
@@ -336,8 +336,8 @@
     {
       "type": "CommentBlock",
       "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const server = GSF.server({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(serverArgs: ServerArgs): Server} server - The function for creating a new Server object.\r\n ",
-      "start": 32,
-      "end": 314,
+      "start": 34,
+      "end": 316,
       "loc": {
         "start": {
           "line": 3,
@@ -444,9 +444,9 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "Server",
+      "value": "./Server",
       "start": 19,
-      "end": 27,
+      "end": 29,
       "loc": {
         "start": {
           "line": 1,
@@ -454,7 +454,7 @@
         },
         "end": {
           "line": 1,
-          "column": 27
+          "column": 29
         }
       }
     },
@@ -471,24 +471,24 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 27,
-      "end": 28,
+      "start": 29,
+      "end": 30,
       "loc": {
         "start": {
           "line": 1,
-          "column": 27
+          "column": 29
         },
         "end": {
           "line": 1,
-          "column": 28
+          "column": 30
         }
       }
     },
     {
       "type": "CommentBlock",
       "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const server = GSF.server({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(serverArgs: ServerArgs): Server} server - The function for creating a new Server object.\r\n ",
-      "start": 32,
-      "end": 314,
+      "start": 34,
+      "end": 316,
       "loc": {
         "start": {
           "line": 3,
@@ -515,8 +515,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 316,
-      "end": 322,
+      "start": 318,
+      "end": 324,
       "loc": {
         "start": {
           "line": 11,
@@ -543,8 +543,8 @@
         "updateContext": null
       },
       "value": "default",
-      "start": 323,
-      "end": 330,
+      "start": 325,
+      "end": 332,
       "loc": {
         "start": {
           "line": 11,
@@ -568,8 +568,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 331,
-      "end": 332,
+      "start": 333,
+      "end": 334,
       "loc": {
         "start": {
           "line": 11,
@@ -594,8 +594,8 @@
         "binop": null
       },
       "value": "server",
-      "start": 336,
-      "end": 342,
+      "start": 338,
+      "end": 344,
       "loc": {
         "start": {
           "line": 12,
@@ -619,8 +619,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 342,
-      "end": 343,
+      "start": 344,
+      "end": 345,
       "loc": {
         "start": {
           "line": 12,
@@ -645,8 +645,8 @@
         "binop": null
       },
       "value": "serverArgs",
-      "start": 343,
-      "end": 353,
+      "start": 345,
+      "end": 355,
       "loc": {
         "start": {
           "line": 12,
@@ -670,8 +670,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 353,
-      "end": 354,
+      "start": 355,
+      "end": 356,
       "loc": {
         "start": {
           "line": 12,
@@ -695,8 +695,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 355,
-      "end": 356,
+      "start": 357,
+      "end": 358,
       "loc": {
         "start": {
           "line": 12,
@@ -723,8 +723,8 @@
         "updateContext": null
       },
       "value": "return",
-      "start": 362,
-      "end": 368,
+      "start": 364,
+      "end": 370,
       "loc": {
         "start": {
           "line": 13,
@@ -751,8 +751,8 @@
         "updateContext": null
       },
       "value": "new",
-      "start": 369,
-      "end": 372,
+      "start": 371,
+      "end": 374,
       "loc": {
         "start": {
           "line": 13,
@@ -777,8 +777,8 @@
         "binop": null
       },
       "value": "Server",
-      "start": 373,
-      "end": 379,
+      "start": 375,
+      "end": 381,
       "loc": {
         "start": {
           "line": 13,
@@ -802,8 +802,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 379,
-      "end": 380,
+      "start": 381,
+      "end": 382,
       "loc": {
         "start": {
           "line": 13,
@@ -828,8 +828,8 @@
         "binop": null
       },
       "value": "serverArgs",
-      "start": 380,
-      "end": 390,
+      "start": 382,
+      "end": 392,
       "loc": {
         "start": {
           "line": 13,
@@ -853,8 +853,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 390,
-      "end": 391,
+      "start": 392,
+      "end": 393,
       "loc": {
         "start": {
           "line": 13,
@@ -879,8 +879,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 391,
-      "end": 392,
+      "start": 393,
+      "end": 394,
       "loc": {
         "start": {
           "line": 13,
@@ -904,8 +904,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 396,
-      "end": 397,
+      "start": 398,
+      "end": 399,
       "loc": {
         "start": {
           "line": 14,
@@ -929,8 +929,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 399,
-      "end": 400,
+      "start": 401,
+      "end": 402,
       "loc": {
         "start": {
           "line": 15,
@@ -955,8 +955,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 400,
-      "end": 401,
+      "start": 402,
+      "end": 403,
       "loc": {
         "start": {
           "line": 15,
@@ -981,8 +981,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 403,
-      "end": 403,
+      "start": 405,
+      "end": 405,
       "loc": {
         "start": {
           "line": 16,
