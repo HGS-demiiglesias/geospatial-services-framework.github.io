@@ -510,6 +510,12 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/server.js~server#headers",
+    "class/src/Server.js~Server.html#instance-member-headers",
+    "src/Server.js~Server#headers",
+    "member"
+  ],
+  [
     "src/server.js~server#job",
     "class/src/Server.js~Server.html#instance-method-job",
     "src/Server.js~Server#job",
