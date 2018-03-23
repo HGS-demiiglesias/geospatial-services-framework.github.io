@@ -1,11 +1,11 @@
 {
   "coverage": "100%",
-  "expectCount": 33,
-  "actualCount": 33,
+  "expectCount": 34,
+  "actualCount": 34,
   "files": {
     "src/Server.js": {
-      "expectCount": 13,
-      "actualCount": 13,
+      "expectCount": 14,
+      "actualCount": 14,
       "undocumentLines": []
     },
     "src/Job.js": {

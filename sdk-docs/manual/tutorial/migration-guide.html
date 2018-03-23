@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">Tutorial</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  
+  
+  <script src="script/manual.js"></script>
+<link data-ice="userStyle" rel="stylesheet" href="user/css/0-main.css">
+</head>
+<body class="layout-container manual-root" data-ice="rootContainer">
+
+<header>
+  <a href="./">Home</a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <a data-ice="repoURL" href="https://github.com/geospatial-services-framework/gsf-js-client-sdk.git" class="repo-url-github">Repository</a>
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+</header>
+
+<nav class="navigation" data-ice="nav"><div class="manual-toc-root">
+  
+<div data-ice="manual" data-toc-name="installation">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h2" data-link="manual/installation/installation.html"><a href="manual/installation/installation.html#installation-guide" data-ice="link">Installation Guide</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="tutorial">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1 manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;&#x25A0;&#x25A0;&#x25A0;" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html" data-ice="link">Migration Guide: Moving from v2 to v3</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#server-class" data-ice="link">Server Class</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#gsf-server-is-now-gsf-client-" data-ice="link">GSF.Server is now GSF.Client.</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#client-apiroot-no-longer-defaults-to-ese-" data-ice="link">Client.APIRoot no longer defaults to &apos;ese&apos;.</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#service-class" data-ice="link">Service Class</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#service-info-no-longer-contains-task-list-" data-ice="link">Service.info() no longer contains task list.</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#service-taskinfolist-response-changed-" data-ice="link">Service.taskInfoList() response changed.</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#task-class" data-ice="link">Task Class</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#task-info-response-changed-" data-ice="link">Task.info() response changed.</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#task-submit-and-task-submitandwait-options-changed-" data-ice="link">Task.submit() and Task.submitAndWait() options changed.</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#job-class" data-ice="link">Job Class</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#job-info-response-changed-" data-ice="link">Job.info() response changed.</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#job-wait-response-changed-" data-ice="link">Job.wait() response changed.</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#types" data-ice="link">Types</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#taskinfo" data-ice="link">TaskInfo</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#example-of-taskinfo-in-v2" data-ice="link">Example of TaskInfo in v2</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#example-of-taskinfo-in-v3" data-ice="link">Example of TaskInfo in v3</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#serviceinfo" data-ice="link">ServiceInfo</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#example-of-serviceinfo-in-v2" data-ice="link">Example of ServiceInfo in v2</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#example-of-serviceinfo-in-v3" data-ice="link">Example of ServiceInfo in v3</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#submitoptions" data-ice="link">SubmitOptions</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#example-of-submitoptions-in-v2" data-ice="link">Example of SubmitOptions in v2</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#example-of-submitoptions-in-v3" data-ice="link">Example of SubmitOptions in v3</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#jobinfo" data-ice="link">JobInfo</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#example-of-jobinfo-in-v2" data-ice="link">Example of JobInfo in v2</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#example-of-jobinfo-in-v3" data-ice="link">Example of JobInfo in v3</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#jobresults" data-ice="link">JobResults</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#example-of-jobresults-in-v2" data-ice="link">Example of JobResults in v2</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/migration-guide.html"><a href="manual/tutorial/migration-guide.html#example-of-jobresults-in-v3" data-ice="link">Example of JobResults in v3</a></li>
+<li data-ice="manualNav" class="indent-h1 manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;&#x25A0;&#x25A0;" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#getting-started" data-ice="link">Getting Started</a></li>
+<li data-ice="manualNav" class="indent-h1 manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;&#x25A0;&#x25A0;" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#gsf-javascript-client-sdk" data-ice="link">GSF JavaScript Client SDK</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#about-the-sdk" data-ice="link">About the SDK</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#basic-usage" data-ice="link">Basic Usage</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#importing-the-sdk" data-ice="link">Importing the SDK</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#using-ecmascript-2015" data-ice="link">Using ECMAScript 2015</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#using-node-js" data-ice="link">Using Node.js</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#including-the-sdk-with-a-script-tag" data-ice="link">Including the SDK with a Script Tag</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#requirements" data-ice="link">Requirements</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#server-sent-events" data-ice="link">Server Sent Events</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#building-the-sdk" data-ice="link">Building the SDK</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#testing-the-sdk" data-ice="link">Testing the SDK</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#using-a-test-server" data-ice="link">Using a Test Server</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#run-tests-in-the-browser-against-mock-server-" data-ice="link">Run tests in the browser against mock server.</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#run-tests-in-node-js-against-mock-server-" data-ice="link">Run tests in Node.js against mock server.</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/getting-started.html"><a href="manual/tutorial/getting-started.html#building-the-documentation" data-ice="link">Building the Documentation</a></li>
+<li data-ice="manualNav" class="indent-h1 manual-color manual-color-tutorial" data-section-count="&#x25A0;&#x25A0;&#x25A0;&#x25A0;" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html" data-ice="link">Examples</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#list-available-services" data-ice="link">List Available Services</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#list-available-tasks" data-ice="link">List Available Tasks</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#get-task-information" data-ice="link">Get Task Information</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#run-a-task" data-ice="link">Run a Task</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#using-promises" data-ice="link">Using Promises</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#1-use-wait-" data-ice="link">1. Use .wait()</a></li>
+<li data-ice="manualNav" class="indent-h5" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#2-use-submitandwait-" data-ice="link">2. Use .submitAndWait()</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#using-server-events" data-ice="link">Using Server Events</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#tracking-job-progress" data-ice="link">Tracking Job Progress</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#progress-callbacks" data-ice="link">Progress Callbacks</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#progress-events" data-ice="link">Progress Events</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#server-progress-events" data-ice="link">Server Progress Events</a></li>
+<li data-ice="manualNav" class="indent-h4" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#job-progress-events" data-ice="link">Job Progress Events</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#cancelling-jobs" data-ice="link">Cancelling Jobs</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#-a-name-typescript-a-typescript-example" data-ice="link"> Typescript Example</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#-a-name-bestpractices-a-best-practices" data-ice="link"> Best Practices</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/tutorial/examples.html"><a href="manual/tutorial/examples.html#connecting-to-servers" data-ice="link">Connecting to Servers</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="reference">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1 manual-color manual-color-reference" data-section-count="&#x25A0;&#x25A0;&#x25A0;&#x25A0;&#x25A0;" data-link="identifiers.html"><a href="identifiers.html" data-ice="link">Reference</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="identifiers.html"><a href="identifiers.html#class" data-ice="link">Class</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="identifiers.html"><a href="identifiers.html#typedef" data-ice="link">Typedef</a></li>
+</ul>
+  </div>
+<div data-ice="manual" data-toc-name="changelog">
+    <ul class="manual-toc">
+      
+    <li data-ice="manualNav" class="indent-h1 manual-color manual-color-changelog" data-section-count="&#x25A0;&#x25A0;" data-link="manual/changelog/CHANGELOG.html"><a href="manual/changelog/CHANGELOG.html" data-ice="link">Change Log</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/changelog/CHANGELOG.html"><a href="manual/changelog/CHANGELOG.html#2-0-0-2017-07-24" data-ice="link">2.0.0 / 2017-07-24</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/changelog/CHANGELOG.html"><a href="manual/changelog/CHANGELOG.html#new-features" data-ice="link">New Features</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/changelog/CHANGELOG.html"><a href="manual/changelog/CHANGELOG.html#breaking-changes" data-ice="link">Breaking Changes</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/changelog/CHANGELOG.html"><a href="manual/changelog/CHANGELOG.html#1-0-0-2017-02-26" data-ice="link">1.0.0 / 2017-02-26</a></li>
+<li data-ice="manualNav" class="indent-h3" data-link="manual/changelog/CHANGELOG.html"><a href="manual/changelog/CHANGELOG.html#new-features" data-ice="link">New Features</a></li>
+</ul>
+  </div>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><div class="github-markdown">
+  <div class="manual-breadcrumb-list">
+    <a href="./manual/./index.html">Manual</a>
+    <span>&#xBB;</span>
+    <span data-ice="title">Tutorial</span>
+  </div>
+  <div data-ice="content"><h1 id="migration-guide-moving-from-v2-to-v3">Migration Guide: Moving from v2 to v3</h1>
+<p>The gsf-javascript-client-sdk has undergone a number of changes for version 3.0.  This version is significant due to the adoption of a new HTTP API for GSF.  This means that if you upgrade your SDK to v3, you will also need to update your server(s) to GSF version 3.0. There are a number of breaking changes for the SDK user as a result of switching to the new API.</p>
+<p>The purpose of this guide is to help you transition your application&apos;s source code from v2 to v3 of the SDK.</p>
+<ul>
+<li>Classes<ul>
+<li><a href="#server-class">Server</a></li>
+<li><a href="#service-class">Service</a></li>
+<li><a href="#task-class">Task</a></li>
+<li><a href="#job-class">Job</a></li>
+</ul>
+</li>
+<li>Types<ul>
+<li><a href="#serviceinfo">ServiceInfo</a></li>
+<li><a href="#taskinfo">TaskInfo</a></li>
+<li><a href="#submitoptions">SubmitOptions</a></li>
+<li><a href="#jobinfo">JobInfo</a></li>
+<li><a href="#jobresults">JobResults</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="server-class">Server Class</h3>
+<h4 id="gsf-server-is-now-gsf-client-">GSF.Server is now GSF.Client.</h4>
+<ul>
+<li>The server class has been renamed to &apos;Client&apos;.</li>
+<li>The &apos;ServerArgs&apos; object is now referred to as &apos;ClientOptions&apos;.</li>
+</ul>
+<h4 id="client-apiroot-no-longer-defaults-to-ese-">Client.APIRoot no longer defaults to &apos;ese&apos;.</h4>
+<ul>
+<li>The default APIRoot has been removed to align with the new HTTP API.</li>
+</ul>
+<h3 id="service-class">Service Class</h3>
+<h4 id="service-info-no-longer-contains-task-list-">Service.info() no longer contains task list.</h4>
+<ul>
+<li>See <a href="#serviceinfo">ServiceInfo</a> below for details.</li>
+</ul>
+<h4 id="service-taskinfolist-response-changed-">Service.taskInfoList() response changed.</h4>
+<ul>
+<li>See <a href="#taskinfo">TaskInfo</a> below for details.</li>
+</ul>
+<h3 id="task-class">Task Class</h3>
+<h4 id="task-info-response-changed-">Task.info() response changed.</h4>
+<ul>
+<li>See <a href="#taskinfo">TaskInfo</a> below for details.</li>
+</ul>
+<h4 id="task-submit-and-task-submitandwait-options-changed-">Task.submit() and Task.submitAndWait() options changed.</h4>
+<ul>
+<li>See <a href="#submitoptions">SubmitOptions</a> for more details.</li>
+</ul>
+<h3 id="job-class">Job Class</h3>
+<h4 id="job-info-response-changed-">Job.info() response changed.</h4>
+<ul>
+<li>See <a href="#jobinfo">JobInfo</a> below for more details.</li>
+</ul>
+<h3 id="job-wait-response-changed-">Job.wait() response changed.</h3>
+<ul>
+<li>See <a href="#jobresults">JobResults</a> below for more details.</li>
+</ul>
+<h2 id="types">Types</h2>
+<h3 id="taskinfo">TaskInfo</h3>
+<ul>
+<li>Added &apos;serviceName&apos;.</li>
+<li>Renamed &apos;name&apos; to &apos;taskName&apos;.</li>
+<li>Renamed &apos;&lt;parameter&gt;.dataType&apos; to &apos;&lt;parameter&gt;.type&apos;.</li>
+<li>Renamed &apos;&lt;parameter&gt;.defaultValue&apos; to &apos;&lt;parameter&gt;.default&apos;.</li>
+<li>Replaced &apos;parameters&apos; with &apos;inputParameters&apos; and &apos;outputParameters&apos;.</li>
+<li>Removed &apos;&lt;parameter&gt;.direction&apos;<ul>
+<li>New &apos;inputParameter&apos; and &apos;outputParameter&apos; objects indicate direction in their name.</li>
+</ul>
+</li>
+</ul>
+<h5 id="example-of-taskinfo-in-v2">Example of TaskInfo in v2</h5>
+<pre><code class="lang-json"><code class="source-code prettyprint">{
+    &quot;name&quot;: &quot;ISODATAClassification&quot;,
+    &quot;displayName&quot;: &quot;ISODATA Classification&quot;,
+    &quot;description&quot;: &quot;This task clusters pixels in a dataset based on statistics only, without requiring you to define training classes.&quot;,
+    &quot;parameters&quot;: {
+        &quot;INPUT_RASTER&quot;: {
+            &quot;name&quot;: &quot;INPUT_RASTER&quot;,
+            &quot;parameterType&quot;: &quot;required&quot;,
+            &quot;displayName&quot;: &quot;Input Raster&quot;,
+            &quot;description&quot;: &quot;Specify a raster on which to perform unsupervised classification.&quot;,
+            &quot;direction&quot;: &quot;INPUT&quot;,
+            &quot;dataType:&quot;: &quot;ENVIRASTER&quot;
+        },
+        &quot;OUTPUT_RASTER&quot;: {
+            &quot;name&quot;: &quot;OUTPUT_RASTER&quot;,
+            &quot;parameterType&quot;: &quot;required&quot;,
+            &quot;displayName&quot;: &quot;Output Raster&quot;,
+            &quot;description&quot;: &quot;This is a reference to the output classification raster of filetype ENVI.&quot;,
+            &quot;direction&quot;: &quot;OUTPUT&quot;,
+            &quot;dataType:&quot;: &quot;ENVIRASTER&quot;
+        }
+    }
+}</code>
+</code></pre>
+<h5 id="example-of-taskinfo-in-v3">Example of TaskInfo in v3</h5>
+<pre><code class="lang-json"><code class="source-code prettyprint">{
+    &quot;taskName&quot;: &quot;ISODATAClassification&quot;,
+    &quot;serviceName&quot;: &quot;ENVI&quot;,
+    &quot;displayName&quot;: &quot;ISODATA Classification&quot;,
+    &quot;description&quot;: &quot;This task clusters pixels in a dataset based on statistics only, without requiring you to define training classes.&quot;,
+    &quot;inputParameters&quot;: [
+        {
+            &quot;name&quot;: &quot;INPUT_RASTER&quot;,
+            &quot;type&quot;: &quot;ENVIRASTER&quot;,
+            &quot;required&quot;: true,
+            &quot;displayName&quot;: &quot;Input Raster&quot;,
+            &quot;description&quot;: &quot;Specify a raster on which to perform unsupervised classification.&quot;
+        }
+    ],
+    &quot;outputParameters&quot;: [
+        {
+            &quot;name&quot;: &quot;OUTPUT_RASTER&quot;,
+            &quot;type&quot;: &quot;ENVIRASTER&quot;,
+            &quot;displayName&quot;: &quot;Output Raster&quot;,
+            &quot;description&quot;: &quot;This is a reference to the output classification raster of filetype ENVI.&quot;,
+            &quot;required&quot;: true
+        }
+    ]
+}</code>
+</code></pre>
+<p>For full documentation please see <a href="./manual/../typedef/index.html#static-typedef-TaskInfo"><strong>TaskInfo</strong></a></p>
+<h3 id="serviceinfo">ServiceInfo</h3>
+<ul>
+<li>Removed &apos;tasks&apos;.<ul>
+<li>Please use Service.tasks() or Service.taskInfoList() to obtain task lists.</li>
+</ul>
+</li>
+</ul>
+<h5 id="example-of-serviceinfo-in-v2">Example of ServiceInfo in v2</h5>
+<pre><code class="lang-json"><code class="source-code prettyprint">{
+    &quot;name&quot;: &quot;ENVI&quot;,
+    &quot;description&quot;: &quot;ENVI processing routines&quot;,
+    &quot;tasks&quot;: [
+        &quot;Task1&quot;,
+        &quot;Task2&quot;,
+        &quot;Task3&quot;
+    ]
+}</code>
+</code></pre>
+<h5 id="example-of-serviceinfo-in-v3">Example of ServiceInfo in v3</h5>
+<pre><code class="lang-json"><code class="source-code prettyprint">{
+    &quot;name&quot;: &quot;ENVI&quot;,
+    &quot;description&quot;: &quot;ENVI processing routines&quot;
+}</code>
+</code></pre>
+<p>For full documentation please see <a href="./manual/../typedef/index.html#static-typedef-ServiceInfo"><strong>ServiceInfo</strong></a></p>
+<h3 id="submitoptions">SubmitOptions</h3>
+<ul>
+<li>Added &apos;jobOptions&apos; object.<ul>
+<li>&apos;route&apos; was moved into the &apos;jobOptions&apos; object.</li>
+<li>Any additional processing directives will reside in the &apos;jobOptions&apos; object.</li>
+</ul>
+</li>
+<li>Renamed &apos;parameters&apos; to &apos;inputParameters&apos;.</li>
+</ul>
+<h5 id="example-of-submitoptions-in-v2">Example of SubmitOptions in v2</h5>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">const submitOptions = {
+  parameters: {
+    INPUT_RASTER: {
+      FACTORY: &apos;URLRaster&apos;,
+      URL: &apos;/some/url&apos;
+    },
+    INDEX: &apos;Normalized Difference Vegetation Index&apos;
+  },
+  route: &quot;ENVIRoute&quot;
+};</code>
+</code></pre>
+<h5 id="example-of-submitoptions-in-v3">Example of SubmitOptions in v3</h5>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">const submitOptions = {
+  inputParameters: {
+    INPUT_RASTER: {
+      FACTORY: &apos;URLRaster&apos;,
+      URL: &apos;/some/url&apos;
+    },
+    INDEX: &apos;Normalized Difference Vegetation Index&apos;
+  },
+  jobOptions: {
+      route: &quot;ENVIRoute&quot;
+  }
+};</code>
+</code></pre>
+<p>For full documentation please see <a href="./manual/../typedef/index.html#static-typedef-SubmitOptions"><strong>SubmitOptions</strong></a></p>
+<h3 id="jobinfo">JobInfo</h3>
+<ul>
+<li>Added &apos;jobStart&apos;.</li>
+<li>Added &apos;jobEnd&apos;.</li>
+<li>Added &apos;jobSubmitted&apos;.</li>
+<li>Added &apos;nodeInfo&apos;.</li>
+<li>Added &apos;jobOptions&apos;.</li>
+<li>Renamed &apos;inputs&apos; to &apos;inputParameters&apos;.</li>
+<li>Renamed &apos;jobErrorMessage&apos; to &apos;jobError&apos;.</li>
+<li>Renamed &apos;results&apos; to &apos;jobResults&apos;.</li>
+<li>Renamed &apos;jobProgressMessage&apos; to &apos;jobMessage&apos;.</li>
+<li>Removed &apos;jobRoute&apos;.  This property is now in the &apos;jobOptions&apos; object.</li>
+<li>Removed &apos;jobStatusUrl&apos;.</li>
+</ul>
+<h5 id="example-of-jobinfo-in-v2">Example of JobInfo in v2</h5>
+<pre><code class="lang-json"><code class="source-code prettyprint">{
+    &quot;jobId&quot;: 3410,
+    &quot;jobStatus&quot;: &quot;esriJobSucceeded&quot;,
+    &quot;jobStatusURL&quot;: &quot;ese/jobs/3410/status&quot;,
+    &quot;jobProgress&quot;: 100,
+    &quot;jobProgressMessage&quot;: &quot;Completed&quot;,
+    &quot;jobRoute&quot;: &quot;default&quot;,
+    &quot;taskName&quot;: &quot;SpectralIndex&quot;,
+    &quot;serviceName&quot;: &quot;ENVI&quot;,
+    &quot;jobErrorMessage&quot;: &quot;&quot;,
+    &quot;inputs&quot;: {
+        &quot;index&quot;: &quot;Iron Oxide&quot;,
+        &quot;input_raster&quot;: {
+            &quot;url&quot;: &quot;/some/url&quot;,
+            &quot;factory&quot;: &quot;URLRaster&quot;
+        }
+    },
+    &quot;results&quot;: [{
+        &quot;name&quot;: &quot;OUTPUT_RASTER&quot;,
+        &quot;value&quot;: {
+            &quot;url&quot;: &quot;http://myserver:9191/ese/jobs/3410/spectralindex_output_raster_MonJan2916080020181790684800.dat&quot;,
+            &quot;factory&quot;: &quot;URLRaster&quot;,
+            &quot;auxiliary_url&quot;: [
+                &quot;http://myserver:9191/ese/jobs/3410/spectralindex_output_raster_MonJan2916080020181790684800.hdr&quot;
+            ]
+        }
+    }],
+    &quot;messages&quot;: [{
+            &quot;type&quot;: &quot;esriJobMessageTypeInformative&quot;,
+            &quot;description&quot;: &quot;Submission Time: Mon Jan 29 2018 16:07:52 GMT-0700 (Mountain Standard Time)&quot;
+        },
+        {
+            &quot;type&quot;: &quot;esriJobMessageTypeInformative&quot;,
+            &quot;description&quot;: &quot;Start Time: Mon Jan 29 2018 16:07:52 GMT-0700 (Mountain Standard Time)&quot;
+        },
+        {
+            &quot;type&quot;: &quot;esriJobMessageTypeInformative&quot;,
+            &quot;description&quot;: &quot;End Time: Mon Jan 29 2018 16:08:01 GMT-0700 (Mountain Standard Time) (Elapsed Time: 8.818 seconds)&quot;
+        }
+    ]
+}</code>
+</code></pre>
+<h5 id="example-of-jobinfo-in-v3">Example of JobInfo in v3</h5>
+<pre><code class="lang-json"><code class="source-code prettyprint">{
+    &quot;jobId&quot;: 3410,
+    &quot;jobProgress&quot;: 100,
+    &quot;jobMessage&quot;: &quot;Completed&quot;,
+    &quot;jobStatus&quot;: &quot;Succeeded&quot;,
+    &quot;taskName&quot;: &quot;SpectralIndex&quot;,
+    &quot;serviceName&quot;: &quot;ENVI&quot;,
+    &quot;inputParameters&quot;: {
+        &quot;index&quot;: &quot;Iron Oxide&quot;,
+        &quot;input_raster&quot;: {
+            &quot;url&quot;: &quot;/some/url&quot;,
+            &quot;factory&quot;: &quot;URLRaster&quot;
+        }
+    },
+    &quot;jobResults&quot;: {
+        &quot;OUTPUT_RASTER&quot;: {
+            &quot;best&quot;: {
+                &quot;url&quot;: &quot;/some/url&quot;,
+                &quot;factory&quot;: &quot;URLRaster&quot;,
+                &quot;auxiliary_url&quot;: [
+                    &quot;/some/url&quot;
+                ]
+            },
+            &quot;ese-job-parameter-mapper&quot;: {
+                &quot;url&quot;: &quot;/some/url&quot;,
+                &quot;factory&quot;: &quot;URLRaster&quot;,
+                &quot;auxiliary_url&quot;: [
+                    &quot;/some/url&quot;
+                ]
+            }
+        }
+    },
+    &quot;jobOptions&quot;: {
+        &quot;route&quot;: &quot;default&quot;
+    },
+    &quot;jobSubmitted&quot;: &quot;2018-01-29T23:07:52.992Z&quot;,
+    &quot;jobStart&quot;: &quot;2018-01-29T23:07:52.995Z&quot;,
+    &quot;jobEnd&quot;: &quot;2018-01-29T23:08:01.813Z&quot;
+}</code>
+</code></pre>
+<p>For full documentation please see <a href="./manual/../typedef/index.html#static-typedef-JobInfo"><strong>JobInfo</strong></a></p>
+<h3 id="jobresults">JobResults</h3>
+<ul>
+<li>Each parameter now contains all of the parameter mappings.  The highest ranked mapping is set to the &apos;best&apos; key.</li>
+</ul>
+<h5 id="example-of-jobresults-in-v2">Example of JobResults in v2</h5>
+<pre><code class="lang-json"><code class="source-code prettyprint">{
+    &quot;OUTPUT_RASTER&quot;: {
+        &quot;url&quot;: &quot;/some/url&quot;,
+        &quot;factory&quot;: &quot;URLRaster&quot;,
+        &quot;auxiliary_url&quot;: [
+            &quot;/some/url&quot;
+        ]
+    }
+}</code>
+</code></pre>
+<h5 id="example-of-jobresults-in-v3">Example of JobResults in v3</h5>
+<pre><code class="lang-json"><code class="source-code prettyprint">{
+    &quot;OUTPUT_RASTER&quot;: {
+        &quot;best&quot;: {
+            &quot;url&quot;: &quot;/some/url&quot;,
+            &quot;factory&quot;: &quot;URLRaster&quot;,
+            &quot;auxiliary_url&quot;: [
+                &quot;/some/url&quot;
+            ]
+        },
+        &quot;ese-job-parameter-mapper&quot;: {
+            &quot;url&quot;: &quot;/some/url&quot;,
+            &quot;factory&quot;: &quot;URLRaster&quot;,
+            &quot;auxiliary_url&quot;: [
+                &quot;/some/url&quot;
+            ]
+        }
+    }
+}</code>
+</code></pre>
+<p>For full documentation please see <a href="./manual/../typedef/index.html#static-typedef-JobResults"><strong>JobResults</strong></a></p>
+</div>
+</div>
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.5.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>
