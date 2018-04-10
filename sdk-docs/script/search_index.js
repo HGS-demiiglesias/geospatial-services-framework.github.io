@@ -1,14 +1,14 @@
 window.esdocSearchIndex = [
   [
-    "gsf-js-client-sdk/src/job.js~job",
-    "class/src/Job.js~Job.html",
-    "<span>Job</span> <span class=\"search-result-import-path\">gsf-js-client-sdk/src/Job.js</span>",
+    "gsf-js-client-sdk/src/client.js~client",
+    "class/src/Client.js~Client.html",
+    "<span>Client</span> <span class=\"search-result-import-path\">gsf-js-client-sdk/src/Client.js</span>",
     "class"
   ],
   [
-    "gsf-js-client-sdk/src/server.js~server",
-    "class/src/Server.js~Server.html",
-    "<span>Server</span> <span class=\"search-result-import-path\">gsf-js-client-sdk/src/Server.js</span>",
+    "gsf-js-client-sdk/src/job.js~job",
+    "class/src/Job.js~Job.html",
+    "<span>Job</span> <span class=\"search-result-import-path\">gsf-js-client-sdk/src/Job.js</span>",
     "class"
   ],
   [
@@ -354,6 +354,138 @@ window.esdocSearchIndex = [
     "external"
   ],
   [
+    "src/client.js",
+    "file/src/Client.js.html",
+    "src/Client.js",
+    "file"
+  ],
+  [
+    "src/client.js~client#apiroot",
+    "class/src/Client.js~Client.html#instance-member-APIRoot",
+    "src/Client.js~Client#APIRoot",
+    "member"
+  ],
+  [
+    "src/client.js~client#url",
+    "class/src/Client.js~Client.html#instance-member-URL",
+    "src/Client.js~Client#URL",
+    "member"
+  ],
+  [
+    "src/client.js~client#address",
+    "class/src/Client.js~Client.html#instance-member-address",
+    "src/Client.js~Client#address",
+    "member"
+  ],
+  [
+    "src/client.js~client#constructor",
+    "class/src/Client.js~Client.html#instance-constructor-constructor",
+    "src/Client.js~Client#constructor",
+    "method"
+  ],
+  [
+    "src/client.js~client#headers",
+    "class/src/Client.js~Client.html#instance-member-headers",
+    "src/Client.js~Client#headers",
+    "member"
+  ],
+  [
+    "src/client.js~client#job",
+    "class/src/Client.js~Client.html#instance-method-job",
+    "src/Client.js~Client#job",
+    "method"
+  ],
+  [
+    "src/client.js~client#jobinfolist",
+    "class/src/Client.js~Client.html#instance-method-jobInfoList",
+    "src/Client.js~Client#jobInfoList",
+    "method"
+  ],
+  [
+    "src/client.js~client#jobs",
+    "class/src/Client.js~Client.html#instance-method-jobs",
+    "src/Client.js~Client#jobs",
+    "method"
+  ],
+  [
+    "src/client.js~client#port",
+    "class/src/Client.js~Client.html#instance-member-port",
+    "src/Client.js~Client#port",
+    "member"
+  ],
+  [
+    "src/client.js~client#protocol",
+    "class/src/Client.js~Client.html#instance-member-protocol",
+    "src/Client.js~Client#protocol",
+    "member"
+  ],
+  [
+    "src/client.js~client#rooturl",
+    "class/src/Client.js~Client.html#instance-member-rootURL",
+    "src/Client.js~Client#rootURL",
+    "member"
+  ],
+  [
+    "src/client.js~client#service",
+    "class/src/Client.js~Client.html#instance-method-service",
+    "src/Client.js~Client#service",
+    "method"
+  ],
+  [
+    "src/client.js~client#services",
+    "class/src/Client.js~Client.html#instance-method-services",
+    "src/Client.js~Client#services",
+    "method"
+  ],
+  [
+    "src/client.js~client.clientoptions",
+    "typedef/index.html#static-typedef-ClientOptions",
+    "src/Client.js~Client.ClientOptions",
+    "typedef"
+  ],
+  [
+    "src/client.js~client.joblistoptions",
+    "typedef/index.html#static-typedef-JobListOptions",
+    "src/Client.js~Client.JobListOptions",
+    "typedef"
+  ],
+  [
+    "src/client.js~jobaccepted",
+    "typedef/index.html#static-typedef-JobAccepted",
+    "src/Client.js~JobAccepted",
+    "typedef"
+  ],
+  [
+    "src/client.js~jobcompleted",
+    "typedef/index.html#static-typedef-JobCompleted",
+    "src/Client.js~JobCompleted",
+    "typedef"
+  ],
+  [
+    "src/client.js~jobfailed",
+    "typedef/index.html#static-typedef-JobFailed",
+    "src/Client.js~JobFailed",
+    "typedef"
+  ],
+  [
+    "src/client.js~jobprogress",
+    "typedef/index.html#static-typedef-JobProgress",
+    "src/Client.js~JobProgress",
+    "typedef"
+  ],
+  [
+    "src/client.js~jobstarted",
+    "typedef/index.html#static-typedef-JobStarted",
+    "src/Client.js~JobStarted",
+    "typedef"
+  ],
+  [
+    "src/client.js~jobsucceeded",
+    "typedef/index.html#static-typedef-JobSucceeded",
+    "src/Client.js~JobSucceeded",
+    "typedef"
+  ],
+  [
     "src/gsf.js",
     "file/src/GSF.js.html",
     "src/GSF.js",
@@ -370,24 +502,6 @@ window.esdocSearchIndex = [
     "file/src/Job.js.html",
     "src/Job.js",
     "file"
-  ],
-  [
-    "src/job.js~accepted",
-    "typedef/index.html#static-typedef-Accepted",
-    "src/Job.js~Accepted",
-    "typedef"
-  ],
-  [
-    "src/job.js~completed",
-    "typedef/index.html#static-typedef-Completed",
-    "src/Job.js~Completed",
-    "typedef"
-  ],
-  [
-    "src/job.js~failed",
-    "typedef/index.html#static-typedef-Failed",
-    "src/Job.js~Failed",
-    "typedef"
   ],
   [
     "src/job.js~job#cancel",
@@ -426,153 +540,15 @@ window.esdocSearchIndex = [
     "typedef"
   ],
   [
-    "src/job.js~progress",
-    "typedef/index.html#static-typedef-Progress",
-    "src/Job.js~Progress",
+    "src/job.js~job.jobresults",
+    "typedef/index.html#static-typedef-JobResults",
+    "src/Job.js~Job.JobResults",
     "typedef"
   ],
   [
-    "src/job.js~started",
-    "typedef/index.html#static-typedef-Started",
-    "src/Job.js~Started",
-    "typedef"
-  ],
-  [
-    "src/job.js~succeeded",
-    "typedef/index.html#static-typedef-Succeeded",
-    "src/Job.js~Succeeded",
-    "typedef"
-  ],
-  [
-    "src/server.js",
-    "file/src/Server.js.html",
-    "src/Server.js",
-    "file"
-  ],
-  [
-    "src/server.js~jobaccepted",
-    "typedef/index.html#static-typedef-JobAccepted",
-    "src/Server.js~JobAccepted",
-    "typedef"
-  ],
-  [
-    "src/server.js~jobcompleted",
-    "typedef/index.html#static-typedef-JobCompleted",
-    "src/Server.js~JobCompleted",
-    "typedef"
-  ],
-  [
-    "src/server.js~jobfailed",
-    "typedef/index.html#static-typedef-JobFailed",
-    "src/Server.js~JobFailed",
-    "typedef"
-  ],
-  [
-    "src/server.js~jobprogress",
-    "typedef/index.html#static-typedef-JobProgress",
-    "src/Server.js~JobProgress",
-    "typedef"
-  ],
-  [
-    "src/server.js~jobstarted",
-    "typedef/index.html#static-typedef-JobStarted",
-    "src/Server.js~JobStarted",
-    "typedef"
-  ],
-  [
-    "src/server.js~jobsucceeded",
-    "typedef/index.html#static-typedef-JobSucceeded",
-    "src/Server.js~JobSucceeded",
-    "typedef"
-  ],
-  [
-    "src/server.js~server#apiroot",
-    "class/src/Server.js~Server.html#instance-member-APIRoot",
-    "src/Server.js~Server#APIRoot",
-    "member"
-  ],
-  [
-    "src/server.js~server#url",
-    "class/src/Server.js~Server.html#instance-member-URL",
-    "src/Server.js~Server#URL",
-    "member"
-  ],
-  [
-    "src/server.js~server#address",
-    "class/src/Server.js~Server.html#instance-member-address",
-    "src/Server.js~Server#address",
-    "member"
-  ],
-  [
-    "src/server.js~server#constructor",
-    "class/src/Server.js~Server.html#instance-constructor-constructor",
-    "src/Server.js~Server#constructor",
-    "method"
-  ],
-  [
-    "src/server.js~server#headers",
-    "class/src/Server.js~Server.html#instance-member-headers",
-    "src/Server.js~Server#headers",
-    "member"
-  ],
-  [
-    "src/server.js~server#job",
-    "class/src/Server.js~Server.html#instance-method-job",
-    "src/Server.js~Server#job",
-    "method"
-  ],
-  [
-    "src/server.js~server#jobinfolist",
-    "class/src/Server.js~Server.html#instance-method-jobInfoList",
-    "src/Server.js~Server#jobInfoList",
-    "method"
-  ],
-  [
-    "src/server.js~server#jobs",
-    "class/src/Server.js~Server.html#instance-method-jobs",
-    "src/Server.js~Server#jobs",
-    "method"
-  ],
-  [
-    "src/server.js~server#port",
-    "class/src/Server.js~Server.html#instance-member-port",
-    "src/Server.js~Server#port",
-    "member"
-  ],
-  [
-    "src/server.js~server#protocol",
-    "class/src/Server.js~Server.html#instance-member-protocol",
-    "src/Server.js~Server#protocol",
-    "member"
-  ],
-  [
-    "src/server.js~server#rooturl",
-    "class/src/Server.js~Server.html#instance-member-rootURL",
-    "src/Server.js~Server#rootURL",
-    "member"
-  ],
-  [
-    "src/server.js~server#service",
-    "class/src/Server.js~Server.html#instance-method-service",
-    "src/Server.js~Server#service",
-    "method"
-  ],
-  [
-    "src/server.js~server#services",
-    "class/src/Server.js~Server.html#instance-method-services",
-    "src/Server.js~Server#services",
-    "method"
-  ],
-  [
-    "src/server.js~server.joblistoptions",
-    "typedef/index.html#static-typedef-JobListOptions",
-    "src/Server.js~Server.JobListOptions",
-    "typedef"
-  ],
-  [
-    "src/server.js~server.serverargs",
-    "typedef/index.html#static-typedef-ServerArgs",
-    "src/Server.js~Server.ServerArgs",
+    "src/job.js~job.nodeinfo",
+    "typedef/index.html#static-typedef-NodeInfo",
+    "src/Job.js~Job.NodeInfo",
     "typedef"
   ],
   [
@@ -630,6 +606,18 @@ window.esdocSearchIndex = [
     "file"
   ],
   [
+    "src/task.js~inputparameter",
+    "typedef/index.html#static-typedef-InputParameter",
+    "src/Task.js~InputParameter",
+    "typedef"
+  ],
+  [
+    "src/task.js~joboptions",
+    "typedef/index.html#static-typedef-JobOptions",
+    "src/Task.js~JobOptions",
+    "typedef"
+  ],
+  [
     "src/task.js~jobprogressinfo",
     "typedef/index.html#static-typedef-JobProgressInfo",
     "src/Task.js~JobProgressInfo",
@@ -645,6 +633,18 @@ window.esdocSearchIndex = [
     "src/task.js~jobstartedinfo",
     "typedef/index.html#static-typedef-JobStartedInfo",
     "src/Task.js~JobStartedInfo",
+    "typedef"
+  ],
+  [
+    "src/task.js~outputparameter",
+    "typedef/index.html#static-typedef-OutputParameter",
+    "src/Task.js~OutputParameter",
+    "typedef"
+  ],
+  [
+    "src/task.js~submitoptions",
+    "typedef/index.html#static-typedef-SubmitOptions",
+    "src/Task.js~SubmitOptions",
     "typedef"
   ],
   [
@@ -684,33 +684,21 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
-    "src/task.js~task.submitoptions",
-    "typedef/index.html#static-typedef-SubmitOptions",
-    "src/Task.js~Task.SubmitOptions",
-    "typedef"
-  ],
-  [
     "src/task.js~taskinfo",
     "typedef/index.html#static-typedef-TaskInfo",
     "src/Task.js~TaskInfo",
     "typedef"
   ],
   [
-    "src/utils/ese_api.js",
-    "file/src/utils/ESE_API.js.html",
-    "src/utils/ESE_API.js",
-    "file"
-  ],
-  [
-    "src/utils/ese_status_map.js",
-    "file/src/utils/ESE_STATUS_MAP.js.html",
-    "src/utils/ESE_STATUS_MAP.js",
-    "file"
-  ],
-  [
     "src/utils/events.js",
     "file/src/utils/EVENTS.js.html",
     "src/utils/EVENTS.js",
+    "file"
+  ],
+  [
+    "src/utils/gsf_api.js",
+    "file/src/utils/GSF_API.js.html",
+    "src/utils/GSF_API.js",
     "file"
   ],
   [

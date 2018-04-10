@@ -46,13 +46,9 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobStarted">JobStarted</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobSucceeded">JobSucceeded</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-GSF">GSF</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Accepted">Accepted</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Completed">Completed</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Failed">Failed</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobInfo">JobInfo</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Progress">Progress</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Started">Started</a></span></span></li>
-<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-Succeeded">Succeeded</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobResults">JobResults</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-NodeInfo">NodeInfo</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ServiceInfo">ServiceInfo</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-InputParameter">InputParameter</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobOptions">JobOptions</a></span></span></li>
@@ -92,6 +88,7 @@ class Client extends EventEmitter {
    * @typedef {Object} ClientOptions
    * @property {string} ClientOptions.address - The server address/name.
    * @property {string} [ClientOptions.port=null] - The server port.
+   * @property {Object} [ClientOptions.headers={}] - The headers to be used in requests.
    * @property {string} [ClientOptions.APIRoot=&apos;&apos;] - The API root endpoint.
    * @property {string} [ClientOptions.protocol=&apos;http&apos;] - The protocol to use.
    */
@@ -120,6 +117,12 @@ class Client extends EventEmitter {
      * @type {number}
      */
     this.port = clientOptions.port || null;
+
+    /**
+     * The headers to use in requests
+     * @type {Object}
+     */
+    this.headers = clientOptions.headers || {};
 
     /**
      * The API root endpoint.  If none, set to empty string.
@@ -162,8 +165,8 @@ class Client extends EventEmitter {
       SERVER_API.EVENTS_PATH].join(&apos;/&apos;));
 
     // Emit succeeded and failed events.
-    this.on(EVENTS.client.completed, (data) =&gt; {
-      this.emit(data.success ? EVENTS.client.succeeded : EVENTS.client.failed, data);
+    this.on(EVENTS.completed, (data) =&gt; {
+      this.emit(data.success ? EVENTS.succeeded : EVENTS.failed, data);
     });
 
     // Function to handle server sent events.
@@ -176,14 +179,14 @@ class Client extends EventEmitter {
 
     // Listen for events from our server.  Pass
     // them into the handler with job event type.
-    Object.keys(EVENTS.client).forEach((key) =&gt; {
+    Object.keys(EVENTS).forEach((key) =&gt; {
       // Server doesn&apos;t emit succeeded or failed events.
-      if ((EVENTS.client[key] === EVENTS.client.succeeded) ||
-       (EVENTS.client[key] === EVENTS.client.failed)) return;
+      if ((EVENTS[key] === EVENTS.succeeded) ||
+       (EVENTS[key] === EVENTS.failed)) return;
 
       // Add a listener for each of the sse&apos;s.
-      this._events.addEventListener(EVENTS.client[key],
-        handler.bind(this, EVENTS.client[key]));
+      this._events.addEventListener(EVENTS[key],
+        handler.bind(this, EVENTS[key]));
     });
   }
 
@@ -200,6 +203,7 @@ class Client extends EventEmitter {
       request
         .get(url)
         .use(nocache) // Prevents caching of *only* this request
+        .set(this.headers)
         .end((err, res) =&gt; {
           if (res &amp;&amp; res.ok) {
             const services = res.body.services;
@@ -237,6 +241,21 @@ class Client extends EventEmitter {
    *  jobs that exist on the server.
    */
   jobs(jobListOptions) {
+    return this
+      .jobInfoList(jobListOptions)
+      .then((jobInfoList) =&gt; (
+        jobInfoList.map((jobInfo) =&gt; (new Job(this, jobInfo.jobId)))
+      ));
+  }
+
+  /**
+   * Retrieves an array of job info objects.
+   * @param {JobListOptions} jobListOptions - Object containing options for
+   *  filtering job list.
+   * @return {Promise&lt;JobInfo[], error&gt;} Returns a Promise to an array of
+   *  jobs that exist on the server.
+   */
+  jobInfoList(jobListOptions) {
     return new Promise((resolve, reject) =&gt; {
       // Service url.
       let url = [this.rootURL, SERVER_API.JOBS_PATH].join(&apos;/&apos;);
@@ -260,15 +279,14 @@ class Client extends EventEmitter {
         if (params) url += &apos;?&apos; + params;
       }
 
-      // Get job list.
+      // Get job info list.
       request
         .get(url)
         .use(nocache) // Prevents caching of *only* this request
+        .set(this.headers)
         .end((err, res) =&gt; {
           if (res &amp;&amp; res.ok) {
-            const jobList = res.body.jobs
-              .map(job =&gt; new Job(this, job.jobId));
-            resolve(jobList);
+            resolve(res.body.jobs);
           } else {
             const status = ((err &amp;&amp; err.status) ? &apos;: &apos; + err.status : &apos;&apos;);
             const text = ((err &amp;&amp; err.response &amp;&amp; err.response.text) ? &apos;: &apos; +

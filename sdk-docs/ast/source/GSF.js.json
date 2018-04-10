@@ -1,7 +1,7 @@
 {
   "type": "File",
   "start": 0,
-  "end": 405,
+  "end": 417,
   "loc": {
     "start": {
       "line": 1,
@@ -15,7 +15,7 @@
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 405,
+    "end": 417,
     "loc": {
       "start": {
         "line": 1,
@@ -70,9 +70,9 @@
                   "line": 1,
                   "column": 13
                 },
-                "identifierName": "Server"
+                "identifierName": "Client"
               },
-              "name": "Server"
+              "name": "Client"
             }
           }
         ],
@@ -91,17 +91,17 @@
             }
           },
           "extra": {
-            "rawValue": "./Server",
-            "raw": "'./Server'"
+            "rawValue": "./Client",
+            "raw": "'./Client'"
           },
-          "value": "./Server"
+          "value": "./Client"
         },
         "trailingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const server = GSF.server({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(serverArgs: ServerArgs): Server} server - The function for creating a new Server object.\r\n ",
+            "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const client = GSF.client({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\r\n ",
             "start": 34,
-            "end": 316,
+            "end": 322,
             "loc": {
               "start": {
                 "line": 3,
@@ -117,8 +117,8 @@
       },
       {
         "type": "ExportDefaultDeclaration",
-        "start": 318,
-        "end": 403,
+        "start": 324,
+        "end": 415,
         "loc": {
           "start": {
             "line": 11,
@@ -131,8 +131,8 @@
         },
         "declaration": {
           "type": "ObjectExpression",
-          "start": 333,
-          "end": 402,
+          "start": 339,
+          "end": 414,
           "loc": {
             "start": {
               "line": 11,
@@ -146,8 +146,8 @@
           "properties": [
             {
               "type": "ObjectMethod",
-              "start": 338,
-              "end": 399,
+              "start": 344,
+              "end": 411,
               "loc": {
                 "start": {
                   "line": 12,
@@ -163,8 +163,8 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 338,
-                "end": 344,
+                "start": 344,
+                "end": 350,
                 "loc": {
                   "start": {
                     "line": 12,
@@ -174,9 +174,9 @@
                     "line": 12,
                     "column": 8
                   },
-                  "identifierName": "server"
+                  "identifierName": "client"
                 },
-                "name": "server",
+                "name": "client",
                 "leadingComments": null
               },
               "kind": "method",
@@ -187,8 +187,8 @@
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 345,
-                  "end": 355,
+                  "start": 351,
+                  "end": 364,
                   "loc": {
                     "start": {
                       "line": 12,
@@ -196,21 +196,21 @@
                     },
                     "end": {
                       "line": 12,
-                      "column": 19
+                      "column": 22
                     },
-                    "identifierName": "serverArgs"
+                    "identifierName": "clientOptions"
                   },
-                  "name": "serverArgs"
+                  "name": "clientOptions"
                 }
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 357,
-                "end": 399,
+                "start": 366,
+                "end": 411,
                 "loc": {
                   "start": {
                     "line": 12,
-                    "column": 21
+                    "column": 24
                   },
                   "end": {
                     "line": 14,
@@ -220,8 +220,8 @@
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 364,
-                    "end": 394,
+                    "start": 373,
+                    "end": 406,
                     "loc": {
                       "start": {
                         "line": 13,
@@ -229,13 +229,13 @@
                       },
                       "end": {
                         "line": 13,
-                        "column": 34
+                        "column": 37
                       }
                     },
                     "argument": {
                       "type": "NewExpression",
-                      "start": 371,
-                      "end": 393,
+                      "start": 380,
+                      "end": 405,
                       "loc": {
                         "start": {
                           "line": 13,
@@ -243,13 +243,13 @@
                         },
                         "end": {
                           "line": 13,
-                          "column": 33
+                          "column": 36
                         }
                       },
                       "callee": {
                         "type": "Identifier",
-                        "start": 375,
-                        "end": 381,
+                        "start": 384,
+                        "end": 390,
                         "loc": {
                           "start": {
                             "line": 13,
@@ -259,15 +259,15 @@
                             "line": 13,
                             "column": 21
                           },
-                          "identifierName": "Server"
+                          "identifierName": "Client"
                         },
-                        "name": "Server"
+                        "name": "Client"
                       },
                       "arguments": [
                         {
                           "type": "Identifier",
-                          "start": 382,
-                          "end": 392,
+                          "start": 391,
+                          "end": 404,
                           "loc": {
                             "start": {
                               "line": 13,
@@ -275,11 +275,11 @@
                             },
                             "end": {
                               "line": 13,
-                              "column": 32
+                              "column": 35
                             },
-                            "identifierName": "serverArgs"
+                            "identifierName": "clientOptions"
                           },
-                          "name": "serverArgs"
+                          "name": "clientOptions"
                         }
                       ]
                     }
@@ -293,9 +293,9 @@
           "leadingComments": [
             {
               "type": "CommentBlock",
-              "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const server = GSF.server({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(serverArgs: ServerArgs): Server} server - The function for creating a new Server object.\r\n ",
+              "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const client = GSF.client({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\r\n ",
               "start": 34,
-              "end": 316,
+              "end": 322,
               "loc": {
                 "start": {
                   "line": 3,
@@ -313,9 +313,9 @@
         "leadingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const server = GSF.server({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(serverArgs: ServerArgs): Server} server - The function for creating a new Server object.\r\n ",
+            "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const client = GSF.client({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\r\n ",
             "start": 34,
-            "end": 316,
+            "end": 322,
             "loc": {
               "start": {
                 "line": 3,
@@ -335,9 +335,9 @@
   "comments": [
     {
       "type": "CommentBlock",
-      "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const server = GSF.server({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(serverArgs: ServerArgs): Server} server - The function for creating a new Server object.\r\n ",
+      "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const client = GSF.client({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\r\n ",
       "start": 34,
-      "end": 316,
+      "end": 322,
       "loc": {
         "start": {
           "line": 3,
@@ -391,7 +391,7 @@
         "postfix": false,
         "binop": null
       },
-      "value": "Server",
+      "value": "Client",
       "start": 7,
       "end": 13,
       "loc": {
@@ -444,7 +444,7 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "./Server",
+      "value": "./Client",
       "start": 19,
       "end": 29,
       "loc": {
@@ -486,9 +486,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const server = GSF.server({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(serverArgs: ServerArgs): Server} server - The function for creating a new Server object.\r\n ",
+      "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const client = GSF.client({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\r\n ",
       "start": 34,
-      "end": 316,
+      "end": 322,
       "loc": {
         "start": {
           "line": 3,
@@ -515,8 +515,8 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 318,
-      "end": 324,
+      "start": 324,
+      "end": 330,
       "loc": {
         "start": {
           "line": 11,
@@ -543,8 +543,8 @@
         "updateContext": null
       },
       "value": "default",
-      "start": 325,
-      "end": 332,
+      "start": 331,
+      "end": 338,
       "loc": {
         "start": {
           "line": 11,
@@ -568,8 +568,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 333,
-      "end": 334,
+      "start": 339,
+      "end": 340,
       "loc": {
         "start": {
           "line": 11,
@@ -593,9 +593,9 @@
         "postfix": false,
         "binop": null
       },
-      "value": "server",
-      "start": 338,
-      "end": 344,
+      "value": "client",
+      "start": 344,
+      "end": 350,
       "loc": {
         "start": {
           "line": 12,
@@ -619,8 +619,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 344,
-      "end": 345,
+      "start": 350,
+      "end": 351,
       "loc": {
         "start": {
           "line": 12,
@@ -644,9 +644,9 @@
         "postfix": false,
         "binop": null
       },
-      "value": "serverArgs",
-      "start": 345,
-      "end": 355,
+      "value": "clientOptions",
+      "start": 351,
+      "end": 364,
       "loc": {
         "start": {
           "line": 12,
@@ -654,7 +654,7 @@
         },
         "end": {
           "line": 12,
-          "column": 19
+          "column": 22
         }
       }
     },
@@ -670,16 +670,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 355,
-      "end": 356,
+      "start": 364,
+      "end": 365,
       "loc": {
         "start": {
           "line": 12,
-          "column": 19
+          "column": 22
         },
         "end": {
           "line": 12,
-          "column": 20
+          "column": 23
         }
       }
     },
@@ -695,16 +695,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 357,
-      "end": 358,
+      "start": 366,
+      "end": 367,
       "loc": {
         "start": {
           "line": 12,
-          "column": 21
+          "column": 24
         },
         "end": {
           "line": 12,
-          "column": 22
+          "column": 25
         }
       }
     },
@@ -723,8 +723,8 @@
         "updateContext": null
       },
       "value": "return",
-      "start": 364,
-      "end": 370,
+      "start": 373,
+      "end": 379,
       "loc": {
         "start": {
           "line": 13,
@@ -751,8 +751,8 @@
         "updateContext": null
       },
       "value": "new",
-      "start": 371,
-      "end": 374,
+      "start": 380,
+      "end": 383,
       "loc": {
         "start": {
           "line": 13,
@@ -776,9 +776,9 @@
         "postfix": false,
         "binop": null
       },
-      "value": "Server",
-      "start": 375,
-      "end": 381,
+      "value": "Client",
+      "start": 384,
+      "end": 390,
       "loc": {
         "start": {
           "line": 13,
@@ -802,8 +802,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 381,
-      "end": 382,
+      "start": 390,
+      "end": 391,
       "loc": {
         "start": {
           "line": 13,
@@ -827,9 +827,9 @@
         "postfix": false,
         "binop": null
       },
-      "value": "serverArgs",
-      "start": 382,
-      "end": 392,
+      "value": "clientOptions",
+      "start": 391,
+      "end": 404,
       "loc": {
         "start": {
           "line": 13,
@@ -837,7 +837,7 @@
         },
         "end": {
           "line": 13,
-          "column": 32
+          "column": 35
         }
       }
     },
@@ -853,16 +853,16 @@
         "postfix": false,
         "binop": null
       },
-      "start": 392,
-      "end": 393,
+      "start": 404,
+      "end": 405,
       "loc": {
         "start": {
           "line": 13,
-          "column": 32
+          "column": 35
         },
         "end": {
           "line": 13,
-          "column": 33
+          "column": 36
         }
       }
     },
@@ -879,16 +879,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 393,
-      "end": 394,
+      "start": 405,
+      "end": 406,
       "loc": {
         "start": {
           "line": 13,
-          "column": 33
+          "column": 36
         },
         "end": {
           "line": 13,
-          "column": 34
+          "column": 37
         }
       }
     },
@@ -904,8 +904,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 398,
-      "end": 399,
+      "start": 410,
+      "end": 411,
       "loc": {
         "start": {
           "line": 14,
@@ -929,8 +929,8 @@
         "postfix": false,
         "binop": null
       },
-      "start": 401,
-      "end": 402,
+      "start": 413,
+      "end": 414,
       "loc": {
         "start": {
           "line": 15,
@@ -955,8 +955,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 402,
-      "end": 403,
+      "start": 414,
+      "end": 415,
       "loc": {
         "start": {
           "line": 15,
@@ -981,8 +981,8 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 405,
-      "end": 405,
+      "start": 417,
+      "end": 417,
       "loc": {
         "start": {
           "line": 16,

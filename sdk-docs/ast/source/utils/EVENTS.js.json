@@ -1,28 +1,28 @@
 {
   "type": "File",
   "start": 0,
-  "end": 392,
+  "end": 187,
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
-      "line": 19,
+      "line": 9,
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 392,
+    "end": 187,
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
-        "line": 19,
+        "line": 9,
         "column": 0
       }
     },
@@ -31,28 +31,28 @@
       {
         "type": "ExportDefaultDeclaration",
         "start": 0,
-        "end": 390,
+        "end": 185,
         "loc": {
           "start": {
             "line": 1,
             "column": 0
           },
           "end": {
-            "line": 18,
+            "line": 8,
             "column": 2
           }
         },
         "declaration": {
           "type": "ObjectExpression",
           "start": 15,
-          "end": 389,
+          "end": 184,
           "loc": {
             "start": {
               "line": 1,
               "column": 15
             },
             "end": {
-              "line": 18,
+              "line": 8,
               "column": 1
             }
           },
@@ -60,15 +60,15 @@
             {
               "type": "ObjectProperty",
               "start": 20,
-              "end": 190,
+              "end": 43,
               "loc": {
                 "start": {
                   "line": 2,
                   "column": 2
                 },
                 "end": {
-                  "line": 9,
-                  "column": 3
+                  "line": 2,
+                  "column": 25
                 }
               },
               "method": false,
@@ -77,7 +77,7 @@
               "key": {
                 "type": "Identifier",
                 "start": 20,
-                "end": 23,
+                "end": 28,
                 "loc": {
                   "start": {
                     "line": 2,
@@ -85,372 +85,45 @@
                   },
                   "end": {
                     "line": 2,
-                    "column": 5
+                    "column": 10
                   },
-                  "identifierName": "job"
+                  "identifierName": "accepted"
                 },
-                "name": "job"
+                "name": "accepted"
               },
               "value": {
-                "type": "ObjectExpression",
-                "start": 25,
-                "end": 190,
+                "type": "StringLiteral",
+                "start": 30,
+                "end": 43,
                 "loc": {
                   "start": {
                     "line": 2,
-                    "column": 7
+                    "column": 12
                   },
                   "end": {
-                    "line": 9,
-                    "column": 3
+                    "line": 2,
+                    "column": 25
                   }
                 },
-                "properties": [
-                  {
-                    "type": "ObjectProperty",
-                    "start": 32,
-                    "end": 52,
-                    "loc": {
-                      "start": {
-                        "line": 3,
-                        "column": 4
-                      },
-                      "end": {
-                        "line": 3,
-                        "column": 24
-                      }
-                    },
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 32,
-                      "end": 40,
-                      "loc": {
-                        "start": {
-                          "line": 3,
-                          "column": 4
-                        },
-                        "end": {
-                          "line": 3,
-                          "column": 12
-                        },
-                        "identifierName": "accepted"
-                      },
-                      "name": "accepted"
-                    },
-                    "value": {
-                      "type": "StringLiteral",
-                      "start": 42,
-                      "end": 52,
-                      "loc": {
-                        "start": {
-                          "line": 3,
-                          "column": 14
-                        },
-                        "end": {
-                          "line": 3,
-                          "column": 24
-                        }
-                      },
-                      "extra": {
-                        "rawValue": "Accepted",
-                        "raw": "'Accepted'"
-                      },
-                      "value": "Accepted"
-                    }
-                  },
-                  {
-                    "type": "ObjectProperty",
-                    "start": 59,
-                    "end": 77,
-                    "loc": {
-                      "start": {
-                        "line": 4,
-                        "column": 4
-                      },
-                      "end": {
-                        "line": 4,
-                        "column": 22
-                      }
-                    },
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 59,
-                      "end": 66,
-                      "loc": {
-                        "start": {
-                          "line": 4,
-                          "column": 4
-                        },
-                        "end": {
-                          "line": 4,
-                          "column": 11
-                        },
-                        "identifierName": "started"
-                      },
-                      "name": "started"
-                    },
-                    "value": {
-                      "type": "StringLiteral",
-                      "start": 68,
-                      "end": 77,
-                      "loc": {
-                        "start": {
-                          "line": 4,
-                          "column": 13
-                        },
-                        "end": {
-                          "line": 4,
-                          "column": 22
-                        }
-                      },
-                      "extra": {
-                        "rawValue": "Started",
-                        "raw": "'Started'"
-                      },
-                      "value": "Started"
-                    }
-                  },
-                  {
-                    "type": "ObjectProperty",
-                    "start": 84,
-                    "end": 106,
-                    "loc": {
-                      "start": {
-                        "line": 5,
-                        "column": 4
-                      },
-                      "end": {
-                        "line": 5,
-                        "column": 26
-                      }
-                    },
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 84,
-                      "end": 93,
-                      "loc": {
-                        "start": {
-                          "line": 5,
-                          "column": 4
-                        },
-                        "end": {
-                          "line": 5,
-                          "column": 13
-                        },
-                        "identifierName": "completed"
-                      },
-                      "name": "completed"
-                    },
-                    "value": {
-                      "type": "StringLiteral",
-                      "start": 95,
-                      "end": 106,
-                      "loc": {
-                        "start": {
-                          "line": 5,
-                          "column": 15
-                        },
-                        "end": {
-                          "line": 5,
-                          "column": 26
-                        }
-                      },
-                      "extra": {
-                        "rawValue": "Completed",
-                        "raw": "'Completed'"
-                      },
-                      "value": "Completed"
-                    }
-                  },
-                  {
-                    "type": "ObjectProperty",
-                    "start": 113,
-                    "end": 135,
-                    "loc": {
-                      "start": {
-                        "line": 6,
-                        "column": 4
-                      },
-                      "end": {
-                        "line": 6,
-                        "column": 26
-                      }
-                    },
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 113,
-                      "end": 122,
-                      "loc": {
-                        "start": {
-                          "line": 6,
-                          "column": 4
-                        },
-                        "end": {
-                          "line": 6,
-                          "column": 13
-                        },
-                        "identifierName": "succeeded"
-                      },
-                      "name": "succeeded"
-                    },
-                    "value": {
-                      "type": "StringLiteral",
-                      "start": 124,
-                      "end": 135,
-                      "loc": {
-                        "start": {
-                          "line": 6,
-                          "column": 15
-                        },
-                        "end": {
-                          "line": 6,
-                          "column": 26
-                        }
-                      },
-                      "extra": {
-                        "rawValue": "Succeeded",
-                        "raw": "'Succeeded'"
-                      },
-                      "value": "Succeeded"
-                    }
-                  },
-                  {
-                    "type": "ObjectProperty",
-                    "start": 142,
-                    "end": 162,
-                    "loc": {
-                      "start": {
-                        "line": 7,
-                        "column": 4
-                      },
-                      "end": {
-                        "line": 7,
-                        "column": 24
-                      }
-                    },
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 142,
-                      "end": 150,
-                      "loc": {
-                        "start": {
-                          "line": 7,
-                          "column": 4
-                        },
-                        "end": {
-                          "line": 7,
-                          "column": 12
-                        },
-                        "identifierName": "progress"
-                      },
-                      "name": "progress"
-                    },
-                    "value": {
-                      "type": "StringLiteral",
-                      "start": 152,
-                      "end": 162,
-                      "loc": {
-                        "start": {
-                          "line": 7,
-                          "column": 14
-                        },
-                        "end": {
-                          "line": 7,
-                          "column": 24
-                        }
-                      },
-                      "extra": {
-                        "rawValue": "Progress",
-                        "raw": "'Progress'"
-                      },
-                      "value": "Progress"
-                    }
-                  },
-                  {
-                    "type": "ObjectProperty",
-                    "start": 169,
-                    "end": 185,
-                    "loc": {
-                      "start": {
-                        "line": 8,
-                        "column": 4
-                      },
-                      "end": {
-                        "line": 8,
-                        "column": 20
-                      }
-                    },
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 169,
-                      "end": 175,
-                      "loc": {
-                        "start": {
-                          "line": 8,
-                          "column": 4
-                        },
-                        "end": {
-                          "line": 8,
-                          "column": 10
-                        },
-                        "identifierName": "failed"
-                      },
-                      "name": "failed"
-                    },
-                    "value": {
-                      "type": "StringLiteral",
-                      "start": 177,
-                      "end": 185,
-                      "loc": {
-                        "start": {
-                          "line": 8,
-                          "column": 12
-                        },
-                        "end": {
-                          "line": 8,
-                          "column": 20
-                        }
-                      },
-                      "extra": {
-                        "rawValue": "Failed",
-                        "raw": "'Failed'"
-                      },
-                      "value": "Failed"
-                    }
-                  }
-                ]
+                "extra": {
+                  "rawValue": "JobAccepted",
+                  "raw": "'JobAccepted'"
+                },
+                "value": "JobAccepted"
               }
             },
             {
               "type": "ObjectProperty",
-              "start": 195,
-              "end": 386,
+              "start": 48,
+              "end": 69,
               "loc": {
                 "start": {
-                  "line": 10,
+                  "line": 3,
                   "column": 2
                 },
                 "end": {
-                  "line": 17,
-                  "column": 3
+                  "line": 3,
+                  "column": 23
                 }
               },
               "method": false,
@@ -458,367 +131,260 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 195,
-                "end": 201,
+                "start": 48,
+                "end": 55,
                 "loc": {
                   "start": {
-                    "line": 10,
+                    "line": 3,
                     "column": 2
                   },
                   "end": {
-                    "line": 10,
-                    "column": 8
+                    "line": 3,
+                    "column": 9
                   },
-                  "identifierName": "server"
+                  "identifierName": "started"
                 },
-                "name": "server"
+                "name": "started"
               },
               "value": {
-                "type": "ObjectExpression",
-                "start": 203,
-                "end": 386,
+                "type": "StringLiteral",
+                "start": 57,
+                "end": 69,
                 "loc": {
                   "start": {
-                    "line": 10,
+                    "line": 3,
+                    "column": 11
+                  },
+                  "end": {
+                    "line": 3,
+                    "column": 23
+                  }
+                },
+                "extra": {
+                  "rawValue": "JobStarted",
+                  "raw": "'JobStarted'"
+                },
+                "value": "JobStarted"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 74,
+              "end": 99,
+              "loc": {
+                "start": {
+                  "line": 4,
+                  "column": 2
+                },
+                "end": {
+                  "line": 4,
+                  "column": 27
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 74,
+                "end": 83,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 11
+                  },
+                  "identifierName": "completed"
+                },
+                "name": "completed"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 85,
+                "end": 99,
+                "loc": {
+                  "start": {
+                    "line": 4,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 4,
+                    "column": 27
+                  }
+                },
+                "extra": {
+                  "rawValue": "JobCompleted",
+                  "raw": "'JobCompleted'"
+                },
+                "value": "JobCompleted"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 104,
+              "end": 129,
+              "loc": {
+                "start": {
+                  "line": 5,
+                  "column": 2
+                },
+                "end": {
+                  "line": 5,
+                  "column": 27
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 104,
+                "end": 113,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 11
+                  },
+                  "identifierName": "succeeded"
+                },
+                "name": "succeeded"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 115,
+                "end": 129,
+                "loc": {
+                  "start": {
+                    "line": 5,
+                    "column": 13
+                  },
+                  "end": {
+                    "line": 5,
+                    "column": 27
+                  }
+                },
+                "extra": {
+                  "rawValue": "JobSucceeded",
+                  "raw": "'JobSucceeded'"
+                },
+                "value": "JobSucceeded"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 134,
+              "end": 157,
+              "loc": {
+                "start": {
+                  "line": 6,
+                  "column": 2
+                },
+                "end": {
+                  "line": 6,
+                  "column": 25
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 134,
+                "end": 142,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 10
+                  },
+                  "identifierName": "progress"
+                },
+                "name": "progress"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 144,
+                "end": 157,
+                "loc": {
+                  "start": {
+                    "line": 6,
+                    "column": 12
+                  },
+                  "end": {
+                    "line": 6,
+                    "column": 25
+                  }
+                },
+                "extra": {
+                  "rawValue": "JobProgress",
+                  "raw": "'JobProgress'"
+                },
+                "value": "JobProgress"
+              }
+            },
+            {
+              "type": "ObjectProperty",
+              "start": 162,
+              "end": 181,
+              "loc": {
+                "start": {
+                  "line": 7,
+                  "column": 2
+                },
+                "end": {
+                  "line": 7,
+                  "column": 21
+                }
+              },
+              "method": false,
+              "shorthand": false,
+              "computed": false,
+              "key": {
+                "type": "Identifier",
+                "start": 162,
+                "end": 168,
+                "loc": {
+                  "start": {
+                    "line": 7,
+                    "column": 2
+                  },
+                  "end": {
+                    "line": 7,
+                    "column": 8
+                  },
+                  "identifierName": "failed"
+                },
+                "name": "failed"
+              },
+              "value": {
+                "type": "StringLiteral",
+                "start": 170,
+                "end": 181,
+                "loc": {
+                  "start": {
+                    "line": 7,
                     "column": 10
                   },
                   "end": {
-                    "line": 17,
-                    "column": 3
+                    "line": 7,
+                    "column": 21
                   }
                 },
-                "properties": [
-                  {
-                    "type": "ObjectProperty",
-                    "start": 210,
-                    "end": 233,
-                    "loc": {
-                      "start": {
-                        "line": 11,
-                        "column": 4
-                      },
-                      "end": {
-                        "line": 11,
-                        "column": 27
-                      }
-                    },
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 210,
-                      "end": 218,
-                      "loc": {
-                        "start": {
-                          "line": 11,
-                          "column": 4
-                        },
-                        "end": {
-                          "line": 11,
-                          "column": 12
-                        },
-                        "identifierName": "accepted"
-                      },
-                      "name": "accepted"
-                    },
-                    "value": {
-                      "type": "StringLiteral",
-                      "start": 220,
-                      "end": 233,
-                      "loc": {
-                        "start": {
-                          "line": 11,
-                          "column": 14
-                        },
-                        "end": {
-                          "line": 11,
-                          "column": 27
-                        }
-                      },
-                      "extra": {
-                        "rawValue": "JobAccepted",
-                        "raw": "'JobAccepted'"
-                      },
-                      "value": "JobAccepted"
-                    }
-                  },
-                  {
-                    "type": "ObjectProperty",
-                    "start": 240,
-                    "end": 261,
-                    "loc": {
-                      "start": {
-                        "line": 12,
-                        "column": 4
-                      },
-                      "end": {
-                        "line": 12,
-                        "column": 25
-                      }
-                    },
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 240,
-                      "end": 247,
-                      "loc": {
-                        "start": {
-                          "line": 12,
-                          "column": 4
-                        },
-                        "end": {
-                          "line": 12,
-                          "column": 11
-                        },
-                        "identifierName": "started"
-                      },
-                      "name": "started"
-                    },
-                    "value": {
-                      "type": "StringLiteral",
-                      "start": 249,
-                      "end": 261,
-                      "loc": {
-                        "start": {
-                          "line": 12,
-                          "column": 13
-                        },
-                        "end": {
-                          "line": 12,
-                          "column": 25
-                        }
-                      },
-                      "extra": {
-                        "rawValue": "JobStarted",
-                        "raw": "'JobStarted'"
-                      },
-                      "value": "JobStarted"
-                    }
-                  },
-                  {
-                    "type": "ObjectProperty",
-                    "start": 268,
-                    "end": 293,
-                    "loc": {
-                      "start": {
-                        "line": 13,
-                        "column": 4
-                      },
-                      "end": {
-                        "line": 13,
-                        "column": 29
-                      }
-                    },
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 268,
-                      "end": 277,
-                      "loc": {
-                        "start": {
-                          "line": 13,
-                          "column": 4
-                        },
-                        "end": {
-                          "line": 13,
-                          "column": 13
-                        },
-                        "identifierName": "completed"
-                      },
-                      "name": "completed"
-                    },
-                    "value": {
-                      "type": "StringLiteral",
-                      "start": 279,
-                      "end": 293,
-                      "loc": {
-                        "start": {
-                          "line": 13,
-                          "column": 15
-                        },
-                        "end": {
-                          "line": 13,
-                          "column": 29
-                        }
-                      },
-                      "extra": {
-                        "rawValue": "JobCompleted",
-                        "raw": "'JobCompleted'"
-                      },
-                      "value": "JobCompleted"
-                    }
-                  },
-                  {
-                    "type": "ObjectProperty",
-                    "start": 300,
-                    "end": 325,
-                    "loc": {
-                      "start": {
-                        "line": 14,
-                        "column": 4
-                      },
-                      "end": {
-                        "line": 14,
-                        "column": 29
-                      }
-                    },
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 300,
-                      "end": 309,
-                      "loc": {
-                        "start": {
-                          "line": 14,
-                          "column": 4
-                        },
-                        "end": {
-                          "line": 14,
-                          "column": 13
-                        },
-                        "identifierName": "succeeded"
-                      },
-                      "name": "succeeded"
-                    },
-                    "value": {
-                      "type": "StringLiteral",
-                      "start": 311,
-                      "end": 325,
-                      "loc": {
-                        "start": {
-                          "line": 14,
-                          "column": 15
-                        },
-                        "end": {
-                          "line": 14,
-                          "column": 29
-                        }
-                      },
-                      "extra": {
-                        "rawValue": "JobSucceeded",
-                        "raw": "'JobSucceeded'"
-                      },
-                      "value": "JobSucceeded"
-                    }
-                  },
-                  {
-                    "type": "ObjectProperty",
-                    "start": 332,
-                    "end": 355,
-                    "loc": {
-                      "start": {
-                        "line": 15,
-                        "column": 4
-                      },
-                      "end": {
-                        "line": 15,
-                        "column": 27
-                      }
-                    },
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 332,
-                      "end": 340,
-                      "loc": {
-                        "start": {
-                          "line": 15,
-                          "column": 4
-                        },
-                        "end": {
-                          "line": 15,
-                          "column": 12
-                        },
-                        "identifierName": "progress"
-                      },
-                      "name": "progress"
-                    },
-                    "value": {
-                      "type": "StringLiteral",
-                      "start": 342,
-                      "end": 355,
-                      "loc": {
-                        "start": {
-                          "line": 15,
-                          "column": 14
-                        },
-                        "end": {
-                          "line": 15,
-                          "column": 27
-                        }
-                      },
-                      "extra": {
-                        "rawValue": "JobProgress",
-                        "raw": "'JobProgress'"
-                      },
-                      "value": "JobProgress"
-                    }
-                  },
-                  {
-                    "type": "ObjectProperty",
-                    "start": 362,
-                    "end": 381,
-                    "loc": {
-                      "start": {
-                        "line": 16,
-                        "column": 4
-                      },
-                      "end": {
-                        "line": 16,
-                        "column": 23
-                      }
-                    },
-                    "method": false,
-                    "shorthand": false,
-                    "computed": false,
-                    "key": {
-                      "type": "Identifier",
-                      "start": 362,
-                      "end": 368,
-                      "loc": {
-                        "start": {
-                          "line": 16,
-                          "column": 4
-                        },
-                        "end": {
-                          "line": 16,
-                          "column": 10
-                        },
-                        "identifierName": "failed"
-                      },
-                      "name": "failed"
-                    },
-                    "value": {
-                      "type": "StringLiteral",
-                      "start": 370,
-                      "end": 381,
-                      "loc": {
-                        "start": {
-                          "line": 16,
-                          "column": 12
-                        },
-                        "end": {
-                          "line": 16,
-                          "column": 23
-                        }
-                      },
-                      "extra": {
-                        "rawValue": "JobFailed",
-                        "raw": "'JobFailed'"
-                      },
-                      "value": "JobFailed"
-                    }
-                  }
-                ]
+                "extra": {
+                  "rawValue": "JobFailed",
+                  "raw": "'JobFailed'"
+                },
+                "value": "JobFailed"
               }
             }
           ],
@@ -924,9 +490,9 @@
         "postfix": false,
         "binop": null
       },
-      "value": "job",
+      "value": "accepted",
       "start": 20,
-      "end": 23,
+      "end": 28,
       "loc": {
         "start": {
           "line": 2,
@@ -934,608 +500,6 @@
         },
         "end": {
           "line": 2,
-          "column": 5
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 23,
-      "end": 24,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 5
-        },
-        "end": {
-          "line": 2,
-          "column": 6
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 25,
-      "end": 26,
-      "loc": {
-        "start": {
-          "line": 2,
-          "column": 7
-        },
-        "end": {
-          "line": 2,
-          "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "accepted",
-      "start": 32,
-      "end": 40,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 4
-        },
-        "end": {
-          "line": 3,
-          "column": 12
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 40,
-      "end": 41,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 12
-        },
-        "end": {
-          "line": 3,
-          "column": 13
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "string",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "Accepted",
-      "start": 42,
-      "end": 52,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 14
-        },
-        "end": {
-          "line": 3,
-          "column": 24
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 52,
-      "end": 53,
-      "loc": {
-        "start": {
-          "line": 3,
-          "column": 24
-        },
-        "end": {
-          "line": 3,
-          "column": 25
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "started",
-      "start": 59,
-      "end": 66,
-      "loc": {
-        "start": {
-          "line": 4,
-          "column": 4
-        },
-        "end": {
-          "line": 4,
-          "column": 11
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 66,
-      "end": 67,
-      "loc": {
-        "start": {
-          "line": 4,
-          "column": 11
-        },
-        "end": {
-          "line": 4,
-          "column": 12
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "string",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "Started",
-      "start": 68,
-      "end": 77,
-      "loc": {
-        "start": {
-          "line": 4,
-          "column": 13
-        },
-        "end": {
-          "line": 4,
-          "column": 22
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 77,
-      "end": 78,
-      "loc": {
-        "start": {
-          "line": 4,
-          "column": 22
-        },
-        "end": {
-          "line": 4,
-          "column": 23
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "completed",
-      "start": 84,
-      "end": 93,
-      "loc": {
-        "start": {
-          "line": 5,
-          "column": 4
-        },
-        "end": {
-          "line": 5,
-          "column": 13
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 93,
-      "end": 94,
-      "loc": {
-        "start": {
-          "line": 5,
-          "column": 13
-        },
-        "end": {
-          "line": 5,
-          "column": 14
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "string",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "Completed",
-      "start": 95,
-      "end": 106,
-      "loc": {
-        "start": {
-          "line": 5,
-          "column": 15
-        },
-        "end": {
-          "line": 5,
-          "column": 26
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 106,
-      "end": 107,
-      "loc": {
-        "start": {
-          "line": 5,
-          "column": 26
-        },
-        "end": {
-          "line": 5,
-          "column": 27
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "succeeded",
-      "start": 113,
-      "end": 122,
-      "loc": {
-        "start": {
-          "line": 6,
-          "column": 4
-        },
-        "end": {
-          "line": 6,
-          "column": 13
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 122,
-      "end": 123,
-      "loc": {
-        "start": {
-          "line": 6,
-          "column": 13
-        },
-        "end": {
-          "line": 6,
-          "column": 14
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "string",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "Succeeded",
-      "start": 124,
-      "end": 135,
-      "loc": {
-        "start": {
-          "line": 6,
-          "column": 15
-        },
-        "end": {
-          "line": 6,
-          "column": 26
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 135,
-      "end": 136,
-      "loc": {
-        "start": {
-          "line": 6,
-          "column": 26
-        },
-        "end": {
-          "line": 6,
-          "column": 27
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "progress",
-      "start": 142,
-      "end": 150,
-      "loc": {
-        "start": {
-          "line": 7,
-          "column": 4
-        },
-        "end": {
-          "line": 7,
-          "column": 12
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 150,
-      "end": 151,
-      "loc": {
-        "start": {
-          "line": 7,
-          "column": 12
-        },
-        "end": {
-          "line": 7,
-          "column": 13
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "string",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "Progress",
-      "start": 152,
-      "end": 162,
-      "loc": {
-        "start": {
-          "line": 7,
-          "column": 14
-        },
-        "end": {
-          "line": 7,
-          "column": 24
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 162,
-      "end": 163,
-      "loc": {
-        "start": {
-          "line": 7,
-          "column": 24
-        },
-        "end": {
-          "line": 7,
-          "column": 25
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "failed",
-      "start": 169,
-      "end": 175,
-      "loc": {
-        "start": {
-          "line": 8,
-          "column": 4
-        },
-        "end": {
-          "line": 8,
           "column": 10
         }
       }
@@ -1553,223 +517,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 175,
-      "end": 176,
+      "start": 28,
+      "end": 29,
       "loc": {
         "start": {
-          "line": 8,
+          "line": 2,
           "column": 10
         },
         "end": {
-          "line": 8,
+          "line": 2,
           "column": 11
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "string",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "Failed",
-      "start": 177,
-      "end": 185,
-      "loc": {
-        "start": {
-          "line": 8,
-          "column": 12
-        },
-        "end": {
-          "line": 8,
-          "column": 20
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "}",
-        "beforeExpr": false,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 189,
-      "end": 190,
-      "loc": {
-        "start": {
-          "line": 9,
-          "column": 2
-        },
-        "end": {
-          "line": 9,
-          "column": 3
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 190,
-      "end": 191,
-      "loc": {
-        "start": {
-          "line": 9,
-          "column": 3
-        },
-        "end": {
-          "line": 9,
-          "column": 4
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "server",
-      "start": 195,
-      "end": 201,
-      "loc": {
-        "start": {
-          "line": 10,
-          "column": 2
-        },
-        "end": {
-          "line": 10,
-          "column": 8
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 201,
-      "end": 202,
-      "loc": {
-        "start": {
-          "line": 10,
-          "column": 8
-        },
-        "end": {
-          "line": 10,
-          "column": 9
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "{",
-        "beforeExpr": true,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "start": 203,
-      "end": 204,
-      "loc": {
-        "start": {
-          "line": 10,
-          "column": 10
-        },
-        "end": {
-          "line": 10,
-          "column": 11
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "accepted",
-      "start": 210,
-      "end": 218,
-      "loc": {
-        "start": {
-          "line": 11,
-          "column": 4
-        },
-        "end": {
-          "line": 11,
-          "column": 12
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 218,
-      "end": 219,
-      "loc": {
-        "start": {
-          "line": 11,
-          "column": 12
-        },
-        "end": {
-          "line": 11,
-          "column": 13
         }
       }
     },
@@ -1787,16 +544,16 @@
         "updateContext": null
       },
       "value": "JobAccepted",
-      "start": 220,
-      "end": 233,
+      "start": 30,
+      "end": 43,
       "loc": {
         "start": {
-          "line": 11,
-          "column": 14
+          "line": 2,
+          "column": 12
         },
         "end": {
-          "line": 11,
-          "column": 27
+          "line": 2,
+          "column": 25
         }
       }
     },
@@ -1813,16 +570,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 233,
-      "end": 234,
+      "start": 43,
+      "end": 44,
       "loc": {
         "start": {
-          "line": 11,
-          "column": 27
+          "line": 2,
+          "column": 25
         },
         "end": {
-          "line": 11,
-          "column": 28
+          "line": 2,
+          "column": 26
         }
       }
     },
@@ -1839,16 +596,16 @@
         "binop": null
       },
       "value": "started",
-      "start": 240,
-      "end": 247,
+      "start": 48,
+      "end": 55,
       "loc": {
         "start": {
-          "line": 12,
-          "column": 4
+          "line": 3,
+          "column": 2
         },
         "end": {
-          "line": 12,
-          "column": 11
+          "line": 3,
+          "column": 9
         }
       }
     },
@@ -1865,16 +622,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 247,
-      "end": 248,
+      "start": 55,
+      "end": 56,
       "loc": {
         "start": {
-          "line": 12,
-          "column": 11
+          "line": 3,
+          "column": 9
         },
         "end": {
-          "line": 12,
-          "column": 12
+          "line": 3,
+          "column": 10
         }
       }
     },
@@ -1892,16 +649,16 @@
         "updateContext": null
       },
       "value": "JobStarted",
-      "start": 249,
-      "end": 261,
+      "start": 57,
+      "end": 69,
       "loc": {
         "start": {
-          "line": 12,
-          "column": 13
+          "line": 3,
+          "column": 11
         },
         "end": {
-          "line": 12,
-          "column": 25
+          "line": 3,
+          "column": 23
         }
       }
     },
@@ -1918,16 +675,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 261,
-      "end": 262,
+      "start": 69,
+      "end": 70,
       "loc": {
         "start": {
-          "line": 12,
-          "column": 25
+          "line": 3,
+          "column": 23
         },
         "end": {
-          "line": 12,
-          "column": 26
+          "line": 3,
+          "column": 24
         }
       }
     },
@@ -1944,16 +701,16 @@
         "binop": null
       },
       "value": "completed",
-      "start": 268,
-      "end": 277,
+      "start": 74,
+      "end": 83,
       "loc": {
         "start": {
-          "line": 13,
-          "column": 4
+          "line": 4,
+          "column": 2
         },
         "end": {
-          "line": 13,
-          "column": 13
+          "line": 4,
+          "column": 11
         }
       }
     },
@@ -1970,16 +727,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 277,
-      "end": 278,
+      "start": 83,
+      "end": 84,
       "loc": {
         "start": {
-          "line": 13,
-          "column": 13
+          "line": 4,
+          "column": 11
         },
         "end": {
-          "line": 13,
-          "column": 14
+          "line": 4,
+          "column": 12
         }
       }
     },
@@ -1997,16 +754,16 @@
         "updateContext": null
       },
       "value": "JobCompleted",
-      "start": 279,
-      "end": 293,
+      "start": 85,
+      "end": 99,
       "loc": {
         "start": {
-          "line": 13,
-          "column": 15
+          "line": 4,
+          "column": 13
         },
         "end": {
-          "line": 13,
-          "column": 29
+          "line": 4,
+          "column": 27
         }
       }
     },
@@ -2023,16 +780,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 293,
-      "end": 294,
+      "start": 99,
+      "end": 100,
       "loc": {
         "start": {
-          "line": 13,
-          "column": 29
+          "line": 4,
+          "column": 27
         },
         "end": {
-          "line": 13,
-          "column": 30
+          "line": 4,
+          "column": 28
         }
       }
     },
@@ -2049,16 +806,16 @@
         "binop": null
       },
       "value": "succeeded",
-      "start": 300,
-      "end": 309,
+      "start": 104,
+      "end": 113,
       "loc": {
         "start": {
-          "line": 14,
-          "column": 4
+          "line": 5,
+          "column": 2
         },
         "end": {
-          "line": 14,
-          "column": 13
+          "line": 5,
+          "column": 11
         }
       }
     },
@@ -2075,16 +832,16 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 309,
-      "end": 310,
+      "start": 113,
+      "end": 114,
       "loc": {
         "start": {
-          "line": 14,
-          "column": 13
+          "line": 5,
+          "column": 11
         },
         "end": {
-          "line": 14,
-          "column": 14
+          "line": 5,
+          "column": 12
         }
       }
     },
@@ -2102,120 +859,15 @@
         "updateContext": null
       },
       "value": "JobSucceeded",
-      "start": 311,
-      "end": 325,
+      "start": 115,
+      "end": 129,
       "loc": {
         "start": {
-          "line": 14,
-          "column": 15
-        },
-        "end": {
-          "line": 14,
-          "column": 29
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ",",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 325,
-      "end": 326,
-      "loc": {
-        "start": {
-          "line": 14,
-          "column": 29
-        },
-        "end": {
-          "line": 14,
-          "column": 30
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "name",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null
-      },
-      "value": "progress",
-      "start": 332,
-      "end": 340,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 4
-        },
-        "end": {
-          "line": 15,
-          "column": 12
-        }
-      }
-    },
-    {
-      "type": {
-        "label": ":",
-        "beforeExpr": true,
-        "startsExpr": false,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "start": 340,
-      "end": 341,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 12
-        },
-        "end": {
-          "line": 15,
+          "line": 5,
           "column": 13
-        }
-      }
-    },
-    {
-      "type": {
-        "label": "string",
-        "beforeExpr": false,
-        "startsExpr": true,
-        "rightAssociative": false,
-        "isLoop": false,
-        "isAssign": false,
-        "prefix": false,
-        "postfix": false,
-        "binop": null,
-        "updateContext": null
-      },
-      "value": "JobProgress",
-      "start": 342,
-      "end": 355,
-      "loc": {
-        "start": {
-          "line": 15,
-          "column": 14
         },
         "end": {
-          "line": 15,
+          "line": 5,
           "column": 27
         }
       }
@@ -2233,15 +885,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 355,
-      "end": 356,
+      "start": 129,
+      "end": 130,
       "loc": {
         "start": {
-          "line": 15,
+          "line": 5,
           "column": 27
         },
         "end": {
-          "line": 15,
+          "line": 5,
           "column": 28
         }
       }
@@ -2258,16 +910,16 @@
         "postfix": false,
         "binop": null
       },
-      "value": "failed",
-      "start": 362,
-      "end": 368,
+      "value": "progress",
+      "start": 134,
+      "end": 142,
       "loc": {
         "start": {
-          "line": 16,
-          "column": 4
+          "line": 6,
+          "column": 2
         },
         "end": {
-          "line": 16,
+          "line": 6,
           "column": 10
         }
       }
@@ -2285,15 +937,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 368,
-      "end": 369,
+      "start": 142,
+      "end": 143,
       "loc": {
         "start": {
-          "line": 16,
+          "line": 6,
           "column": 10
         },
         "end": {
-          "line": 16,
+          "line": 6,
           "column": 11
         }
       }
@@ -2311,25 +963,51 @@
         "binop": null,
         "updateContext": null
       },
-      "value": "JobFailed",
-      "start": 370,
-      "end": 381,
+      "value": "JobProgress",
+      "start": 144,
+      "end": 157,
       "loc": {
         "start": {
-          "line": 16,
+          "line": 6,
           "column": 12
         },
         "end": {
-          "line": 16,
-          "column": 23
+          "line": 6,
+          "column": 25
         }
       }
     },
     {
       "type": {
-        "label": "}",
-        "beforeExpr": false,
+        "label": ",",
+        "beforeExpr": true,
         "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 157,
+      "end": 158,
+      "loc": {
+        "start": {
+          "line": 6,
+          "column": 25
+        },
+        "end": {
+          "line": 6,
+          "column": 26
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "name",
+        "beforeExpr": false,
+        "startsExpr": true,
         "rightAssociative": false,
         "isLoop": false,
         "isAssign": false,
@@ -2337,16 +1015,70 @@
         "postfix": false,
         "binop": null
       },
-      "start": 385,
-      "end": 386,
+      "value": "failed",
+      "start": 162,
+      "end": 168,
       "loc": {
         "start": {
-          "line": 17,
+          "line": 7,
           "column": 2
         },
         "end": {
-          "line": 17,
-          "column": 3
+          "line": 7,
+          "column": 8
+        }
+      }
+    },
+    {
+      "type": {
+        "label": ":",
+        "beforeExpr": true,
+        "startsExpr": false,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "start": 168,
+      "end": 169,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 8
+        },
+        "end": {
+          "line": 7,
+          "column": 9
+        }
+      }
+    },
+    {
+      "type": {
+        "label": "string",
+        "beforeExpr": false,
+        "startsExpr": true,
+        "rightAssociative": false,
+        "isLoop": false,
+        "isAssign": false,
+        "prefix": false,
+        "postfix": false,
+        "binop": null,
+        "updateContext": null
+      },
+      "value": "JobFailed",
+      "start": 170,
+      "end": 181,
+      "loc": {
+        "start": {
+          "line": 7,
+          "column": 10
+        },
+        "end": {
+          "line": 7,
+          "column": 21
         }
       }
     },
@@ -2362,15 +1094,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 388,
-      "end": 389,
+      "start": 183,
+      "end": 184,
       "loc": {
         "start": {
-          "line": 18,
+          "line": 8,
           "column": 0
         },
         "end": {
-          "line": 18,
+          "line": 8,
           "column": 1
         }
       }
@@ -2388,15 +1120,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 389,
-      "end": 390,
+      "start": 184,
+      "end": 185,
       "loc": {
         "start": {
-          "line": 18,
+          "line": 8,
           "column": 1
         },
         "end": {
-          "line": 18,
+          "line": 8,
           "column": 2
         }
       }
@@ -2414,15 +1146,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 392,
-      "end": 392,
+      "start": 187,
+      "end": 187,
       "loc": {
         "start": {
-          "line": 19,
+          "line": 9,
           "column": 0
         },
         "end": {
-          "line": 19,
+          "line": 9,
           "column": 0
         }
       }

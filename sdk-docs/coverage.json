@@ -3,7 +3,7 @@
   "expectCount": 34,
   "actualCount": 34,
   "files": {
-    "src/Server.js": {
+    "src/Client.js": {
       "expectCount": 14,
       "actualCount": 14,
       "undocumentLines": []
