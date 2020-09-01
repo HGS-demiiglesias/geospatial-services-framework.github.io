@@ -3,24 +3,20 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
-  <title data-ice="title">Service | GSF JavaScript Client SDK API Document</title>
+  <title data-ice="title">Service | GSF JavaScript Client SDK</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
-  
-  
   <script src="script/manual.js"></script>
-<link data-ice="userStyle" rel="stylesheet" href="user/css/0-main.css">
-</head>
+<meta name="description" content="GSF JavaScript Client SDK"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="GSF JavaScript Client SDK"><meta property="twitter:description" content="GSF JavaScript Client SDK"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
-  <a href="./">Home</a>
+  <a href="./" style="display: flex; align-items: center;"><img src="./image/brand_logo.png" style="width:34px;"></a>
   <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
   <a href="identifiers.html">Reference</a>
   <a href="source.html">Source</a>
   
-  <a data-ice="repoURL" href="https://github.com/geospatial-services-framework/gsf-js-client-sdk.git" class="repo-url-github">Repository</a>
   <div class="search-box">
   <span>
     <img src="./image/search.png">
@@ -28,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-</header>
+<a style="position:relative; top:3px;" href="https://github.com/geospatial-services-framework"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -38,6 +34,7 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Service.js~Service.html">Service</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Task.js~Task.html">Task</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ClientOptions">ClientOptions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobInfoList">JobInfoList</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobListOptions">JobListOptions</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobAccepted">JobAccepted</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobCompleted">JobCompleted</a></span></span></li>
@@ -63,7 +60,7 @@
 </nav>
 
 <div class="content" data-ice="content"><div class="header-notice">
-  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import Service from &apos;<span><a href="file/src/Service.js.html#lineNumber13">gsf-js-client-sdk/src/Service.js</a></span>&apos;</code></pre></div>
+  <div data-ice="importPath" class="import-path"><pre class="prettyprint"><code data-ice="importPathCode">import Service from &apos;<span><a href="file/src/Service.js.html#lineNumber13">gsf-js-client-sdk/dist/Service.js</a></span>&apos;</code></pre></div>
   <span data-ice="access">public</span>
   <span data-ice="kind">class</span>
   
@@ -121,7 +118,8 @@
         <p>
           
           
-          <span data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-constructor-constructor">constructor</a></span></span><span data-ice="signature">(client: <span><a href="class/src/Client.js~Client.html">Client</a></span>, serviceName: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span>)</span>
+          
+          <span class="code" data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-constructor-constructor">constructor</a></span></span><span class="code" data-ice="signature">(client: <span><a href="class/src/Client.js~Client.html">Client</a></span>, serviceName: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span>)</span>
         </p>
       </div>
       <div>
@@ -155,7 +153,8 @@
         <p>
           
           
-          <span data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-member-name">name</a></span></span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span></span>
+          
+          <span class="code" data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-member-name">name</a></span></span><span class="code" data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span></span>
         </p>
       </div>
       <div>
@@ -163,6 +162,40 @@
         
         <div data-ice="description"><p>The service name.</p>
 </div>
+      </div>
+    </td>
+    <td>
+      
+      
+    </td>
+  </tr>
+</tbody>
+</table>
+<table class="summary" data-ice="summary">
+  <thead><tr><td data-ice="title" colspan="3">Private Members</td></tr></thead>
+  <tbody>
+  
+  <tr data-ice="target">
+    <td>
+      <span class="access" data-ice="access">private</span>
+      
+      
+      
+      <span class="override" data-ice="override"></span>
+    </td>
+    <td>
+      <div>
+        <p>
+          
+          
+          
+          <span class="code" data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-member-_client">_client</a></span></span><span class="code" data-ice="signature">: <span>*</span></span>
+        </p>
+      </div>
+      <div>
+        
+        
+        
       </div>
     </td>
     <td>
@@ -190,7 +223,8 @@
         <p>
           
           
-          <span data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-method-info">info</a></span></span><span data-ice="signature">(): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><a href="typedef/index.html#static-typedef-ServiceInfo">ServiceInfo</a></span>, <span>error</span>&gt;</span>
+          
+          <span class="code" data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-method-info">info</a></span></span><span class="code" data-ice="signature">(): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><a href="typedef/index.html#static-typedef-ServiceInfo">ServiceInfo</a></span>, <span>error</span>&gt;</span>
         </p>
       </div>
       <div>
@@ -218,7 +252,8 @@
         <p>
           
           
-          <span data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-method-task">task</a></span></span><span data-ice="signature">(taskName: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span>): <span><a href="class/src/Task.js~Task.html">Task</a></span></span>
+          
+          <span class="code" data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-method-task">task</a></span></span><span class="code" data-ice="signature">(taskName: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span>): <span><a href="class/src/Task.js~Task.html">Task</a></span></span>
         </p>
       </div>
       <div>
@@ -246,7 +281,8 @@
         <p>
           
           
-          <span data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-method-taskInfoList">taskInfoList</a></span></span><span data-ice="signature">(): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><span><a href="typedef/index.html#static-typedef-TaskInfo">TaskInfo</a></span><span>[]</span></span>, <span>error</span>&gt;</span>
+          
+          <span class="code" data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-method-taskInfoList">taskInfoList</a></span></span><span class="code" data-ice="signature">(): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><span><a href="typedef/index.html#static-typedef-TaskInfo">TaskInfo</a></span><span>[]</span></span>, <span>error</span>&gt;</span>
         </p>
       </div>
       <div>
@@ -274,7 +310,8 @@
         <p>
           
           
-          <span data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-method-tasks">tasks</a></span></span><span data-ice="signature">(): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><span><a href="class/src/Task.js~Task.html">Task</a></span><span>[]</span></span>, <span>error</span>&gt;</span>
+          
+          <span class="code" data-ice="name"><span><a href="class/src/Service.js~Service.html#instance-method-tasks">tasks</a></span></span><span class="code" data-ice="signature">(): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><span><a href="class/src/Task.js~Task.html">Task</a></span><span>[]</span></span>, <span>error</span>&gt;</span>
         </p>
       </div>
       <div>
@@ -307,7 +344,7 @@
     
     
     
-    <span data-ice="name">constructor</span><span data-ice="signature">(client: <span><a href="class/src/Client.js~Client.html">Client</a></span>, serviceName: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span>)</span>
+    <span class="code" data-ice="name">constructor</span><span class="code" data-ice="signature">(client: <span><a href="class/src/Client.js~Client.html">Client</a></span>, serviceName: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span>)</span>
     <span class="right-info">
       
       
@@ -331,15 +368,15 @@
     <tbody>
     
     <tr data-ice="property" data-depth="0">
-      <td data-ice="name" data-depth="0">client</td>
-      <td data-ice="type"><span><a href="class/src/Client.js~Client.html">Client</a></span></td>
+      <td data-ice="name" class="code" data-depth="0">client</td>
+      <td data-ice="type" class="code"><span><a href="class/src/Client.js~Client.html">Client</a></span></td>
       <td data-ice="appendix"></td>
       <td data-ice="description"><p>The GSF client object.</p>
 </td>
     </tr>
 <tr data-ice="property" data-depth="0">
-      <td data-ice="name" data-depth="0">serviceName</td>
-      <td data-ice="type"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span></td>
+      <td data-ice="name" class="code" data-depth="0">serviceName</td>
+      <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span></td>
       <td data-ice="appendix"></td>
       <td data-ice="description"><p>The name of the service.</p>
 </td>
@@ -377,7 +414,7 @@
     
     
     
-    <span data-ice="name">name</span><span data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span></span>
+    <span class="code" data-ice="name">name</span><span class="code" data-ice="signature">: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span></span>
     <span class="right-info">
       
       
@@ -413,6 +450,51 @@
   
   
 </div>
+<h2 data-ice="title">Private Members</h2>
+
+<div class="detail" data-ice="detail">
+  <h3 data-ice="anchor" id="instance-member-_client">
+    <span class="access" data-ice="access">private</span>
+    
+    
+    
+    
+    
+    <span class="code" data-ice="name">_client</span><span class="code" data-ice="signature">: <span>*</span></span>
+    <span class="right-info">
+      
+      
+      <span data-ice="source"><span><a href="file/src/Service.js.html#lineNumber26">source</a></span></span>
+    </span>
+  </h3>
+
+  
+  
+  
+  
+
+  
+
+  <div data-ice="properties">
+</div>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+</div>
 </div>
 <div data-ice="methodDetails"><h2 data-ice="title">Public Methods</h2>
 
@@ -424,7 +506,7 @@
     
     
     
-    <span data-ice="name">info</span><span data-ice="signature">(): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><a href="typedef/index.html#static-typedef-ServiceInfo">ServiceInfo</a></span>, <span>error</span>&gt;</span>
+    <span class="code" data-ice="name">info</span><span class="code" data-ice="signature">(): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><a href="typedef/index.html#static-typedef-ServiceInfo">ServiceInfo</a></span>, <span>error</span>&gt;</span>
     <span class="right-info">
       
       
@@ -448,7 +530,7 @@
     <table>
       <tbody>
         <tr>
-          <td class="return-type" data-ice="returnType"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><a href="typedef/index.html#static-typedef-ServiceInfo">ServiceInfo</a></span>, <span>error</span>&gt;</td>
+          <td class="return-type code" data-ice="returnType"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><a href="typedef/index.html#static-typedef-ServiceInfo">ServiceInfo</a></span>, <span>error</span>&gt;</td>
           <td class="return-desc" data-ice="returnDescription"><p>Returns a Promise to the
  ServiceInfo object.</p>
 </td>
@@ -482,7 +564,7 @@
     
     
     
-    <span data-ice="name">task</span><span data-ice="signature">(taskName: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span>): <span><a href="class/src/Task.js~Task.html">Task</a></span></span>
+    <span class="code" data-ice="name">task</span><span class="code" data-ice="signature">(taskName: <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span>): <span><a href="class/src/Task.js~Task.html">Task</a></span></span>
     <span class="right-info">
       
       
@@ -507,8 +589,8 @@
     <tbody>
     
     <tr data-ice="property" data-depth="0">
-      <td data-ice="name" data-depth="0">taskName</td>
-      <td data-ice="type"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span></td>
+      <td data-ice="name" class="code" data-depth="0">taskName</td>
+      <td data-ice="type" class="code"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String">string</a></span></td>
       <td data-ice="appendix"></td>
       <td data-ice="description"><p>The name of the task.</p>
 </td>
@@ -523,7 +605,7 @@
     <table>
       <tbody>
         <tr>
-          <td class="return-type" data-ice="returnType"><span><a href="class/src/Task.js~Task.html">Task</a></span></td>
+          <td class="return-type code" data-ice="returnType"><span><a href="class/src/Task.js~Task.html">Task</a></span></td>
           <td class="return-desc" data-ice="returnDescription"><p>Returns the task object.</p>
 </td>
         </tr>
@@ -556,7 +638,7 @@
     
     
     
-    <span data-ice="name">taskInfoList</span><span data-ice="signature">(): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><span><a href="typedef/index.html#static-typedef-TaskInfo">TaskInfo</a></span><span>[]</span></span>, <span>error</span>&gt;</span>
+    <span class="code" data-ice="name">taskInfoList</span><span class="code" data-ice="signature">(): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><span><a href="typedef/index.html#static-typedef-TaskInfo">TaskInfo</a></span><span>[]</span></span>, <span>error</span>&gt;</span>
     <span class="right-info">
       <span class="version" data-ice="version">version 1.1.0</span>
       
@@ -580,7 +662,7 @@
     <table>
       <tbody>
         <tr>
-          <td class="return-type" data-ice="returnType"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><span><a href="typedef/index.html#static-typedef-TaskInfo">TaskInfo</a></span><span>[]</span></span>, <span>error</span>&gt;</td>
+          <td class="return-type code" data-ice="returnType"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><span><a href="typedef/index.html#static-typedef-TaskInfo">TaskInfo</a></span><span>[]</span></span>, <span>error</span>&gt;</td>
           <td class="return-desc" data-ice="returnDescription"><p>Returns a Promise to an array of TaskInfo objects.</p>
 </td>
         </tr>
@@ -613,7 +695,7 @@
     
     
     
-    <span data-ice="name">tasks</span><span data-ice="signature">(): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><span><a href="class/src/Task.js~Task.html">Task</a></span><span>[]</span></span>, <span>error</span>&gt;</span>
+    <span class="code" data-ice="name">tasks</span><span class="code" data-ice="signature">(): <span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><span><a href="class/src/Task.js~Task.html">Task</a></span><span>[]</span></span>, <span>error</span>&gt;</span>
     <span class="right-info">
       
       
@@ -637,7 +719,7 @@
     <table>
       <tbody>
         <tr>
-          <td class="return-type" data-ice="returnType"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><span><a href="class/src/Task.js~Task.html">Task</a></span><span>[]</span></span>, <span>error</span>&gt;</td>
+          <td class="return-type code" data-ice="returnType"><span><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise">Promise</a></span>&lt;<span><span><a href="class/src/Task.js~Task.html">Task</a></span><span>[]</span></span>, <span>error</span>&gt;</td>
           <td class="return-desc" data-ice="returnDescription"><p>Returns a Promise to an array of Task objects.</p>
 </td>
         </tr>
@@ -666,7 +748,7 @@
 </div>
 
 <footer class="footer">
-  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.5.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
 </footer>
 
 <script src="script/search_index.js"></script>

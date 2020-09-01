@@ -3,24 +3,20 @@
 <head>
   <meta charset="utf-8">
   <base data-ice="baseUrl" href="../../">
-  <title data-ice="title">src/Task.js | GSF JavaScript Client SDK API Document</title>
+  <title data-ice="title">src/Task.js | GSF JavaScript Client SDK</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
-  
-  
   <script src="script/manual.js"></script>
-<link data-ice="userStyle" rel="stylesheet" href="user/css/0-main.css">
-</head>
+<meta name="description" content="GSF JavaScript Client SDK"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="GSF JavaScript Client SDK"><meta property="twitter:description" content="GSF JavaScript Client SDK"></head>
 <body class="layout-container" data-ice="rootContainer">
 
 <header>
-  <a href="./">Home</a>
+  <a href="./" style="display: flex; align-items: center;"><img src="./image/brand_logo.png" style="width:34px;"></a>
   <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
   <a href="identifiers.html">Reference</a>
   <a href="source.html">Source</a>
   
-  <a data-ice="repoURL" href="https://github.com/geospatial-services-framework/gsf-js-client-sdk.git" class="repo-url-github">Repository</a>
   <div class="search-box">
   <span>
     <img src="./image/search.png">
@@ -28,7 +24,7 @@
   </span>
     <ul class="search-result"></ul>
   </div>
-</header>
+<a style="position:relative; top:3px;" href="https://github.com/geospatial-services-framework"><img width="20px" src="./image/github.png"></a></header>
 
 <nav class="navigation" data-ice="nav"><div>
   <ul>
@@ -38,6 +34,7 @@
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Service.js~Service.html">Service</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Task.js~Task.html">Task</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ClientOptions">ClientOptions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobInfoList">JobInfoList</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobListOptions">JobListOptions</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobAccepted">JobAccepted</a></span></span></li>
 <li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobCompleted">JobCompleted</a></span></span></li>
@@ -63,14 +60,14 @@
 </nav>
 
 <div class="content" data-ice="content"><h1 data-ice="title">src/Task.js</h1>
-<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import * as request from &apos;superagent&apos;;
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import superagent from &apos;superagent&apos;;
 import saNoCache from &apos;superagent-no-cache&apos;;
 
-import * as sdkUtils from &apos;./utils/utils.js&apos;;
+import utils from &apos;./utils/utils.js&apos;;
 import Job from &apos;./Job&apos;;
-import * as SERVER_API from &apos;./utils/GSF_API&apos;;
+import GSF_API from &apos;./utils/GSF_API&apos;;
 
-const nocache = sdkUtils.isIE() ? saNoCache.withQueryStrings : saNoCache;
+const nocache = utils.isIE() ? saNoCache.withQueryStrings : saNoCache;
 
 /**
  * The Task class is used to submit and inspect tasks.
@@ -104,11 +101,11 @@ class Task {
   info() {
     return new Promise((resolve, reject) =&gt; {
       // Task info url.
-      const taskURL = [this._client.rootURL, SERVER_API.SERVICES_PATH,
-        this.service.name, SERVER_API.TASKS_PATH, this.name].join(&apos;/&apos;);
+      const taskURL = [this._client.rootURL, GSF_API.SERVICES_PATH,
+        this.service.name, GSF_API.TASKS_PATH, this.name].join(&apos;/&apos;);
 
       // Get task info.
-      request
+      superagent
         .get(taskURL)
         .use(nocache) // Prevents caching of *only* this request
         .set(this._client.headers)
@@ -139,13 +136,13 @@ class Task {
     return new Promise((resolve, reject) =&gt; {
 
       // Build task submit url.
-      const url = [this._client.rootURL, SERVER_API.JOBS_PATH].join(&apos;/&apos;);
+      const url = [this._client.rootURL, GSF_API.JOBS_PATH].join(&apos;/&apos;);
       const options = JSON.parse(JSON.stringify(submitOptions));
       options.taskName = this.name;
       options.serviceName = this.service.name;
 
       // Submit task as a job.
-      request
+      superagent
         .post(url)
         .set(&apos;Content-Type&apos;, &apos;application/json&apos;)
         .send(JSON.stringify(options))
@@ -245,7 +242,7 @@ export default Task;
 /**
  * Information about job progress.
  * @typedef {Object} JobProgressInfo
- * @property {number} jobId - The job id.
+ * @property {string} jobId - The job id.
  * @property {number} progress - The job progress percent.
  * @property {string} [message] - The job progress message, if any.
  */
@@ -256,14 +253,14 @@ export default Task;
  * events as this callback may not always get called.
  * In some cases the job can start before the callback is registered.
  * @typedef {Object} JobStartedInfo
- * @property {number} jobId - The job id.
+ * @property {string} jobId - The job id.
  */
 </code></pre>
 
 </div>
 
 <footer class="footer">
-  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(0.5.2)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
 </footer>
 
 <script src="script/search_index.js"></script>
