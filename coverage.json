@@ -1,0 +1,49 @@
+{
+  "coverage": "73.91%",
+  "expectCount": 46,
+  "actualCount": 34,
+  "files": {
+    "src/Client.js": {
+      "expectCount": 16,
+      "actualCount": 14,
+      "undocumentLines": [
+        11,
+        112
+      ]
+    },
+    "src/Job.js": {
+      "expectCount": 11,
+      "actualCount": 6,
+      "undocumentLines": [
+        9,
+        41,
+        44,
+        51,
+        58
+      ]
+    },
+    "src/Service.js": {
+      "expectCount": 9,
+      "actualCount": 7,
+      "undocumentLines": [
+        8,
+        26
+      ]
+    },
+    "src/Task.js": {
+      "expectCount": 9,
+      "actualCount": 7,
+      "undocumentLines": [
+        8,
+        32
+      ]
+    },
+    "src/utils/utils.js": {
+      "expectCount": 1,
+      "actualCount": 0,
+      "undocumentLines": [
+        2
+      ]
+    }
+  }
+}

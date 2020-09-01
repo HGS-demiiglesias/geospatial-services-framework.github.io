@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/Task.js | GSF JavaScript Client SDK</title>
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
+  <script src="script/prettify/prettify.js"></script>
+  <script src="script/manual.js"></script>
+<meta name="description" content="GSF JavaScript Client SDK"><meta property="twitter:card" content="summary"><meta property="twitter:title" content="GSF JavaScript Client SDK"><meta property="twitter:description" content="GSF JavaScript Client SDK"></head>
+<body class="layout-container" data-ice="rootContainer">
+
+<header>
+  <a href="./" style="display: flex; align-items: center;"><img src="./image/brand_logo.png" style="width:34px;"></a>
+  <a href="./manual/index.html" data-ice="manualHeaderLink">Manual</a>
+  <a href="identifiers.html">Reference</a>
+  <a href="source.html">Source</a>
+  
+  <div class="search-box">
+  <span>
+    <img src="./image/search.png">
+    <span class="search-input-edge"></span><input class="search-input"><span class="search-input-edge"></span>
+  </span>
+    <ul class="search-result"></ul>
+  </div>
+<a style="position:relative; top:3px;" href="https://github.com/geospatial-services-framework"><img width="20px" src="./image/github.png"></a></header>
+
+<nav class="navigation" data-ice="nav"><div>
+  <ul>
+    
+  <li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Client.js~Client.html">Client</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Job.js~Job.html">Job</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Service.js~Service.html">Service</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-class">C</span><span data-ice="name"><span><a href="class/src/Task.js~Task.html">Task</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ClientOptions">ClientOptions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobInfoList">JobInfoList</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobListOptions">JobListOptions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobAccepted">JobAccepted</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobCompleted">JobCompleted</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobFailed">JobFailed</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobProgress">JobProgress</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobStarted">JobStarted</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobSucceeded">JobSucceeded</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-GSF">GSF</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobInfo">JobInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobResults">JobResults</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-NodeInfo">NodeInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-ServiceInfo">ServiceInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-InputParameter">InputParameter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobOptions">JobOptions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobProgressInfo">JobProgressInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobResults">JobResults</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-JobStartedInfo">JobStartedInfo</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-OutputParameter">OutputParameter</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-SubmitOptions">SubmitOptions</a></span></span></li>
+<li data-ice="doc"><span data-ice="kind" class="kind-typedef">T</span><span data-ice="name"><span><a href="typedef/index.html#static-typedef-TaskInfo">TaskInfo</a></span></span></li>
+</ul>
+</div>
+</nav>
+
+<div class="content" data-ice="content"><h1 data-ice="title">src/Task.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import superagent from &apos;superagent&apos;;
+import saNoCache from &apos;superagent-no-cache&apos;;
+
+import utils from &apos;./utils/utils.js&apos;;
+import Job from &apos;./Job&apos;;
+import GSF_API from &apos;./utils/GSF_API&apos;;
+
+const nocache = utils.isIE() ? saNoCache.withQueryStrings : saNoCache;
+
+/**
+ * The Task class is used to submit and inspect tasks.
+ */
+class Task {
+  /**
+   * @param {Service} service - The service object.
+   * @param {string} taskName - The name of the task.
+   */
+  constructor(service, taskName) {
+    /**
+     * The task name.
+     * @type {string}
+     */
+    this.name = taskName;
+
+    /**
+     * The parent service.
+     * @type {Service}
+     */
+    this.service = service;
+
+    // Client object.
+    this._client = service._client;
+  }
+
+  /**
+   * Retrieves the task information.
+   * @return {Promise&lt;TaskInfo, error&gt;} Returns a promise to the TaskInfo object.
+   */
+  info() {
+    return new Promise((resolve, reject) =&gt; {
+      // Task info url.
+      const taskURL = [this._client.rootURL, GSF_API.SERVICES_PATH,
+        this.service.name, GSF_API.TASKS_PATH, this.name].join(&apos;/&apos;);
+
+      // Get task info.
+      superagent
+        .get(taskURL)
+        .use(nocache) // Prevents caching of *only* this request
+        .set(this._client.headers)
+        .end((err, res) =&gt; {
+          if (res &amp;&amp; res.ok) {
+            resolve(res.body);
+          } else {
+            const status = ((err &amp;&amp; err.status) ? &apos;: &apos; + err.status : &apos;&apos;);
+            const text = ((err &amp;&amp; err.response &amp;&amp; err.response.text) ? &apos;: &apos; +
+             err.response.text : &apos;&apos;);
+            reject(&apos;Error requesting task info&apos; + status + text);
+          }
+        });
+    });
+  }
+
+  /**
+   * Submits the job.
+   * @param {SubmitOptions} submitOptions - The job submit options.
+   * @param {function(info: JobProgressInfo)} [progressCallback] - The callback to handle job progress.
+   * @param {function(info: JobStartedInfo)} [startedCallback] - The callback that is called when the job starts.
+   *  For more reliable job started information, listen to the GSF JobStarted
+   *  events as this callback may not always get called.  In some cases the job
+   *  can start before the callback is registered.
+   * @return {Promise&lt;Job, error&gt;} Returns a promise to a Job object.
+   */
+  submit(submitOptions, progressCallback, startedCallback) {
+    return new Promise((resolve, reject) =&gt; {
+
+      // Build task submit url.
+      const url = [this._client.rootURL, GSF_API.JOBS_PATH].join(&apos;/&apos;);
+      const options = JSON.parse(JSON.stringify(submitOptions));
+      options.taskName = this.name;
+      options.serviceName = this.service.name;
+
+      // Submit task as a job.
+      superagent
+        .post(url)
+        .set(&apos;Content-Type&apos;, &apos;application/json&apos;)
+        .send(JSON.stringify(options))
+        .set(this._client.headers)
+        .use(nocache) // Prevents caching of *only* this request
+        .end((err, res) =&gt; {
+          if (res &amp;&amp; res.ok) {
+            // Return new job object using ID.
+            resolve(new Job(this._client, res.body.jobID, progressCallback,
+              startedCallback));
+          } else {
+            const status = ((err &amp;&amp; err.status) ? &apos;: &apos; + err.status : &apos;&apos;);
+            const text = ((err &amp;&amp; err.response &amp;&amp; err.response.text) ? &apos;: &apos; +
+             err.response.text : &apos;&apos;);
+            reject(&apos;Error submitting job to &apos; + url + &apos; &apos; + status + text);
+          }
+        });
+    });
+  }
+
+  /**
+   * Submits the job and waits for results.  Resolves the promise if the job
+   *  succeeds and rejects the promise if the job fails.
+   * @param {SubmitOptions} submitOptions - The job submit options.
+   * @param {function(info: JobProgressInfo)} [progressCallback] - The callback to handle job progress.
+   * @param {function(info: JobStartedInfo)} [startedCallback] - The callback that is called when the job starts.
+   *    For more reliable job started information, listen to the GSF JobStarted
+   *   events as this callback may not always get called.  In some cases the job
+   *   can start before the callback is registered.
+   * @return {Promise&lt;JobResults, error&gt;} Returns a promise to a Job object.
+   */
+  submitAndWait(submitOptions, progressCallback, startedCallback) {
+    return this.submit(submitOptions, progressCallback, startedCallback)
+      .then(job =&gt; job.wait());
+  }
+}
+
+export default Task;
+
+/**
+ * The Submit Options object contains the information needed to run
+ * a job.
+ * @typedef SubmitOptions
+ * @property {Object} inputParameters - The input parameters to the job.  This is
+ *  an object where the keys represent the names of the
+ *  input parameters and the values are the inputs to the task.
+ * @property {JobOptions} [jobOptions] - Processing options to be used when running the job.
+ */
+
+/**
+ * The Job Options object contains processing options to be used when running the job.
+ * @typedef {Object} JobOptions
+ * @property {string} [route] - The route on which to run the job if
+ * there is one.
+ */
+
+/**
+ * The TaskInfo object contains information about a task.
+ * @typedef {Object} TaskInfo
+ * @property {string} taskName - The name of the task.
+ * @property {string} serviceName - The name of the service.
+ * @property {string} [displayName] - A readable name for the task. This is only used for display
+ *   purposes.
+ * @property {string} [description] - A description of the task.
+ *
+ * @property {InputParameter[]} inputParameters - An array containing the input parameter definitions.
+ * @property {OutputParameter[]} outputParameters - An array containing the output parameter definitions.
+ */
+
+/**
+ * The InputParameter object contains information about an input parameter.
+ * @typedef {Object} InputParameter
+ * @property {string} name - The name of the parameter.
+ * @property {string} type - The type for the parameter.
+ * @property {boolean} required - A boolean representing whether or not the parameter is required.
+ * @property {string} [displayName] - A display name for the parameter.
+ * @property {string} [description] - A description of the parameter.
+ * @property {string} [default] - A default value for the parameter.
+ * @property {string} [choiceList] - A list of values that will be accepted as input for the parameter.
+ */
+
+/**
+ * The OutputParameter object contains information about an output parameter.
+ * @typedef {Object} OutputParameter
+ * @property {string} name - The name of the parameter.
+ * @property {string} type - The type for the parameter.
+ * @property {boolean} required - A boolean representing whether or not the parameter is required.
+ * @property {string} [displayName] - A display name for the parameter.
+ * @property {string} [description] - A description of the parameter.
+ */
+
+/**
+ * The JobResults object contains the job results.
+ * @typedef {Object} JobResults
+ */
+
+/**
+ * Information about job progress.
+ * @typedef {Object} JobProgressInfo
+ * @property {string} jobId - The job id.
+ * @property {number} progress - The job progress percent.
+ * @property {string} [message] - The job progress message, if any.
+ */
+
+/**
+ * Called when a job starts processing.
+ *  For more reliable job started information, listen to the GSF JobStarted
+ * events as this callback may not always get called.
+ * In some cases the job can start before the callback is registered.
+ * @typedef {Object} JobStartedInfo
+ * @property {string} jobId - The job id.
+ */
+</code></pre>
+
+</div>
+
+<footer class="footer">
+  Generated by <a href="https://esdoc.org">ESDoc<span data-ice="esdocVersion">(1.1.0)</span><img src="./image/esdoc-logo-mini-black.png"></a>
+</footer>
+
+<script src="script/search_index.js"></script>
+<script src="script/search.js"></script>
+<script src="script/pretty-print.js"></script>
+<script src="script/inherited-summary.js"></script>
+<script src="script/test-summary.js"></script>
+<script src="script/inner-link.js"></script>
+<script src="script/patch-for-local.js"></script>
+</body>
+</html>

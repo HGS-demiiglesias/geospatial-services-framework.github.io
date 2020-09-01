@@ -1,0 +1,3101 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/Client.js",
+    "content": "import superagent from 'superagent';\r\nimport saNoCache from 'superagent-no-cache';\r\nimport EventEmitter from 'events';\r\n\r\nimport utils from './utils/utils.js';\r\nimport Service from './Service';\r\nimport Job from './Job';\r\nimport GSF_API from './utils/GSF_API';\r\nimport EVENTS from './utils/EVENTS';\r\n\r\nconst nocache = utils.isIE() ? saNoCache.withQueryStrings : saNoCache;\r\n\r\n/**\r\n * The Client class is used to connect to the server and retrieve information\r\n *  about available services and jobs.\r\n * @example\r\n * // Obtain Client object from GSF.\r\n * const Client = GSF.client({address:'MyServer',port:9191});\r\n */\r\nclass Client extends EventEmitter {\r\n  /**\r\n   * The ClientOptions object contains information about the server.\r\n   * @typedef {Object} ClientOptions\r\n   * @property {string} ClientOptions.address - The server address/name.\r\n   * @property {string} [ClientOptions.port=null] - The server port.\r\n   * @property {Object} [ClientOptions.headers={}] - The headers to be used in requests.\r\n   * @property {string} [ClientOptions.APIRoot=''] - The API root endpoint.\r\n   * @property {string} [ClientOptions.protocol='http'] - The protocol to use.\r\n   */\r\n\r\n  /**\r\n   * @param {ClientOptions} clientOptions - The object containing server information.\r\n   * @emits {JobCompleted}\r\n   * @emits {JobSucceeded}\r\n   * @emits {JobFailed}\r\n   * @emits {JobProgress}\r\n   * @emits {JobStarted}\r\n   * @emits {JobAccepted}\r\n   */\r\n  constructor(clientOptions) {\r\n    // Init EventEmitter superclass.\r\n    super();\r\n\r\n    /**\r\n     * The server address/name.\r\n     * @type {string}\r\n     */\r\n    this.address = clientOptions.address;\r\n\r\n    /**\r\n     * The server port.\r\n     * @type {number}\r\n     */\r\n    this.port = clientOptions.port || null;\r\n\r\n    /**\r\n     * The headers to use in requests\r\n     * @type {Object}\r\n     */\r\n    this.headers = clientOptions.headers || {};\r\n\r\n    /**\r\n     * The API root endpoint.  If none, set to empty string.\r\n     * @type {string}\r\n     */\r\n    this.APIRoot = clientOptions.APIRoot || GSF_API.ROOT_PATH;\r\n\r\n    /**\r\n     * The protocol to use.\r\n     * @type {string}\r\n     */\r\n    this.protocol = clientOptions.protocol || 'http';\r\n\r\n    /**\r\n     * The server url.\r\n     * @type {string}\r\n     */\r\n    this.URL = this.protocol + '://' +\r\n      this.address + (this.port ? ':' + this.port : '');\r\n\r\n    /**\r\n     * The API root url.\r\n     * @type {string}\r\n     */\r\n    this.rootURL = (this.APIRoot === '') ? this.URL : [this.URL, this.APIRoot].join('/');\r\n\r\n    // Allow infinite listeners.\r\n    this.setMaxListeners(0);\r\n\r\n    // Use global EventSource for browsers and the node package for node.\r\n    let Eventsource;\r\n    if (NODE) { // Webpack defined global\r\n      Eventsource = require('eventsource');\r\n    } else {\r\n      Eventsource = EventSource;\r\n    }\r\n\r\n    // Attach to server sent events and re broadcast.\r\n    // Include headers as query strings.\r\n    let queryString;\r\n    if (this.headers) {\r\n      queryString = Object.keys(this.headers).map((key) => {\r\n        return encodeURIComponent(key) + '=' +\r\n          encodeURIComponent(this.headers[key]);\r\n      }).join('&');\r\n    }\r\n\r\n    let url = [this.URL, this.APIRoot,\r\n      GSF_API.EVENTS_PATH].filter((v) => (v !== '')).join('/');\r\n    url = (queryString) ? (url + '?' + queryString) : (url);\r\n\r\n    this._events = new Eventsource(url);\r\n\r\n    // Emit succeeded and failed events.\r\n    this.on(EVENTS.completed, (data) => {\r\n      this.emit(data.success ? EVENTS.succeeded : EVENTS.failed, data);\r\n    });\r\n\r\n    // Function to handle server sent events.\r\n    function handler(type, event) {\r\n      try {\r\n        const data = JSON.parse(event.data);\r\n        this.emit(type, data);\r\n      } catch (err) {}\r\n    };\r\n\r\n    // Listen for events from our server.  Pass\r\n    // them into the handler with job event type.\r\n    Object.keys(EVENTS).forEach((key) => {\r\n      // Server doesn't emit succeeded or failed events.\r\n      if ((EVENTS[key] === EVENTS.succeeded) ||\r\n       (EVENTS[key] === EVENTS.failed)) return;\r\n\r\n      // Add a listener for each of the sse's.\r\n      this._events.addEventListener(EVENTS[key],\r\n        handler.bind(this, EVENTS[key]));\r\n    });\r\n  }\r\n\r\n  /**\r\n   * Retrieves an array of available services from the server.\r\n   * @return {Promise<Service[], error>} Returns a Promise to an array of available Service objects.\r\n   */\r\n  services() {\r\n    return new Promise((resolve, reject) => {\r\n      // Service url.\r\n      const url = [this.rootURL, GSF_API.SERVICES_PATH].join('/');\r\n\r\n      // Get service list.\r\n      superagent\r\n        .get(url)\r\n        .use(nocache) // Prevents caching of *only* this request\r\n        .set(this.headers)\r\n        .end((err, res) => {\r\n          if (res && res.ok) {\r\n            const services = res.body.services;\r\n            const serviceList = services\r\n              .map(service => new Service(this, service.name));\r\n            resolve(serviceList);\r\n          } else {\r\n            const status = ((err && err.status) ? ': ' + err.status : '');\r\n            const text = ((err && err.response && err.response.text) ? ': ' +\r\n             err.response.text : '');\r\n            reject('Error requesting services' + status + text);\r\n          }\r\n        });\r\n    });\r\n  }\r\n\r\n  /**\r\n   * Filtering options for listing jobs.\r\n   * @typedef {Object} JobListOptions\r\n   * @property {Object} query - Filter jobs by specifying one or more comparison operators per property.\r\n   *   Comparison operators must be prefixed with '$' and only the following are supported: $eq, $ne,\r\n   *  $gt, $gte, $lt, $lte.  Queries may contain multiple properties and each property may\r\n   *  contain multiple comparison operators.\r\n   * @property {Array} sort - The sort array.  This array contains an array for each sort which\r\n   *  consists of the property to sort by and the direction. To sort in ascending order use 1 and\r\n   *  to sort in descending order use -1.  For example, to sort by jobSubmitted date in ascending\r\n   *  order: [ [ 'jobSubmitted', 1 ] ]\r\n   * @property {number} offset - The number of jobs to skip; useful for pagination.\r\n   * @property {number} limit - Limit the number of jobs returned. Set to -1 to\r\n   *  return all jobs. Note: -1 is not recommended, as it may take a long time\r\n   *  to retrieve all jobs.\r\n   * @property {string} totals - Types of total job counts to include in the response.\r\n   *  Must be one of: 'all', 'none', or 'default'.  The default is 'default'.\r\n   *   Set to 'none' to exclude totals.  Set to 'default' to include total count of all filtered jobs.\r\n   *   Set to 'all' to include total count of all filtered jobs and the total counts of filtered jobs\r\n   *  in each job status.  Totals will only be visible when used with the jobInfoList() function.\r\n   */\r\n\r\n  /**\r\n   * Retrieves an array of jobs on the server.\r\n   * @param {JobListOptions} jobListOptions - Object containing options for\r\n   *  filtering job list.\r\n   * @return {Promise<Job[], error>} Returns a Promise to an array of\r\n   *  jobs that exist on the server.\r\n   */\r\n  jobs(jobListOptions) {\r\n    return this\r\n      .jobInfoList(jobListOptions)\r\n      .then((jobInfoList) => (\r\n        jobInfoList.jobs.map((jobInfo) => (new Job(this, jobInfo.jobId)))\r\n      ));\r\n  }\r\n\r\n  /**\r\n   * A list of JobInfo objects with count and total information.\r\n   * @typedef {Object} JobInfoList\r\n   * @property {JobInfo[]} jobs - An array of JobInfo objects that match the search criteria.\r\n   * @property {string} count - The number of filtered jobs in the jobs array.\r\n   * @property {string} [total] - The total number of jobs.  Enabled by default.\r\n   *   To disable, set 'totals' to 'none' in the JobListOptions.\r\n   * @property {string} [accepted] - The total number of accepted jobs.\r\n   *   This can be enabled by setting 'totals' to 'all' in the JobListOptions.\r\n   * @property {string} [started] - The total number of started jobs.\r\n   *   This can be enabled by setting 'totals' to 'all' in the JobListOptions.\r\n   * @property {string} [succeeded] - The total number of succeeded jobs.\r\n   *   This can be enabled by setting 'totals' to 'all' in the JobListOptions.\r\n   * @property {string} [failed] - The total number of failed jobs.\r\n   *   This can be enabled by setting 'totals' to 'all' in the JobListOptions.\r\n   */\r\n\r\n  /**\r\n   * Retrieves an array of job info objects.\r\n   * @param {JobListOptions} jobListOptions - Object containing options for\r\n   *  filtering job list.\r\n   * @return {Promise<JobInfoList, error>} Returns a Promise to a JobInfoList object.\r\n   */\r\n  jobInfoList(jobListOptions) {\r\n    return new Promise((resolve, reject) => {\r\n      // Service url.\r\n      let url = [this.rootURL, GSF_API.JOB_SEARCH_PATH].join('/');\r\n\r\n\r\n      // Get job info list.\r\n      superagent\r\n        .post(url)\r\n        .use(nocache) // Prevents caching of *only* this request\r\n        .set(this.headers)\r\n        .send(jobListOptions || {})\r\n        .then((res) => {\r\n          resolve(res.body);\r\n        })\r\n        .catch((err) => {\r\n          const status = ((err && err.status) ? ': ' + err.status : '');\r\n          const text = ((err && err.response && err.response.text) ? ': ' +\r\n           err.response.text : '');\r\n          reject('Error requesting jobs' + status + text);\r\n        });\r\n    });\r\n  }\r\n\r\n  /**\r\n   * Returns the Service object based on service name.\r\n   * @param {string} serviceName - The name of the service.\r\n   * @return {Service} The Service object.\r\n   */\r\n  service(serviceName) {\r\n    return new Service(this, serviceName);\r\n  }\r\n\r\n  /**\r\n   * Retrieves job object based on the job ID.\r\n   * @param {string} jobId - The id of the job from which to retrieve the job object.\r\n   * @param {function(info: JobProgressInfo)} [progressCallback] - The callback to handle job progress.\r\n   * @param {function(info: JobStartedInfo)} [startedCallback] - The callback that is called when the job starts.\r\n   *  For more reliable job started information, listen to the GSF JobStarted\r\n   *  events as this callback may not always get called.  In some cases the job\r\n   *  can start before the callback is registered.\r\n   * @return {Job} Returns job object.\r\n   */\r\n  job(jobId, progressCallback, startedCallback) {\r\n    return new Job(this, jobId, progressCallback, startedCallback);\r\n  }\r\n\r\n}\r\n\r\nexport default Client;\r\n\r\n/**\r\n * Emitted when a job completes.\r\n * @typedef {Object} JobCompleted\r\n * @property {string} jobId - The job id.\r\n * @property {boolean} success - A boolean set to true if the job succeeds,\r\n *  false if it fails.\r\n */\r\n\r\n/**\r\n * Emitted when a job succeeds.\r\n * @typedef {Object} JobSucceeded\r\n * @property {string} jobId - The job id.\r\n */\r\n\r\n/**\r\n * Emitted when a job fails.\r\n * @typedef {Object} JobFailed\r\n * @property {string} jobId - The job id.\r\n */\r\n\r\n/**\r\n * Emitted when job progress is updated.\r\n * @typedef {Object} JobProgress\r\n * @property {string} jobId - The job id.\r\n * @property {number} progress - The job progress percent.\r\n * @property {string} [message] - The job progress message, if any.\r\n */\r\n\r\n/**\r\n * Emitted when a job starts.\r\n * @typedef {Object} JobStarted\r\n * @property {string} jobId - The job id.\r\n */\r\n\r\n/**\r\n * Emitted when a job is accepted.\r\n * @typedef {Object} JobAccepted\r\n * @property {string} jobId - The job id.\r\n */\r\n",
+    "static": true,
+    "longname": "C:/dev/github/gsf-js-client-sdk/src/Client.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "nocache",
+    "memberof": "src/Client.js",
+    "static": true,
+    "longname": "src/Client.js~nocache",
+    "access": "public",
+    "export": false,
+    "importPath": "gsf-js-client-sdk/dist/Client.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "class",
+    "name": "Client",
+    "memberof": "src/Client.js",
+    "static": true,
+    "longname": "src/Client.js~Client",
+    "access": "public",
+    "export": true,
+    "importPath": "gsf-js-client-sdk/dist/Client.js",
+    "importStyle": "Client",
+    "description": "The Client class is used to connect to the server and retrieve information\n about available services and jobs.",
+    "examples": [
+      "// Obtain Client object from GSF.\nconst Client = GSF.client({address:'MyServer',port:9191});"
+    ],
+    "lineNumber": 20,
+    "interface": false,
+    "extends": [
+      "events~EventEmitter"
+    ]
+  },
+  {
+    "__docId__": 51,
+    "kind": "typedef",
+    "name": "JobCompleted",
+    "memberof": "src/Client.js",
+    "static": true,
+    "longname": "src/Client.js~JobCompleted",
+    "access": "public",
+    "description": "Emitted when a job completes.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobId",
+        "description": "The job id."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "success",
+        "description": "A boolean set to true if the job succeeds,\n false if it fails."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobCompleted"
+    }
+  },
+  {
+    "__docId__": 52,
+    "kind": "typedef",
+    "name": "JobSucceeded",
+    "memberof": "src/Client.js",
+    "static": true,
+    "longname": "src/Client.js~JobSucceeded",
+    "access": "public",
+    "description": "Emitted when a job succeeds.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobId",
+        "description": "The job id."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobSucceeded"
+    }
+  },
+  {
+    "__docId__": 53,
+    "kind": "typedef",
+    "name": "JobFailed",
+    "memberof": "src/Client.js",
+    "static": true,
+    "longname": "src/Client.js~JobFailed",
+    "access": "public",
+    "description": "Emitted when a job fails.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobId",
+        "description": "The job id."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobFailed"
+    }
+  },
+  {
+    "__docId__": 54,
+    "kind": "typedef",
+    "name": "JobProgress",
+    "memberof": "src/Client.js",
+    "static": true,
+    "longname": "src/Client.js~JobProgress",
+    "access": "public",
+    "description": "Emitted when job progress is updated.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobId",
+        "description": "The job id."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "progress",
+        "description": "The job progress percent."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "message",
+        "description": "The job progress message, if any."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobProgress"
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "typedef",
+    "name": "JobStarted",
+    "memberof": "src/Client.js",
+    "static": true,
+    "longname": "src/Client.js~JobStarted",
+    "access": "public",
+    "description": "Emitted when a job starts.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobId",
+        "description": "The job id."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobStarted"
+    }
+  },
+  {
+    "__docId__": 56,
+    "kind": "typedef",
+    "name": "JobAccepted",
+    "memberof": "src/Client.js",
+    "static": true,
+    "longname": "src/Client.js~JobAccepted",
+    "access": "public",
+    "description": "Emitted when a job is accepted.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobId",
+        "description": "The job id."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobAccepted"
+    }
+  },
+  {
+    "__docId__": 57,
+    "kind": "typedef",
+    "name": "ClientOptions",
+    "memberof": "src/Client.js~Client",
+    "static": true,
+    "longname": "src/Client.js~Client.ClientOptions",
+    "access": "public",
+    "description": "The ClientOptions object contains information about the server.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "ClientOptions.address",
+        "description": "The server address/name."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "null",
+        "defaultRaw": null,
+        "name": "ClientOptions.port",
+        "description": "The server port."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "{}",
+        "defaultRaw": {},
+        "name": "ClientOptions.headers",
+        "description": "The headers to be used in requests."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "''",
+        "defaultRaw": "''",
+        "name": "ClientOptions.APIRoot",
+        "description": "The API root endpoint."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "defaultValue": "'http'",
+        "defaultRaw": "'http'",
+        "name": "ClientOptions.protocol",
+        "description": "The protocol to use."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "ClientOptions"
+    }
+  },
+  {
+    "__docId__": 58,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Client.js~Client",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Client.js~Client#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 40,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "ClientOptions"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "clientOptions",
+        "description": "The object containing server information."
+      }
+    ],
+    "emits": [
+      {
+        "types": [
+          "JobCompleted"
+        ],
+        "description": ""
+      },
+      {
+        "types": [
+          "JobSucceeded"
+        ],
+        "description": ""
+      },
+      {
+        "types": [
+          "JobFailed"
+        ],
+        "description": ""
+      },
+      {
+        "types": [
+          "JobProgress"
+        ],
+        "description": ""
+      },
+      {
+        "types": [
+          "JobStarted"
+        ],
+        "description": ""
+      },
+      {
+        "types": [
+          "JobAccepted"
+        ],
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 59,
+    "kind": "member",
+    "name": "address",
+    "memberof": "src/Client.js~Client",
+    "static": false,
+    "longname": "src/Client.js~Client#address",
+    "access": "public",
+    "description": "The server address/name.",
+    "lineNumber": 48,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 60,
+    "kind": "member",
+    "name": "port",
+    "memberof": "src/Client.js~Client",
+    "static": false,
+    "longname": "src/Client.js~Client#port",
+    "access": "public",
+    "description": "The server port.",
+    "lineNumber": 54,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 61,
+    "kind": "member",
+    "name": "headers",
+    "memberof": "src/Client.js~Client",
+    "static": false,
+    "longname": "src/Client.js~Client#headers",
+    "access": "public",
+    "description": "The headers to use in requests",
+    "lineNumber": 60,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Object"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 62,
+    "kind": "member",
+    "name": "APIRoot",
+    "memberof": "src/Client.js~Client",
+    "static": false,
+    "longname": "src/Client.js~Client#APIRoot",
+    "access": "public",
+    "description": "The API root endpoint.  If none, set to empty string.",
+    "lineNumber": 66,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 63,
+    "kind": "member",
+    "name": "protocol",
+    "memberof": "src/Client.js~Client",
+    "static": false,
+    "longname": "src/Client.js~Client#protocol",
+    "access": "public",
+    "description": "The protocol to use.",
+    "lineNumber": 72,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 64,
+    "kind": "member",
+    "name": "URL",
+    "memberof": "src/Client.js~Client",
+    "static": false,
+    "longname": "src/Client.js~Client#URL",
+    "access": "public",
+    "description": "The server url.",
+    "lineNumber": 78,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 65,
+    "kind": "member",
+    "name": "rootURL",
+    "memberof": "src/Client.js~Client",
+    "static": false,
+    "longname": "src/Client.js~Client#rootURL",
+    "access": "public",
+    "description": "The API root url.",
+    "lineNumber": 85,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 66,
+    "kind": "member",
+    "name": "_events",
+    "memberof": "src/Client.js~Client",
+    "static": false,
+    "longname": "src/Client.js~Client#_events",
+    "access": "private",
+    "description": null,
+    "lineNumber": 112,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "name": "services",
+    "memberof": "src/Client.js~Client",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Client.js~Client#services",
+    "access": "public",
+    "description": "Retrieves an array of available services from the server.",
+    "lineNumber": 144,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Service[], error>"
+      ],
+      "spread": false,
+      "description": "Returns a Promise to an array of available Service objects."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 68,
+    "kind": "typedef",
+    "name": "JobListOptions",
+    "memberof": "src/Client.js~Client",
+    "static": true,
+    "longname": "src/Client.js~Client.JobListOptions",
+    "access": "public",
+    "description": "Filtering options for listing jobs.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "query",
+        "description": "Filter jobs by specifying one or more comparison operators per property.\n  Comparison operators must be prefixed with '$' and only the following are supported: $eq, $ne,\n $gt, $gte, $lt, $lte.  Queries may contain multiple properties and each property may\n contain multiple comparison operators."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "sort",
+        "description": "The sort array.  This array contains an array for each sort which\n consists of the property to sort by and the direction. To sort in ascending order use 1 and\n to sort in descending order use -1.  For example, to sort by jobSubmitted date in ascending\n order: [ [ 'jobSubmitted', 1 ] ]"
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "offset",
+        "description": "The number of jobs to skip; useful for pagination."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "limit",
+        "description": "Limit the number of jobs returned. Set to -1 to\n return all jobs. Note: -1 is not recommended, as it may take a long time\n to retrieve all jobs."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "totals",
+        "description": "Types of total job counts to include in the response.\n Must be one of: 'all', 'none', or 'default'.  The default is 'default'.\n  Set to 'none' to exclude totals.  Set to 'default' to include total count of all filtered jobs.\n  Set to 'all' to include total count of all filtered jobs and the total counts of filtered jobs\n in each job status.  Totals will only be visible when used with the jobInfoList() function."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobListOptions"
+    }
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "name": "jobs",
+    "memberof": "src/Client.js~Client",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Client.js~Client#jobs",
+    "access": "public",
+    "description": "Retrieves an array of jobs on the server.",
+    "lineNumber": 199,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "JobListOptions"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobListOptions",
+        "description": "Object containing options for\n filtering job list."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Job[], error>"
+      ],
+      "spread": false,
+      "description": "Returns a Promise to an array of\n jobs that exist on the server."
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "typedef",
+    "name": "JobInfoList",
+    "memberof": "src/Client.js~Client",
+    "static": true,
+    "longname": "src/Client.js~Client.JobInfoList",
+    "access": "public",
+    "description": "A list of JobInfo objects with count and total information.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "JobInfo[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobs",
+        "description": "An array of JobInfo objects that match the search criteria."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "count",
+        "description": "The number of filtered jobs in the jobs array."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "total",
+        "description": "The total number of jobs.  Enabled by default.\n  To disable, set 'totals' to 'none' in the JobListOptions."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "accepted",
+        "description": "The total number of accepted jobs.\n  This can be enabled by setting 'totals' to 'all' in the JobListOptions."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "started",
+        "description": "The total number of started jobs.\n  This can be enabled by setting 'totals' to 'all' in the JobListOptions."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "succeeded",
+        "description": "The total number of succeeded jobs.\n  This can be enabled by setting 'totals' to 'all' in the JobListOptions."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "failed",
+        "description": "The total number of failed jobs.\n  This can be enabled by setting 'totals' to 'all' in the JobListOptions."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobInfoList"
+    }
+  },
+  {
+    "__docId__": 71,
+    "kind": "method",
+    "name": "jobInfoList",
+    "memberof": "src/Client.js~Client",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Client.js~Client#jobInfoList",
+    "access": "public",
+    "description": "Retrieves an array of job info objects.",
+    "lineNumber": 230,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "JobListOptions"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobListOptions",
+        "description": "Object containing options for\n filtering job list."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<JobInfoList, error>"
+      ],
+      "spread": false,
+      "description": "Returns a Promise to a JobInfoList object."
+    }
+  },
+  {
+    "__docId__": 72,
+    "kind": "method",
+    "name": "service",
+    "memberof": "src/Client.js~Client",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Client.js~Client#service",
+    "access": "public",
+    "description": "Returns the Service object based on service name.",
+    "lineNumber": 259,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "serviceName",
+        "description": "The name of the service."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Service"
+      ],
+      "spread": false,
+      "description": "The Service object."
+    }
+  },
+  {
+    "__docId__": 73,
+    "kind": "method",
+    "name": "job",
+    "memberof": "src/Client.js~Client",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Client.js~Client#job",
+    "access": "public",
+    "description": "Retrieves job object based on the job ID.",
+    "lineNumber": 273,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobId",
+        "description": "The id of the job from which to retrieve the job object."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function(info: JobProgressInfo)"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "progressCallback",
+        "description": "The callback to handle job progress."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function(info: JobStartedInfo)"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "startedCallback",
+        "description": "The callback that is called when the job starts.\n For more reliable job started information, listen to the GSF JobStarted\n events as this callback may not always get called.  In some cases the job\n can start before the callback is registered."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Job"
+      ],
+      "spread": false,
+      "description": "Returns job object."
+    }
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "name": "src/GSF.js",
+    "content": "import Client from './Client';\r\n\r\n/**\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const client = GSF.client({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\r\n */\r\nexport default {\r\n  client(clientOptions) {\r\n    return new Client(clientOptions);\r\n  }\r\n};\r\n",
+    "static": true,
+    "longname": "C:/dev/github/gsf-js-client-sdk/src/GSF.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 75,
+    "kind": "typedef",
+    "name": "GSF",
+    "memberof": "src/GSF.js",
+    "static": true,
+    "longname": "src/GSF.js~GSF",
+    "access": "public",
+    "description": "The GSF object provides an entry point to the SDK.",
+    "examples": [
+      "const client = GSF.client({address:'MyServer',port:9191});"
+    ],
+    "lineNumber": 11,
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "function(clientOptions: ClientOptions): Client"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "client",
+        "description": "The function for creating a new Client object."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "GSF"
+    }
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/Job.js",
+    "content": "import superagent from 'superagent';\r\nimport saNoCache from 'superagent-no-cache';\r\nimport EventEmitter from 'events';\r\n\r\nimport utils from './utils/utils.js';\r\nimport GSF_API from './utils/GSF_API';\r\nimport EVENTS from './utils/EVENTS';\r\n\r\nconst nocache = utils.isIE() ? saNoCache.withQueryStrings : saNoCache;\r\n\r\n/**\r\n * The Job class is used for job operations.\r\n */\r\nclass Job extends EventEmitter {\r\n  /**\r\n   * @param {Client} client - The GSF Client object.\r\n   * @param {string} jobId - The jobId.\r\n   * @param {function(info: JobProgressInfo)} [progressCallback] - The callback to handle job progress.\r\n   * @param {function(info: JobStartedInfo)} [startedCallback] - The callback that is called when the job starts.\r\n   *  For more reliable job started information, listen to the GSF JobStarted\r\n   *  events as this callback may not always get called.  In some cases the job\r\n   *  can start before the callback is registered.\r\n   * @emits {JobFailed}\r\n   * @emits {JobSucceeded}\r\n   * @emits {JobCompleted}\r\n   * @emits {JobStarted}\r\n   * @emits {JobAccepted}\r\n   * @emits {JobProgress}\r\n   */\r\n  constructor(client, jobId, progressCallback, startedCallback) {\r\n    // Init EventEmitter superclass.\r\n    super();\r\n\r\n    /**\r\n     * The job Id.\r\n     * @type {number}\r\n     */\r\n    this.jobId = jobId;\r\n\r\n    // Server object.\r\n    this._client = client;\r\n\r\n    // Job endpoint.\r\n    this._jobURL = [this._client.rootURL, GSF_API.JOBS_PATH,\r\n      this.jobId].join('/');\r\n\r\n    // Allow infinite listeners.\r\n    this.setMaxListeners(0);\r\n\r\n    // Store promise for wait() function if called.\r\n    this._waiting = null;\r\n\r\n    // Call progress and started callbacks if supplied to constructor.\r\n    progressCallback && this.on(EVENTS.progress, progressCallback);\r\n    startedCallback && this.on(EVENTS.started, startedCallback);\r\n\r\n    // Function to handle events.\r\n    this._handler = (eventName, data) => {\r\n      // Only care about events pertaining to this job.\r\n      if (data.jobId !== this.jobId) return;\r\n\r\n      // Re-emit the rest of the events.\r\n      this.emit(eventName, data);\r\n    };\r\n\r\n    // Listen for events from our server.  Pass\r\n    // them into the handler with job event type.\r\n    Object.keys(EVENTS).forEach((key) => {\r\n      this._client.on(EVENTS[key], (data) => {\r\n        this._handler(EVENTS[key], data);\r\n      });\r\n    });\r\n\r\n  }\r\n\r\n  /**\r\n   * Waits for the job to complete.\r\n   * @return {Promise<JobResults, error>} Returns a promise that is resolved when a job is\r\n   *  successful, returning the job results object.\r\n   *  If a job fails, the promise is rejected with an error message.\r\n   */\r\n  wait() {\r\n    if (!this._waiting) {\r\n\r\n      this._waiting = new Promise((resolve, reject) => {\r\n        // Check to make sure it hasn't already completed.\r\n        this.info().then((info) => {\r\n          if (info.jobStatus === EVENTS.succeeded) {\r\n            resolve(info.jobResults);\r\n          } else if (info.jobStatus === EVENTS.failed) {\r\n            reject(info.jobError);\r\n          }\r\n        }).catch((err) => {\r\n          reject(err);\r\n        });\r\n\r\n        // Listen to job events.\r\n        this.once(EVENTS.succeeded, (data) => {\r\n          this.info().then((info) => {\r\n            resolve(info.jobResults);\r\n          });\r\n        });\r\n        this.once(EVENTS.failed, (data) => {\r\n          this.info().then((info) => {\r\n            reject(info.jobError);\r\n          });\r\n        });\r\n      });\r\n    }\r\n\r\n    return this._waiting;\r\n  }\r\n\r\n  /**\r\n   * The JobInfo object contains information about a job.\r\n   * @typedef {Object} JobInfo\r\n   * @property {string} serviceName - The name of the service.\r\n   * @property {string} taskName - The name of the task.\r\n   * @property {JobOptions} [jobOptions] - Processing directives to submit along with the job.\r\n   * @property {Object} [inputParameters] - The input parameters.\r\n   * @property {string} jobId - The job id.\r\n   * @property {number} [jobProgress] - The percentage of job completion.\r\n   * @property {string} [jobMessage] - A status message that is sent with progress updates.\r\n   * @property {string} jobStatus - The status of the job. It can be Accepted,\r\n   *  Started, Succeeded, or Failed.\r\n   * @property {JobResults} [jobResults] - The job output results.\r\n   * @property {string} [jobSubmitted] - Time the job was submitted.\r\n   * @property {string} [jobStart] - Time the job started processing.\r\n   * @property {string} [jobEnd] - Time the job finished processing.\r\n   * @property {string} [jobError] - An error from the job, if there was one.\r\n   * @property {NodeInfo} [nodeInfo] - Provides information about the node on which the job ran.\r\n   */\r\n\r\n  /**\r\n   * Provides information about the node on which the job ran.\r\n   * @typedef {Object} NodeInfo\r\n   * @property {string} nodeAddress - This is the address of the machine that ran job.\r\n   * @property {number} nodePort - The port of the server that ran the job.\r\n   * @property {number} workerID - The ID of the worker that ran the job.\r\n   */\r\n\r\n  /**\r\n   * The job output results.\r\n   * @typedef {Object} JobResults\r\n   * @property {*} <parameterName>.best - Result from the first parameter mapper which\r\n   * was able to reverse translate the output value.\r\n   * @property {*} <parameterName>.raw - The raw output value returned by the task.\r\n   */\r\n\r\n  /**\r\n   * Retrieves the job information.\r\n   * @return {Promise<JobInfo, error>} Returns a promise to a JobInfo object.\r\n   */\r\n  info() {\r\n    return new Promise((resolve, reject) => {\r\n      const jobStatusURL = this._jobURL;\r\n\r\n      // Get job status.\r\n      superagent\r\n        .get(jobStatusURL)\r\n        .use(nocache) // Prevents caching of *only* this request\r\n        .set(this._client.headers)\r\n        .end((err, res) => {\r\n          if (res && res.ok) {\r\n            resolve(res.body);\r\n          } else {\r\n            const status = ((err && err.status) ? ': ' + err.status : '');\r\n            const text = ((err && err.response && err.response.text) ? ': ' +\r\n             err.response.text : '');\r\n            reject('Error requesting job info' + status + text);\r\n          }\r\n        });\r\n    });\r\n\r\n  }\r\n\r\n  /**\r\n   * Cancels the job.\r\n   * @param {boolean} force - If true, the job will force cancel.  Please note that\r\n   *  setting force to true may be unsafe depending on the type of job\r\n   *  as it may not be able to properly shut down or clean up.\r\n   * @return {Promise<true, error>} Returns a promise when cancel is submitted.  If request\r\n   *  is successfully submitted, the promise will be resolved with a value of true.\r\n   *  If the request fails, the promise will be resolved with an error message.\r\n   *  Note that this only represents the success of the request made to the server,\r\n   *  not the cancellation itself.  Use the Job.Info() function (or Job events)\r\n   *  to retrieve the status of the job and to learn when it is actually cancelled.\r\n   */\r\n  cancel(force) {\r\n    // Job url.\r\n    const url = this._jobURL;\r\n    return new Promise((resolve, reject) => {\r\n      // Cancel force flag.\r\n      const requestStatus = force ? 'KillRequested' : 'CancelRequested';\r\n      // Cancel job.\r\n      superagent\r\n        .put(url)\r\n        .set('Content-Type', 'application/json')\r\n        .send(JSON.stringify({'jobStatus': requestStatus}))\r\n        .use(nocache) // Prevents caching of *only* this request\r\n        .set(this._client.headers)\r\n        .end((err, res) => {\r\n          if (res && res.ok) {\r\n            resolve(true);\r\n          } else {\r\n            const status = ((err && err.status) ? ': ' + err.status : '');\r\n            const text = ((err && err.response && err.response.text) ? ': ' +\r\n             err.response.text : '');\r\n            reject('Error cancelling job' + status + text);\r\n          }\r\n        });\r\n    });\r\n  }\r\n}\r\n\r\nexport default Job;\r\n",
+    "static": true,
+    "longname": "C:/dev/github/gsf-js-client-sdk/src/Job.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "variable",
+    "name": "nocache",
+    "memberof": "src/Job.js",
+    "static": true,
+    "longname": "src/Job.js~nocache",
+    "access": "public",
+    "export": false,
+    "importPath": "gsf-js-client-sdk/dist/Job.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 78,
+    "kind": "class",
+    "name": "Job",
+    "memberof": "src/Job.js",
+    "static": true,
+    "longname": "src/Job.js~Job",
+    "access": "public",
+    "export": true,
+    "importPath": "gsf-js-client-sdk/dist/Job.js",
+    "importStyle": "Job",
+    "description": "The Job class is used for job operations.",
+    "lineNumber": 14,
+    "interface": false,
+    "extends": [
+      "events~EventEmitter"
+    ]
+  },
+  {
+    "__docId__": 79,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Job.js~Job",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Job.js~Job#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 30,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Client"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "client",
+        "description": "The GSF Client object."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobId",
+        "description": "The jobId."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function(info: JobProgressInfo)"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "progressCallback",
+        "description": "The callback to handle job progress."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function(info: JobStartedInfo)"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "startedCallback",
+        "description": "The callback that is called when the job starts.\n For more reliable job started information, listen to the GSF JobStarted\n events as this callback may not always get called.  In some cases the job\n can start before the callback is registered."
+      }
+    ],
+    "emits": [
+      {
+        "types": [
+          "JobFailed"
+        ],
+        "description": ""
+      },
+      {
+        "types": [
+          "JobSucceeded"
+        ],
+        "description": ""
+      },
+      {
+        "types": [
+          "JobCompleted"
+        ],
+        "description": ""
+      },
+      {
+        "types": [
+          "JobStarted"
+        ],
+        "description": ""
+      },
+      {
+        "types": [
+          "JobAccepted"
+        ],
+        "description": ""
+      },
+      {
+        "types": [
+          "JobProgress"
+        ],
+        "description": ""
+      }
+    ]
+  },
+  {
+    "__docId__": 80,
+    "kind": "member",
+    "name": "jobId",
+    "memberof": "src/Job.js~Job",
+    "static": false,
+    "longname": "src/Job.js~Job#jobId",
+    "access": "public",
+    "description": "The job Id.",
+    "lineNumber": 38,
+    "type": {
+      "nullable": null,
+      "types": [
+        "number"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "member",
+    "name": "_client",
+    "memberof": "src/Job.js~Job",
+    "static": false,
+    "longname": "src/Job.js~Job#_client",
+    "access": "private",
+    "description": null,
+    "lineNumber": 41,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "member",
+    "name": "_jobURL",
+    "memberof": "src/Job.js~Job",
+    "static": false,
+    "longname": "src/Job.js~Job#_jobURL",
+    "access": "private",
+    "description": null,
+    "lineNumber": 44,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 83,
+    "kind": "member",
+    "name": "_waiting",
+    "memberof": "src/Job.js~Job",
+    "static": false,
+    "longname": "src/Job.js~Job#_waiting",
+    "access": "private",
+    "description": null,
+    "lineNumber": 51,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "member",
+    "name": "_handler",
+    "memberof": "src/Job.js~Job",
+    "static": false,
+    "longname": "src/Job.js~Job#_handler",
+    "access": "private",
+    "description": null,
+    "lineNumber": 58,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "method",
+    "name": "wait",
+    "memberof": "src/Job.js~Job",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Job.js~Job#wait",
+    "access": "public",
+    "description": "Waits for the job to complete.",
+    "lineNumber": 82,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<JobResults, error>"
+      ],
+      "spread": false,
+      "description": "Returns a promise that is resolved when a job is\n successful, returning the job results object.\n If a job fails, the promise is rejected with an error message."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 87,
+    "kind": "typedef",
+    "name": "JobInfo",
+    "memberof": "src/Job.js~Job",
+    "static": true,
+    "longname": "src/Job.js~Job.JobInfo",
+    "access": "public",
+    "description": "The JobInfo object contains information about a job.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "serviceName",
+        "description": "The name of the service."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "taskName",
+        "description": "The name of the task."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "JobOptions"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "jobOptions",
+        "description": "Processing directives to submit along with the job."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "inputParameters",
+        "description": "The input parameters."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobId",
+        "description": "The job id."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "jobProgress",
+        "description": "The percentage of job completion."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "jobMessage",
+        "description": "A status message that is sent with progress updates."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobStatus",
+        "description": "The status of the job. It can be Accepted,\n Started, Succeeded, or Failed."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "JobResults"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "jobResults",
+        "description": "The job output results."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "jobSubmitted",
+        "description": "Time the job was submitted."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "jobStart",
+        "description": "Time the job started processing."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "jobEnd",
+        "description": "Time the job finished processing."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "jobError",
+        "description": "An error from the job, if there was one."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "NodeInfo"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "nodeInfo",
+        "description": "Provides information about the node on which the job ran."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobInfo"
+    }
+  },
+  {
+    "__docId__": 88,
+    "kind": "typedef",
+    "name": "NodeInfo",
+    "memberof": "src/Job.js~Job",
+    "static": true,
+    "longname": "src/Job.js~Job.NodeInfo",
+    "access": "public",
+    "description": "Provides information about the node on which the job ran.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "nodeAddress",
+        "description": "This is the address of the machine that ran job."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "nodePort",
+        "description": "The port of the server that ran the job."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "workerID",
+        "description": "The ID of the worker that ran the job."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "NodeInfo"
+    }
+  },
+  {
+    "__docId__": 89,
+    "kind": "typedef",
+    "name": "JobResults",
+    "memberof": "src/Job.js~Job",
+    "static": true,
+    "longname": "src/Job.js~Job.JobResults",
+    "access": "public",
+    "description": "The job output results.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "<parameterName>.best",
+        "description": "Result from the first parameter mapper which\nwas able to reverse translate the output value."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "*"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "<parameterName>.raw",
+        "description": "The raw output value returned by the task."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobResults"
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "method",
+    "name": "info",
+    "memberof": "src/Job.js~Job",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Job.js~Job#info",
+    "access": "public",
+    "description": "Retrieves the job information.",
+    "lineNumber": 154,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<JobInfo, error>"
+      ],
+      "spread": false,
+      "description": "Returns a promise to a JobInfo object."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 91,
+    "kind": "method",
+    "name": "cancel",
+    "memberof": "src/Job.js~Job",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Job.js~Job#cancel",
+    "access": "public",
+    "description": "Cancels the job.",
+    "lineNumber": 189,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "force",
+        "description": "If true, the job will force cancel.  Please note that\n setting force to true may be unsafe depending on the type of job\n as it may not be able to properly shut down or clean up."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<true, error>"
+      ],
+      "spread": false,
+      "description": "Returns a promise when cancel is submitted.  If request\n is successfully submitted, the promise will be resolved with a value of true.\n If the request fails, the promise will be resolved with an error message.\n Note that this only represents the success of the request made to the server,\n not the cancellation itself.  Use the Job.Info() function (or Job events)\n to retrieve the status of the job and to learn when it is actually cancelled."
+    }
+  },
+  {
+    "__docId__": 92,
+    "kind": "file",
+    "name": "src/Service.js",
+    "content": "import superagent from 'superagent';\r\nimport saNoCache from 'superagent-no-cache';\r\n\r\nimport utils from './utils/utils.js';\r\nimport Task from './Task';\r\nimport GSF_API from './utils/GSF_API';\r\n\r\nconst nocache = utils.isIE() ? saNoCache.withQueryStrings : saNoCache;\r\n\r\n/**\r\n * The Service class is used to inspect and create tasks for a service.\r\n */\r\nclass Service {\r\n  /**\r\n   * @param {Client} client - The GSF client object.\r\n   * @param {string} serviceName - The name of the service.\r\n   */\r\n  constructor(client, serviceName) {\r\n    /**\r\n     * The service name.\r\n     * @type {string}\r\n     */\r\n    this.name = serviceName;\r\n\r\n    // Client object.\r\n    this._client = client;\r\n  }\r\n\r\n  /**\r\n   * The ServiceInfo object contains information about a service.\r\n   * @typedef {Object} ServiceInfo\r\n   * @property {string} name - The name of the service.\r\n   * @property {string} description - A description of the service.\r\n   */\r\n\r\n  /**\r\n   * Retrieves the service information.\r\n   * @return {Promise<ServiceInfo, error>} Returns a Promise to the\r\n   *  ServiceInfo object.\r\n   */\r\n  info() {\r\n    return new Promise((resolve, reject) => {\r\n      // Build service info url.\r\n      const url = [this._client.rootURL, GSF_API.SERVICES_PATH, this.name].join('/');\r\n\r\n      // Get service info so we can pull off the tasks array.\r\n      superagent\r\n        .get(url)\r\n        .use(nocache) // Prevents caching of *only* this request\r\n        .set(this._client.headers)\r\n        .end((err, res) => {\r\n          if (res && res.ok) {\r\n            resolve(res.body);\r\n          } else {\r\n            const status = ((err && err.status) ? ': ' + err.status : '');\r\n            const text = ((err && err.response && err.response.text) ? ': ' +\r\n             err.response.text : '');\r\n            reject('Error requesting service info' + status + text);\r\n          }\r\n        });\r\n    });\r\n  }\r\n\r\n  /**\r\n   * Returns a task object.\r\n   * @param {string} taskName - The name of the task.\r\n   * @return {Task} Returns the task object.\r\n   */\r\n  task(taskName) {\r\n    return new Task(this, taskName);\r\n  }\r\n\r\n  /**\r\n   * Retrieves the array of task info objects available on the service.\r\n   * @version 1.1.0\r\n   * @return {Promise<TaskInfo[], error>} Returns a Promise to an array of TaskInfo objects.\r\n   */\r\n  taskInfoList() {\r\n    return new Promise((resolve, reject) => {\r\n      // Build service info url.\r\n      const url = [this._client.rootURL, GSF_API.SERVICES_PATH,\r\n        this.name, GSF_API.TASKS_PATH].join('/');\r\n\r\n      // Get service info so we can pull off the tasks array.\r\n      superagent\r\n        .get(url)\r\n        .query({ taskInfo: true })\r\n        .use(nocache) // Prevents caching of *only* this request\r\n        .set(this._client.headers)\r\n        .end((err, res) => {\r\n          if (res && res.ok) {\r\n            resolve(res.body.tasks);\r\n          } else {\r\n            const status = ((err && err.status) ? ': ' + err.status : '');\r\n            const text = ((err && err.response && err.response.text) ? ': ' +\r\n             err.response.text : '');\r\n            reject('Error requesting task info objects' + status + text);\r\n          }\r\n        });\r\n    });\r\n  }\r\n\r\n  /**\r\n   * Retrieves the array of task objects available on the service.\r\n   * @return {Promise<Task[], error>} Returns a Promise to an array of Task objects.\r\n   */\r\n  tasks() {\r\n    return this\r\n      .taskInfoList()\r\n      .then((taskInfoList) => (\r\n        taskInfoList.map((taskInfo) => (new Task(this, taskInfo.taskName))))\r\n      );\r\n  }\r\n}\r\n\r\nexport default Service;\r\n\r\n\r\n",
+    "static": true,
+    "longname": "C:/dev/github/gsf-js-client-sdk/src/Service.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 93,
+    "kind": "variable",
+    "name": "nocache",
+    "memberof": "src/Service.js",
+    "static": true,
+    "longname": "src/Service.js~nocache",
+    "access": "public",
+    "export": false,
+    "importPath": "gsf-js-client-sdk/dist/Service.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 94,
+    "kind": "class",
+    "name": "Service",
+    "memberof": "src/Service.js",
+    "static": true,
+    "longname": "src/Service.js~Service",
+    "access": "public",
+    "export": true,
+    "importPath": "gsf-js-client-sdk/dist/Service.js",
+    "importStyle": "Service",
+    "description": "The Service class is used to inspect and create tasks for a service.",
+    "lineNumber": 13,
+    "interface": false
+  },
+  {
+    "__docId__": 95,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Service.js~Service",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Service.js~Service#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 18,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Client"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "client",
+        "description": "The GSF client object."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "serviceName",
+        "description": "The name of the service."
+      }
+    ]
+  },
+  {
+    "__docId__": 96,
+    "kind": "member",
+    "name": "name",
+    "memberof": "src/Service.js~Service",
+    "static": false,
+    "longname": "src/Service.js~Service#name",
+    "access": "public",
+    "description": "The service name.",
+    "lineNumber": 23,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 97,
+    "kind": "member",
+    "name": "_client",
+    "memberof": "src/Service.js~Service",
+    "static": false,
+    "longname": "src/Service.js~Service#_client",
+    "access": "private",
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "typedef",
+    "name": "ServiceInfo",
+    "memberof": "src/Service.js~Service",
+    "static": true,
+    "longname": "src/Service.js~Service.ServiceInfo",
+    "access": "public",
+    "description": "The ServiceInfo object contains information about a service.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "The name of the service."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "description",
+        "description": "A description of the service."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "ServiceInfo"
+    }
+  },
+  {
+    "__docId__": 99,
+    "kind": "method",
+    "name": "info",
+    "memberof": "src/Service.js~Service",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Service.js~Service#info",
+    "access": "public",
+    "description": "Retrieves the service information.",
+    "lineNumber": 41,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<ServiceInfo, error>"
+      ],
+      "spread": false,
+      "description": "Returns a Promise to the\n ServiceInfo object."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 100,
+    "kind": "method",
+    "name": "task",
+    "memberof": "src/Service.js~Service",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Service.js~Service#task",
+    "access": "public",
+    "description": "Returns a task object.",
+    "lineNumber": 69,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "taskName",
+        "description": "The name of the task."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Task"
+      ],
+      "spread": false,
+      "description": "Returns the task object."
+    }
+  },
+  {
+    "__docId__": 101,
+    "kind": "method",
+    "name": "taskInfoList",
+    "memberof": "src/Service.js~Service",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Service.js~Service#taskInfoList",
+    "access": "public",
+    "description": "Retrieves the array of task info objects available on the service.",
+    "lineNumber": 78,
+    "version": "1.1.0",
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<TaskInfo[], error>"
+      ],
+      "spread": false,
+      "description": "Returns a Promise to an array of TaskInfo objects."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 102,
+    "kind": "method",
+    "name": "tasks",
+    "memberof": "src/Service.js~Service",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Service.js~Service#tasks",
+    "access": "public",
+    "description": "Retrieves the array of task objects available on the service.",
+    "lineNumber": 107,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Task[], error>"
+      ],
+      "spread": false,
+      "description": "Returns a Promise to an array of Task objects."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 103,
+    "kind": "file",
+    "name": "src/Task.js",
+    "content": "import superagent from 'superagent';\r\nimport saNoCache from 'superagent-no-cache';\r\n\r\nimport utils from './utils/utils.js';\r\nimport Job from './Job';\r\nimport GSF_API from './utils/GSF_API';\r\n\r\nconst nocache = utils.isIE() ? saNoCache.withQueryStrings : saNoCache;\r\n\r\n/**\r\n * The Task class is used to submit and inspect tasks.\r\n */\r\nclass Task {\r\n  /**\r\n   * @param {Service} service - The service object.\r\n   * @param {string} taskName - The name of the task.\r\n   */\r\n  constructor(service, taskName) {\r\n    /**\r\n     * The task name.\r\n     * @type {string}\r\n     */\r\n    this.name = taskName;\r\n\r\n    /**\r\n     * The parent service.\r\n     * @type {Service}\r\n     */\r\n    this.service = service;\r\n\r\n    // Client object.\r\n    this._client = service._client;\r\n  }\r\n\r\n  /**\r\n   * Retrieves the task information.\r\n   * @return {Promise<TaskInfo, error>} Returns a promise to the TaskInfo object.\r\n   */\r\n  info() {\r\n    return new Promise((resolve, reject) => {\r\n      // Task info url.\r\n      const taskURL = [this._client.rootURL, GSF_API.SERVICES_PATH,\r\n        this.service.name, GSF_API.TASKS_PATH, this.name].join('/');\r\n\r\n      // Get task info.\r\n      superagent\r\n        .get(taskURL)\r\n        .use(nocache) // Prevents caching of *only* this request\r\n        .set(this._client.headers)\r\n        .end((err, res) => {\r\n          if (res && res.ok) {\r\n            resolve(res.body);\r\n          } else {\r\n            const status = ((err && err.status) ? ': ' + err.status : '');\r\n            const text = ((err && err.response && err.response.text) ? ': ' +\r\n             err.response.text : '');\r\n            reject('Error requesting task info' + status + text);\r\n          }\r\n        });\r\n    });\r\n  }\r\n\r\n  /**\r\n   * Submits the job.\r\n   * @param {SubmitOptions} submitOptions - The job submit options.\r\n   * @param {function(info: JobProgressInfo)} [progressCallback] - The callback to handle job progress.\r\n   * @param {function(info: JobStartedInfo)} [startedCallback] - The callback that is called when the job starts.\r\n   *  For more reliable job started information, listen to the GSF JobStarted\r\n   *  events as this callback may not always get called.  In some cases the job\r\n   *  can start before the callback is registered.\r\n   * @return {Promise<Job, error>} Returns a promise to a Job object.\r\n   */\r\n  submit(submitOptions, progressCallback, startedCallback) {\r\n    return new Promise((resolve, reject) => {\r\n\r\n      // Build task submit url.\r\n      const url = [this._client.rootURL, GSF_API.JOBS_PATH].join('/');\r\n      const options = JSON.parse(JSON.stringify(submitOptions));\r\n      options.taskName = this.name;\r\n      options.serviceName = this.service.name;\r\n\r\n      // Submit task as a job.\r\n      superagent\r\n        .post(url)\r\n        .set('Content-Type', 'application/json')\r\n        .send(JSON.stringify(options))\r\n        .set(this._client.headers)\r\n        .use(nocache) // Prevents caching of *only* this request\r\n        .end((err, res) => {\r\n          if (res && res.ok) {\r\n            // Return new job object using ID.\r\n            resolve(new Job(this._client, res.body.jobID, progressCallback,\r\n              startedCallback));\r\n          } else {\r\n            const status = ((err && err.status) ? ': ' + err.status : '');\r\n            const text = ((err && err.response && err.response.text) ? ': ' +\r\n             err.response.text : '');\r\n            reject('Error submitting job to ' + url + ' ' + status + text);\r\n          }\r\n        });\r\n    });\r\n  }\r\n\r\n  /**\r\n   * Submits the job and waits for results.  Resolves the promise if the job\r\n   *  succeeds and rejects the promise if the job fails.\r\n   * @param {SubmitOptions} submitOptions - The job submit options.\r\n   * @param {function(info: JobProgressInfo)} [progressCallback] - The callback to handle job progress.\r\n   * @param {function(info: JobStartedInfo)} [startedCallback] - The callback that is called when the job starts.\r\n   *    For more reliable job started information, listen to the GSF JobStarted\r\n   *   events as this callback may not always get called.  In some cases the job\r\n   *   can start before the callback is registered.\r\n   * @return {Promise<JobResults, error>} Returns a promise to a Job object.\r\n   */\r\n  submitAndWait(submitOptions, progressCallback, startedCallback) {\r\n    return this.submit(submitOptions, progressCallback, startedCallback)\r\n      .then(job => job.wait());\r\n  }\r\n}\r\n\r\nexport default Task;\r\n\r\n/**\r\n * The Submit Options object contains the information needed to run\r\n * a job.\r\n * @typedef SubmitOptions\r\n * @property {Object} inputParameters - The input parameters to the job.  This is\r\n *  an object where the keys represent the names of the\r\n *  input parameters and the values are the inputs to the task.\r\n * @property {JobOptions} [jobOptions] - Processing options to be used when running the job.\r\n */\r\n\r\n/**\r\n * The Job Options object contains processing options to be used when running the job.\r\n * @typedef {Object} JobOptions\r\n * @property {string} [route] - The route on which to run the job if\r\n * there is one.\r\n */\r\n\r\n/**\r\n * The TaskInfo object contains information about a task.\r\n * @typedef {Object} TaskInfo\r\n * @property {string} taskName - The name of the task.\r\n * @property {string} serviceName - The name of the service.\r\n * @property {string} [displayName] - A readable name for the task. This is only used for display\r\n *   purposes.\r\n * @property {string} [description] - A description of the task.\r\n *\r\n * @property {InputParameter[]} inputParameters - An array containing the input parameter definitions.\r\n * @property {OutputParameter[]} outputParameters - An array containing the output parameter definitions.\r\n */\r\n\r\n/**\r\n * The InputParameter object contains information about an input parameter.\r\n * @typedef {Object} InputParameter\r\n * @property {string} name - The name of the parameter.\r\n * @property {string} type - The type for the parameter.\r\n * @property {boolean} required - A boolean representing whether or not the parameter is required.\r\n * @property {string} [displayName] - A display name for the parameter.\r\n * @property {string} [description] - A description of the parameter.\r\n * @property {string} [default] - A default value for the parameter.\r\n * @property {string} [choiceList] - A list of values that will be accepted as input for the parameter.\r\n */\r\n\r\n/**\r\n * The OutputParameter object contains information about an output parameter.\r\n * @typedef {Object} OutputParameter\r\n * @property {string} name - The name of the parameter.\r\n * @property {string} type - The type for the parameter.\r\n * @property {boolean} required - A boolean representing whether or not the parameter is required.\r\n * @property {string} [displayName] - A display name for the parameter.\r\n * @property {string} [description] - A description of the parameter.\r\n */\r\n\r\n/**\r\n * The JobResults object contains the job results.\r\n * @typedef {Object} JobResults\r\n */\r\n\r\n/**\r\n * Information about job progress.\r\n * @typedef {Object} JobProgressInfo\r\n * @property {string} jobId - The job id.\r\n * @property {number} progress - The job progress percent.\r\n * @property {string} [message] - The job progress message, if any.\r\n */\r\n\r\n/**\r\n * Called when a job starts processing.\r\n *  For more reliable job started information, listen to the GSF JobStarted\r\n * events as this callback may not always get called.\r\n * In some cases the job can start before the callback is registered.\r\n * @typedef {Object} JobStartedInfo\r\n * @property {string} jobId - The job id.\r\n */\r\n",
+    "static": true,
+    "longname": "C:/dev/github/gsf-js-client-sdk/src/Task.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 104,
+    "kind": "variable",
+    "name": "nocache",
+    "memberof": "src/Task.js",
+    "static": true,
+    "longname": "src/Task.js~nocache",
+    "access": "public",
+    "export": false,
+    "importPath": "gsf-js-client-sdk/dist/Task.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 105,
+    "kind": "class",
+    "name": "Task",
+    "memberof": "src/Task.js",
+    "static": true,
+    "longname": "src/Task.js~Task",
+    "access": "public",
+    "export": true,
+    "importPath": "gsf-js-client-sdk/dist/Task.js",
+    "importStyle": "Task",
+    "description": "The Task class is used to submit and inspect tasks.",
+    "lineNumber": 13,
+    "interface": false
+  },
+  {
+    "__docId__": 106,
+    "kind": "typedef",
+    "name": "SubmitOptions",
+    "memberof": "src/Task.js",
+    "static": true,
+    "longname": "src/Task.js~SubmitOptions",
+    "access": "public",
+    "description": "The Submit Options object contains the information needed to run\na job.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "Object"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "inputParameters",
+        "description": "The input parameters to the job.  This is\n an object where the keys represent the names of the\n input parameters and the values are the inputs to the task."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "JobOptions"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "jobOptions",
+        "description": "Processing options to be used when running the job."
+      }
+    ],
+    "type": {
+      "types": [
+        "*"
+      ],
+      "optional": false,
+      "name": "SubmitOptions"
+    }
+  },
+  {
+    "__docId__": 107,
+    "kind": "typedef",
+    "name": "JobOptions",
+    "memberof": "src/Task.js",
+    "static": true,
+    "longname": "src/Task.js~JobOptions",
+    "access": "public",
+    "description": "The Job Options object contains processing options to be used when running the job.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "route",
+        "description": "The route on which to run the job if\nthere is one."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobOptions"
+    }
+  },
+  {
+    "__docId__": 108,
+    "kind": "typedef",
+    "name": "TaskInfo",
+    "memberof": "src/Task.js",
+    "static": true,
+    "longname": "src/Task.js~TaskInfo",
+    "access": "public",
+    "description": "The TaskInfo object contains information about a task.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "taskName",
+        "description": "The name of the task."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "serviceName",
+        "description": "The name of the service."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "displayName",
+        "description": "A readable name for the task. This is only used for display\n  purposes."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "description",
+        "description": "A description of the task."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "InputParameter[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "inputParameters",
+        "description": "An array containing the input parameter definitions."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "OutputParameter[]"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "outputParameters",
+        "description": "An array containing the output parameter definitions."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "TaskInfo"
+    }
+  },
+  {
+    "__docId__": 109,
+    "kind": "typedef",
+    "name": "InputParameter",
+    "memberof": "src/Task.js",
+    "static": true,
+    "longname": "src/Task.js~InputParameter",
+    "access": "public",
+    "description": "The InputParameter object contains information about an input parameter.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "The name of the parameter."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": "The type for the parameter."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "required",
+        "description": "A boolean representing whether or not the parameter is required."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "displayName",
+        "description": "A display name for the parameter."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "description",
+        "description": "A description of the parameter."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "default",
+        "description": "A default value for the parameter."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "choiceList",
+        "description": "A list of values that will be accepted as input for the parameter."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "InputParameter"
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "typedef",
+    "name": "OutputParameter",
+    "memberof": "src/Task.js",
+    "static": true,
+    "longname": "src/Task.js~OutputParameter",
+    "access": "public",
+    "description": "The OutputParameter object contains information about an output parameter.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "name",
+        "description": "The name of the parameter."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "type",
+        "description": "The type for the parameter."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "boolean"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "required",
+        "description": "A boolean representing whether or not the parameter is required."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "displayName",
+        "description": "A display name for the parameter."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "description",
+        "description": "A description of the parameter."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "OutputParameter"
+    }
+  },
+  {
+    "__docId__": 111,
+    "kind": "typedef",
+    "name": "JobResults",
+    "memberof": "src/Task.js",
+    "static": true,
+    "longname": "src/Task.js~JobResults",
+    "access": "public",
+    "description": "The JobResults object contains the job results.",
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobResults"
+    }
+  },
+  {
+    "__docId__": 112,
+    "kind": "typedef",
+    "name": "JobProgressInfo",
+    "memberof": "src/Task.js",
+    "static": true,
+    "longname": "src/Task.js~JobProgressInfo",
+    "access": "public",
+    "description": "Information about job progress.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobId",
+        "description": "The job id."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "number"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "progress",
+        "description": "The job progress percent."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "message",
+        "description": "The job progress message, if any."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobProgressInfo"
+    }
+  },
+  {
+    "__docId__": 113,
+    "kind": "typedef",
+    "name": "JobStartedInfo",
+    "memberof": "src/Task.js",
+    "static": true,
+    "longname": "src/Task.js~JobStartedInfo",
+    "access": "public",
+    "description": "Called when a job starts processing.\n For more reliable job started information, listen to the GSF JobStarted\nevents as this callback may not always get called.\nIn some cases the job can start before the callback is registered.",
+    "properties": [
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "jobId",
+        "description": "The job id."
+      }
+    ],
+    "type": {
+      "types": [
+        "Object"
+      ],
+      "optional": false,
+      "name": "JobStartedInfo"
+    }
+  },
+  {
+    "__docId__": 114,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/Task.js~Task",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Task.js~Task#constructor",
+    "access": "public",
+    "description": "",
+    "lineNumber": 18,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "Service"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "service",
+        "description": "The service object."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "taskName",
+        "description": "The name of the task."
+      }
+    ]
+  },
+  {
+    "__docId__": 115,
+    "kind": "member",
+    "name": "name",
+    "memberof": "src/Task.js~Task",
+    "static": false,
+    "longname": "src/Task.js~Task#name",
+    "access": "public",
+    "description": "The task name.",
+    "lineNumber": 23,
+    "type": {
+      "nullable": null,
+      "types": [
+        "string"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 116,
+    "kind": "member",
+    "name": "service",
+    "memberof": "src/Task.js~Task",
+    "static": false,
+    "longname": "src/Task.js~Task#service",
+    "access": "public",
+    "description": "The parent service.",
+    "lineNumber": 29,
+    "type": {
+      "nullable": null,
+      "types": [
+        "Service"
+      ],
+      "spread": false,
+      "description": null
+    }
+  },
+  {
+    "__docId__": 117,
+    "kind": "member",
+    "name": "_client",
+    "memberof": "src/Task.js~Task",
+    "static": false,
+    "longname": "src/Task.js~Task#_client",
+    "access": "private",
+    "description": null,
+    "lineNumber": 32,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 118,
+    "kind": "method",
+    "name": "info",
+    "memberof": "src/Task.js~Task",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Task.js~Task#info",
+    "access": "public",
+    "description": "Retrieves the task information.",
+    "lineNumber": 39,
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<TaskInfo, error>"
+      ],
+      "spread": false,
+      "description": "Returns a promise to the TaskInfo object."
+    },
+    "params": []
+  },
+  {
+    "__docId__": 119,
+    "kind": "method",
+    "name": "submit",
+    "memberof": "src/Task.js~Task",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Task.js~Task#submit",
+    "access": "public",
+    "description": "Submits the job.",
+    "lineNumber": 73,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "SubmitOptions"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "submitOptions",
+        "description": "The job submit options."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function(info: JobProgressInfo)"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "progressCallback",
+        "description": "The callback to handle job progress."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function(info: JobStartedInfo)"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "startedCallback",
+        "description": "The callback that is called when the job starts.\n For more reliable job started information, listen to the GSF JobStarted\n events as this callback may not always get called.  In some cases the job\n can start before the callback is registered."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<Job, error>"
+      ],
+      "spread": false,
+      "description": "Returns a promise to a Job object."
+    }
+  },
+  {
+    "__docId__": 120,
+    "kind": "method",
+    "name": "submitAndWait",
+    "memberof": "src/Task.js~Task",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/Task.js~Task#submitAndWait",
+    "access": "public",
+    "description": "Submits the job and waits for results.  Resolves the promise if the job\n succeeds and rejects the promise if the job fails.",
+    "lineNumber": 115,
+    "params": [
+      {
+        "nullable": null,
+        "types": [
+          "SubmitOptions"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "submitOptions",
+        "description": "The job submit options."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function(info: JobProgressInfo)"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "progressCallback",
+        "description": "The callback to handle job progress."
+      },
+      {
+        "nullable": null,
+        "types": [
+          "function(info: JobStartedInfo)"
+        ],
+        "spread": false,
+        "optional": true,
+        "name": "startedCallback",
+        "description": "The callback that is called when the job starts.\n   For more reliable job started information, listen to the GSF JobStarted\n  events as this callback may not always get called.  In some cases the job\n  can start before the callback is registered."
+      }
+    ],
+    "return": {
+      "nullable": null,
+      "types": [
+        "Promise<JobResults, error>"
+      ],
+      "spread": false,
+      "description": "Returns a promise to a Job object."
+    }
+  },
+  {
+    "__docId__": 121,
+    "kind": "file",
+    "name": "src/utils/EVENTS.js",
+    "content": "export default {\r\n  accepted: 'JobAccepted',\r\n  started: 'JobStarted',\r\n  completed: 'JobCompleted',\r\n  succeeded: 'JobSucceeded',\r\n  progress: 'JobProgress',\r\n  failed: 'JobFailed'\r\n};\r\n",
+    "static": true,
+    "longname": "C:/dev/github/gsf-js-client-sdk/src/utils/EVENTS.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 122,
+    "kind": "file",
+    "name": "src/utils/GSF_API.js",
+    "content": "export default {\r\n  ROOT_PATH: '',\r\n  SERVICES_PATH: 'services',\r\n  TASKS_PATH: 'tasks',\r\n  JOBS_PATH: 'jobs',\r\n  JOB_SEARCH_PATH: 'searchJobs',\r\n  EVENTS_PATH: 'events'\r\n};\r\n",
+    "static": true,
+    "longname": "C:/dev/github/gsf-js-client-sdk/src/utils/GSF_API.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 123,
+    "kind": "file",
+    "name": "src/utils/utils.js",
+    "content": "// Detects if the current browser is IE.\r\nconst isIE = () => {\r\n  if (!NODE) {\r\n    // This require call returns the running version of IE or undefined\r\n    const isIE = require('component-ie');\r\n    return isIE;\r\n  }\r\n  return false;\r\n};\r\n\r\nexport default {\r\n  isIE\r\n};\r\n",
+    "static": true,
+    "longname": "C:/dev/github/gsf-js-client-sdk/src/utils/utils.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 124,
+    "kind": "function",
+    "name": "isIE",
+    "memberof": "src/utils/utils.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/utils/utils.js~isIE",
+    "access": "public",
+    "export": false,
+    "importPath": "gsf-js-client-sdk/dist/utils/utils.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "boolean"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "kind": "index",
+    "content": "\r\n<h1 class=\"gsf-title\">\r\nGSF JavaScript Client SDK\r\n</h1>\r\n\r\nThe GSF JavaScript Client SDK provides a client-side JavaScript library for interacting with GSF.\r\n\r\n### [» Migration Guide: v3 to v4](./manual/migration-guide-v4.html)\r\n*Update to v3 of the SDK.*\r\n\r\n### [» Migration Guide: v2 to v3](./manual/migration-guide-v3.html)\r\n*Update to v3 of the SDK.*\r\n\r\n### [» Installation Guide](./manual/installation.html)\r\n*Install the SDK.*\r\n\r\n### [» Getting Started](./manual/getting-started.html)\r\n*Get started using the SDK.*\r\n\r\n### [» Examples](./manual/examples.html)\r\n*Learn more using code examples.*\r\n\r\n### [» API Reference](./identifiers.html)\r\n*Read the full developer documentation.*\r\n",
+    "longname": "C:\\dev\\github\\gsf-js-client-sdk\\doc\\index.md",
+    "name": "./doc/index.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\r\n  \"name\": \"gsf-js-client-sdk\",\r\n  \"version\": \"4.0.0\",\r\n  \"description\": \"GSF JavaScript Client SDK\",\r\n  \"author\": \"Harris Geospatial Solutions, Inc.\",\r\n  \"license\": \"MIT\",\r\n  \"main\": \"dist/GSF.min.js\",\r\n  \"types\": \"./index.d.ts\",\r\n  \"repository\": {\r\n    \"type\": \"git\",\r\n    \"url\": \"https://github.com/geospatial-services-framework/gsf-js-client-sdk.git\"\r\n  },\r\n  \"scripts\": {\r\n    \"clean\": \"shx rm -rf dist\",\r\n    \"build-node\": \"webpack --config=build/webpack-node.config.js\",\r\n    \"build-web\": \"webpack --config=build/webpack-web.config.js\",\r\n    \"build\": \"npm run clean && npm run build-node && npm run build-web\",\r\n    \"watch\": \"./node_modules/.bin/webpack --progress --colors --watch\",\r\n    \"test\": \"npm run test-chrome-headless\",\r\n    \"test-chrome\": \"concurrently --kill-others --success first \\\"node ./test/fake-server/server.js\\\" \\\"npm run prod-test-chrome\\\"\",\r\n    \"test-chrome-headless\": \"concurrently --kill-others --success first \\\"node ./test/fake-server/server.js\\\" \\\"npm run prod-test-chrome-headless\\\"\",\r\n    \"test-firefox\": \"concurrently --kill-others --success first \\\"node ./test/fake-server/server.js\\\" \\\"npm run prod-test-firefox\\\"\",\r\n    \"test-node\": \"concurrently --kill-others --success first \\\"node ./test/fake-server/server.js\\\" \\\"npm run prod-test-node\\\"\",\r\n    \"test-all\": \"concurrently --kill-others --success first \\\"node ./test/fake-server/server.js\\\" \\\"npm run prod-test-all\\\"\",\r\n    \"prod-test-node\": \"mocha-webpack --webpack-config build/webpack-node.config.js \\\"test/**/*.test.js\\\"\",\r\n    \"prod-test-chrome\": \"./node_modules/.bin/karma start --browsers Chrome\",\r\n    \"prod-test-chrome-headless\": \"./node_modules/.bin/karma start --browsers ChromeHeadless\",\r\n    \"prod-test-firefox\": \"./node_modules/.bin/karma start --browsers Firefox\",\r\n    \"prod-test-all\": \"./node_modules/.bin/karma start --browsers ChromeHeadless,Chrome,Firefox\",\r\n    \"help\": \"./node_modules/.bin/esdoc\"\r\n  },\r\n  \"dependencies\": {\r\n    \"@babel/runtime\": \"^7.10.0\"\r\n  },\r\n  \"devDependencies\": {\r\n    \"@babel/cli\": \"^7.10.0\",\r\n    \"@babel/core\": \"^7.10.0\",\r\n    \"@babel/plugin-transform-modules-commonjs\": \"^7.10.1\",\r\n    \"@babel/plugin-transform-runtime\": \"^7.10.0\",\r\n    \"@babel/preset-env\": \"^7.10.0\",\r\n    \"babel-eslint\": \"^10.1.0\",\r\n    \"babel-loader\": \"^8.1.0\",\r\n    \"babel-plugin-add-module-exports\": \"^1.0.2\",\r\n    \"body-parser\": \"^1.19.0\",\r\n    \"chai\": \"^4.2.0\",\r\n    \"chai-as-promised\": \"^7.1.1\",\r\n    \"chai-things\": \"^0.2.0\",\r\n    \"component-ie\": \"^1.0.0\",\r\n    \"concurrently\": \"^5.2.0\",\r\n    \"cors\": \"^2.8.5\",\r\n    \"esdoc\": \"^1.1.0\",\r\n    \"esdoc-importpath-plugin\": \"^1.0.2\",\r\n    \"esdoc-standard-plugin\": \"^1.0.0\",\r\n    \"eslint\": \"^7.1.0\",\r\n    \"eslint-loader\": \"^4.0.2\",\r\n    \"eventsource\": \"^1.0.7\",\r\n    \"express\": \"^4.17.1\",\r\n    \"istanbul\": \"^0.4.5\",\r\n    \"karma\": \"^5.0.9\",\r\n    \"karma-chai\": \"^0.1.0\",\r\n    \"karma-chrome-launcher\": \"^3.1.0\",\r\n    \"karma-firefox-launcher\": \"^1.3.0\",\r\n    \"karma-mocha\": \"^2.0.1\",\r\n    \"karma-mocha-reporter\": \"^2.2.5\",\r\n    \"karma-sourcemap-loader\": \"^0.3.7\",\r\n    \"karma-webpack\": \"^4.0.2\",\r\n    \"mocha\": \"^7.2.0\",\r\n    \"mocha-webpack\": \"^2.0.0-beta.0\",\r\n    \"shx\": \"^0.3.2\",\r\n    \"sinon\": \"^9.0.2\",\r\n    \"sse-channel\": \"^3.1.1\",\r\n    \"superagent\": \"^5.2.2\",\r\n    \"superagent-no-cache\": \"github:johntron/superagent-no-cache#efab70e6fa5f5702883c990b69929aaaaa3b7029\",\r\n    \"terser-webpack-plugin\": \"^3.0.2\",\r\n    \"webpack\": \"^4.43.0\",\r\n    \"webpack-cli\": \"^3.3.11\",\r\n    \"webpack-merge\": \"^4.2.2\"\r\n  }\r\n}\r\n",
+    "longname": "C:\\dev\\github\\gsf-js-client-sdk\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualIndex",
+    "globalIndex": false,
+    "content": null,
+    "longname": "",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manualAsset",
+    "longname": "C:\\dev\\github\\gsf-js-client-sdk\\doc\\asset",
+    "name": "./doc/asset",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "C:\\dev\\github\\gsf-js-client-sdk\\doc\\manual\\installation.md",
+    "name": "./doc/manual/installation.md",
+    "content": "## Installation Guide\r\nThe SDK can be installed using [npm].\r\n\r\n    $ npm install gsf-js-client-sdk\r\n\r\n[npm]:http://npmjs.com\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "C:\\dev\\github\\gsf-js-client-sdk\\doc\\manual\\tutorial\\migration-guide-v3.md",
+    "name": "./doc/manual/tutorial/migration-guide-v3.md",
+    "content": "# Migration Guide: Moving from v2 to v3\r\nThe gsf-javascript-client-sdk has undergone a number of changes for version 3.0.  This version is significant due to the adoption of a new HTTP API for GSF.  This means that if you upgrade your SDK to v3, you will also need to update your server(s) to GSF version 3.0. Ensure that the gsf-request-handler is enabled on the server before using version 3 of the SDK.  There are a number of breaking changes for the SDK user as a result of switching to the new API.\r\n\r\nThe purpose of this guide is to help you transition your application's source code from v2 to v3 of the SDK.\r\n\r\n- Classes\r\n    - [Server](#server-class)\r\n    - [Service](#service-class)\r\n    - [Task](#task-class)\r\n    - [Job](#job-class)\r\n- Types\r\n    - [ServiceInfo](#serviceinfo)\r\n    - [TaskInfo](#taskinfo)\r\n    - [SubmitOptions](#submitoptions)\r\n    - [JobInfo](#jobinfo)\r\n    - [JobResults](#jobresults)\r\n\r\n### Server Class\r\n#### GSF.Server is now GSF.Client.\r\n- The server class has been renamed to 'Client'.\r\n- The 'ServerArgs' object is now referred to as 'ClientOptions'.\r\n\r\n#### Client.APIRoot no longer defaults to 'ese'.\r\n- The default APIRoot has been removed to align with the new HTTP API.\r\n\r\n### Service Class\r\n#### Service.info() no longer contains task list.\r\n- See [ServiceInfo](#serviceinfo) below for details.\r\n\r\n#### Service.taskInfoList() response changed.\r\n- See [TaskInfo](#taskinfo) below for details.\r\n\r\n### Task Class\r\n#### Task.info() response changed.\r\n- See [TaskInfo](#taskinfo) below for details.\r\n\r\n#### Task.submit() and Task.submitAndWait() options changed.\r\n- See [SubmitOptions](#submitoptions) for more details.\r\n\r\n### Job Class\r\n#### Job.info() response changed.\r\n- See [JobInfo](#jobinfo) below for more details.\r\n\r\n#### Job event names changed.  They are now the same as the Client events.\r\n    - Renamed 'Accepted' to 'JobAccepted'.\r\n    - Renamed 'Started' to 'JobStarted'.\r\n    - Renamed 'Progress' to 'JobProgress'.\r\n    - Renamed 'Completed' to 'JobCompleted'.\r\n    - Renamed 'Succeeded' to 'JobSucceeded'.\r\n    - Renamed 'Failed' to 'JobFailed'.\r\n\r\n### Job.wait() response changed.\r\n- See [JobResults](#jobresults) below for more details.\r\n\r\n## Types\r\n\r\n### TaskInfo\r\n- Added 'serviceName'.\r\n- Renamed 'name' to 'taskName'.\r\n- Renamed '<parameter>.dataType' to '<parameter>.type'.\r\n- Renamed '<parameter>.defaultValue' to '<parameter>.default'.\r\n- Replaced 'parameters' with 'inputParameters' and 'outputParameters'.\r\n- Removed '<parameter>.direction'\r\n    - New 'inputParameters' and 'outputParameters' arrays indicate direction in their name.\r\n\r\n##### Example of TaskInfo in v2\r\n```json\r\n{\r\n    \"name\": \"ISODATAClassification\",\r\n    \"displayName\": \"ISODATA Classification\",\r\n    \"description\": \"This task clusters pixels in a dataset based on statistics only, without requiring you to define training classes.\",\r\n    \"parameters\": {\r\n        \"INPUT_RASTER\": {\r\n            \"name\": \"INPUT_RASTER\",\r\n            \"parameterType\": \"required\",\r\n            \"displayName\": \"Input Raster\",\r\n            \"description\": \"Specify a raster on which to perform unsupervised classification.\",\r\n            \"direction\": \"INPUT\",\r\n            \"dataType:\": \"ENVIRASTER\"\r\n        },\r\n        \"OUTPUT_RASTER\": {\r\n            \"name\": \"OUTPUT_RASTER\",\r\n            \"parameterType\": \"required\",\r\n            \"displayName\": \"Output Raster\",\r\n            \"description\": \"This is a reference to the output classification raster of filetype ENVI.\",\r\n            \"direction\": \"OUTPUT\",\r\n            \"dataType:\": \"ENVIRASTER\"\r\n        }\r\n    }\r\n}\r\n```\r\n\r\n##### Example of TaskInfo in v3\r\n```json\r\n{\r\n    \"taskName\": \"ISODATAClassification\",\r\n    \"serviceName\": \"ENVI\",\r\n    \"displayName\": \"ISODATA Classification\",\r\n    \"description\": \"This task clusters pixels in a dataset based on statistics only, without requiring you to define training classes.\",\r\n    \"inputParameters\": [\r\n        {\r\n            \"name\": \"INPUT_RASTER\",\r\n            \"type\": \"ENVIRASTER\",\r\n            \"required\": true,\r\n            \"displayName\": \"Input Raster\",\r\n            \"description\": \"Specify a raster on which to perform unsupervised classification.\"\r\n        }\r\n    ],\r\n    \"outputParameters\": [\r\n        {\r\n            \"name\": \"OUTPUT_RASTER\",\r\n            \"type\": \"ENVIRASTER\",\r\n            \"displayName\": \"Output Raster\",\r\n            \"description\": \"This is a reference to the output classification raster of filetype ENVI.\",\r\n            \"required\": true\r\n        }\r\n    ]\r\n}\r\n```\r\nFor full documention see [**TaskInfo**].\r\n\r\n\r\n### ServiceInfo\r\n- Removed 'tasks'.\r\n    - Use Service.tasks() or Service.taskInfoList() to obtain task lists.\r\n\r\n##### Example of ServiceInfo in v2\r\n```json\r\n{\r\n    \"name\": \"ENVI\",\r\n    \"description\": \"ENVI processing routines\",\r\n    \"tasks\": [\r\n        \"Task1\",\r\n        \"Task2\",\r\n        \"Task3\"\r\n    ]\r\n}\r\n```\r\n\r\n##### Example of ServiceInfo in v3\r\n```json\r\n{\r\n    \"name\": \"ENVI\",\r\n    \"description\": \"ENVI processing routines\"\r\n}\r\n```\r\nFor full documentation see [**ServiceInfo**].\r\n\r\n### SubmitOptions\r\n- Added 'jobOptions' object.\r\n    - 'route' was moved into the 'jobOptions' object.\r\n    - Any additional processing directives will reside in the 'jobOptions' object.\r\n- Renamed 'parameters' to 'inputParameters'.\r\n\r\n##### Example of SubmitOptions in v2\r\n```javascript\r\nconst submitOptions = {\r\n  parameters: {\r\n    INPUT_RASTER: {\r\n      FACTORY: 'URLRaster',\r\n      URL: '/some/url'\r\n    },\r\n    INDEX: 'Normalized Difference Vegetation Index'\r\n  },\r\n  route: \"ENVIRoute\"\r\n};\r\n```\r\n\r\n##### Example of SubmitOptions in v3\r\n```javascript\r\nconst submitOptions = {\r\n  inputParameters: {\r\n    INPUT_RASTER: {\r\n      FACTORY: 'URLRaster',\r\n      URL: '/some/url'\r\n    },\r\n    INDEX: 'Normalized Difference Vegetation Index'\r\n  },\r\n  jobOptions: {\r\n      route: \"ENVIRoute\"\r\n  }\r\n};\r\n```\r\nFor full documentation see [**SubmitOptions**].\r\n\r\n### JobInfo\r\n- Added 'jobStart'.\r\n- Added 'jobEnd'.\r\n- Added 'jobSubmitted'.\r\n- Added 'jobOptions'.\r\n- Renamed 'inputs' to 'inputParameters'.\r\n- Renamed 'jobErrorMessage' to 'jobError'.\r\n- Renamed 'results' to 'jobResults'.\r\n- Renamed 'jobProgressMessage' to 'jobMessage'.\r\n- Removed 'jobRoute'.  This property is now in the 'jobOptions' object.\r\n- Removed 'jobStatusUrl'.\r\n\r\n##### Example of JobInfo in v2\r\n```json\r\n{\r\n\t\"jobId\": 3410,\r\n\t\"jobStatus\": \"Succeeded\",\r\n\t\"jobStatusURL\": \"ese/jobs/3410/status\",\r\n\t\"jobProgress\": 100,\r\n\t\"jobProgressMessage\": \"Completed\",\r\n\t\"jobRoute\": \"default\",\r\n\t\"taskName\": \"SpectralIndex\",\r\n\t\"serviceName\": \"ENVI\",\r\n\t\"jobErrorMessage\": \"\",\r\n\t\"inputs\": {\r\n\t\t\"index\": \"Iron Oxide\",\r\n\t\t\"input_raster\": {\r\n\t\t\t\"url\": \"/some/url\",\r\n\t\t\t\"factory\": \"URLRaster\"\r\n\t\t}\r\n\t},\r\n\t\"results\": {\r\n        \"OUTPUT_RASTER\": {\r\n\t\t\t\"url\": \"/some/url\",\r\n\t\t\t\"factory\": \"URLRaster\",\r\n\t\t\t\"auxiliary_url\": [\r\n\t\t\t\t\"/some/url\"\r\n\t\t\t]\r\n        }\r\n\t},\r\n\t\"messages\": [{\r\n\t\t\t\"type\": \"esriJobMessageTypeInformative\",\r\n\t\t\t\"description\": \"Submission Time: Mon Jan 29 2018 16:07:52 GMT-0700 (Mountain Standard Time)\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"type\": \"esriJobMessageTypeInformative\",\r\n\t\t\t\"description\": \"Start Time: Mon Jan 29 2018 16:07:52 GMT-0700 (Mountain Standard Time)\"\r\n\t\t},\r\n\t\t{\r\n\t\t\t\"type\": \"esriJobMessageTypeInformative\",\r\n\t\t\t\"description\": \"End Time: Mon Jan 29 2018 16:08:01 GMT-0700 (Mountain Standard Time) (Elapsed Time: 8.818 seconds)\"\r\n\t\t}\r\n\t]\r\n}\r\n```\r\n\r\n##### Example of JobInfo in v3\r\n```json\r\n{\r\n\t\"jobId\": 3410,\r\n\t\"jobProgress\": 100,\r\n\t\"jobMessage\": \"Completed\",\r\n\t\"jobStatus\": \"Succeeded\",\r\n\t\"taskName\": \"SpectralIndex\",\r\n\t\"serviceName\": \"ENVI\",\r\n\t\"inputParameters\": {\r\n\t\t\"index\": \"Iron Oxide\",\r\n\t\t\"input_raster\": {\r\n\t\t\t\"url\": \"/some/url\",\r\n\t\t\t\"factory\": \"URLRaster\"\r\n\t\t}\r\n\t},\r\n\t\"jobResults\": {\r\n\t\t\"OUTPUT_RASTER\": {\r\n\t\t\t\"best\": {\r\n\t\t\t\t\"url\": \"/some/url\",\r\n\t\t\t\t\"factory\": \"URLRaster\",\r\n\t\t\t\t\"auxiliary_url\": [\r\n\t\t\t\t\t\"/some/url\"\r\n\t\t\t\t]\r\n\t\t\t},\r\n\t\t\t\"ese-job-parameter-mapper\": {\r\n\t\t\t\t\"url\": \"/some/url\",\r\n\t\t\t\t\"factory\": \"URLRaster\",\r\n\t\t\t\t\"auxiliary_url\": [\r\n\t\t\t\t\t\"/some/url\"\r\n\t\t\t\t]\r\n\t\t\t}\r\n\t\t}\r\n\t},\r\n\t\"jobOptions\": {\r\n\t\t\"route\": \"default\"\r\n\t},\r\n\t\"jobSubmitted\": \"2018-01-29T23:07:52.992Z\",\r\n\t\"jobStart\": \"2018-01-29T23:07:52.995Z\",\r\n\t\"jobEnd\": \"2018-01-29T23:08:01.813Z\"\r\n}\r\n```\r\nFor full documentation see [**JobInfo**].\r\n\r\n### JobResults\r\n- Each parameter now contains all of the parameter mappings.  The highest ranked mapping is set to the 'best' key.\r\n\r\n##### Example of JobResults in v2\r\n```json\r\n{\r\n    \"OUTPUT_RASTER\": {\r\n        \"url\": \"/some/url\",\r\n        \"factory\": \"URLRaster\",\r\n        \"auxiliary_url\": [\r\n            \"/some/url\"\r\n        ]\r\n    }\r\n}\r\n```\r\n\r\n##### Example of JobResults in v3\r\n```json\r\n{\r\n    \"OUTPUT_RASTER\": {\r\n        \"best\": {\r\n            \"url\": \"/some/url\",\r\n            \"factory\": \"URLRaster\",\r\n            \"auxiliary_url\": [\r\n                \"/some/url\"\r\n            ]\r\n        },\r\n        \"ese-job-parameter-mapper\": {\r\n            \"url\": \"/some/url\",\r\n            \"factory\": \"URLRaster\",\r\n            \"auxiliary_url\": [\r\n                \"/some/url\"\r\n            ]\r\n        }\r\n    }\r\n}\r\n```\r\nFor full documentation see [**JobResults**].\r\n\r\n\r\n[**ServiceInfo**]:../typedef/index.html#static-typedef-ServiceInfo\r\n[**TaskInfo**]:../typedef/index.html#static-typedef-TaskInfo\r\n[**SubmitOptions**]:../typedef/index.html#static-typedef-SubmitOptions\r\n[**JobInfo**]:../typedef/index.html#static-typedef-JobInfo\r\n[**JobResults**]:../typedef/index.html#static-typedef-JobResults",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "C:\\dev\\github\\gsf-js-client-sdk\\doc\\manual\\tutorial\\migration-guide-v4.md",
+    "name": "./doc/manual/tutorial/migration-guide-v4.md",
+    "content": "# Migration Guide: Moving from v3 to v4\r\nThe purpose of this guide is to help you transition your application's source code from v3 to v4 of the SDK.  These changes will allow you to use the SDK with GSF 3.0 or later.\r\n\r\n### Job IDs\r\nJob IDs are now strings due to the addition of optional unique job IDs in GSF 3.0.\r\n\r\n### Job Lists\r\n#### New 'query' option\r\nGSF 3.0 has added a powerful API for querying the job database.  The SDK now leverages this new query language and has removed some of the legacy job filters.  More information on this can be found in the [**Examples**] page or the GSF Job Search API Tutorial.\r\n\r\n#### New 'sort' option\r\nMore flexible sorting is now available for job lists.  Please see [**JobListOptions**] documentation for more details\r\n\r\n#### New 'totals' option\r\nA new option called 'totals' has been introduced to the JobListOptions object.  This can be used to retrieve total job counts by job status, as well as a grand total.  Please see the [**JobListOptions**] documentation for more details.\r\n\r\n#### JobInfoList response has changed\r\nInstead of just returning the array of JobInfo objects, the Client.JobInfoList() function now returns an object containing the count of filtered jobs, the total number of jobs in the database, and totals for each job status.  For more information see the [**JobInfoList**] documentation.\r\n\r\nJobInfoList V3\r\n```javascript\r\n[\r\n    <JobInfo>,\r\n    <JobInfo>,\r\n    ...\r\n]\r\n```\r\n\r\nJobInfoList V4\r\n```javascript\r\n{\r\n    total: 50,\r\n    count: 10,\r\n    jobs: [\r\n        <JobInfo>,\r\n        <JobInfo>,\r\n        ...\r\n    ]\r\n}\r\n```\r\n\r\n#### The 'reverse' and 'status' options have been removed\r\nThe 'reverse' and 'status' options have been removed from the [**JobListOptions**] object in favor of the new query API.  Below are examples for converting to the new syntax.\r\n\r\n##### Converting code that uses the 'reverse' option\r\nSetting the 'reverse' option to true is equivalent to sorting the job list by jobSubmitted date in descending order.\r\n\r\n```diff\r\nconst client = GSF.client({\r\n    address: 'MyServer',\r\n    port: '9191'\r\n});\r\n\r\n// Get job list with jobSubmitted date in descending order.\r\nconst jobListOptions = {\r\n-    reverse: true\r\n+    sort: [[ 'jobSubmitted', -1 ]]\r\n};\r\n\r\nclient\r\n    .jobs(jobListOptions)\r\n    .then((jobList) => {\r\n        console.log(jobList);\r\n    }).catch((err) => {\r\n        console.error(err);\r\n    });\r\n```\r\n\r\n##### Converting code that uses the 'status' option\r\nSetting the 'status' option is equivalent to querying by jobStatus using the new syntax.  For more examples on querying, please see the [**Examples**] or the GSF Job Search API Tutorial.\r\n\r\n```diff\r\nconst client = GSF.client({\r\n    address: 'MyServer',\r\n    port: '9191'\r\n});\r\n\r\n// Filter job list by Failed status.\r\nconst jobListOptions = {\r\n-    status: 'Failed'\r\n+    query: {\r\n+       jobStatus: {\r\n+           '$eq': 'Failed'\r\n+       }\r\n+    }\r\n};\r\n\r\nclient\r\n    .jobs(jobListOptions)\r\n    .then((jobList) => {\r\n        console.log(jobList);\r\n    }).catch((err) => {\r\n        console.error(err);\r\n    });\r\n```\r\n\r\n[**JobListOptions**]:../typedef/index.html#static-typedef-JobListOptions\r\n[**Examples**]:../manual/examples.html",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "C:\\dev\\github\\gsf-js-client-sdk\\doc\\manual\\tutorial\\getting-started.md",
+    "name": "./doc/manual/tutorial/getting-started.md",
+    "content": "# Getting Started\r\n# GSF JavaScript Client SDK\r\n\r\n## About the SDK\r\nThe GSF JavaScript Client SDK provides a client-side JavaScript library for interacting with GSF.  The SDK works in both the browser and Node.js.\r\n\r\n1. This repository contains pre-built distributable files located in the `/dist/` directory.\r\n  - `/dist/GSF-node.js` - The Node.js bundle.\r\n  - `/dist/GSF-node.js.map` - The Node.js bundle source map.\r\n  - `/dist/GSF.js` - The non-minified web bundle.\r\n  - `/dist/GSF.js.map` - The non-minified web bundle source map file.\r\n  - `/dist/GSF.min.js` - The minified web bundle.\r\n  - `/dist/GSF.min.js.map` - The minified web bundle source map file.\r\n\r\n## Basic Usage\r\n### Importing the SDK\r\n#### Using ECMAScript 2015\r\n- Import everything with GSF namespace:\r\n\r\n  `import * as GSF from 'gsf-js-client-sdk';`\r\n\r\n- Import specific classes:\r\n\r\n  `import { Job, Task } from 'gsf-js-client-sdk';`\r\n\r\n#### Using Node.js\r\n- Require the SDK:\r\n\r\n  `const GSF = require('gsf-js-client-sdk/dist/GSF-node');`\r\n\r\n### Including the SDK with a Script Tag\r\n1. Include the GSF JavaScript Client SDK in your project.  The example below assumes the SDK file is located next to your html file.\r\n\r\n    `<script src=\"GSF.min.js\"></script>`\r\n\r\n2. Access the SDK using the global [**GSF**] object.\r\n\r\n    `<script>console.log(GSF);</script>`\r\n\r\n3. Below is a simple example of running a job and retrieving the results.  You will need to update the server address and port below to reflect the server that you are using.\r\n\r\n```javascript\r\nconst myAddress = 'MyServer';\r\nconst myPort = 9191;\r\n\r\n// GSF Client\r\nconst client = GSF.client({\r\n    address: myAddress,\r\n    port: myPort\r\n  });\r\n\r\n// Create a service object.\r\nconst service = client.service('ENVI');\r\n\r\n// Create a task object.\r\nconst task = service.task('SpectralIndex');\r\n\r\nconst NDVIParameters = {\r\n  inputParameters: {\r\n    INPUT_RASTER: {\r\n      FACTORY: 'URLRaster',\r\n      URL: `http://${myAddress}:${myPort}/ese/data/qb_boulder_msi`\r\n    },\r\n    INDEX: 'Normalized Difference Vegetation Index'\r\n  }\r\n};\r\n\r\n// Submit a job.\r\ntask.submitAndWait(NDVIParameters).then((results) => {\r\n    // Do something with results.\r\n    AddToMap(results.OUTPUT_RASTER.best);\r\n  }).catch((err) => {\r\n    // Display error.\r\n  });\r\n```\r\n\r\n## Requirements\r\n### Server Sent Events\r\nThe GSF JavaScript Client SDK relies on [server-sent events] for communication with the server.  Developers who wish to build apps that run on browsers lacking EventSource support will want to use a polyfill.  This is not necessary when using the SDK in Node.js.\r\n\r\nTo view a list of the browsers that support EventSource please go here: https://caniuse.com/#search=eventsource\r\n\r\nThere are several polyfills available that provide implementations of the EventSource API.  One such polyfill that is available from the npm and Bower package managers is called 'eventsource-polyfill'.  For information on installation and usage, see https://github.com/amvtek/EventSource.\r\n\r\n## Building the SDK\r\n1. Clone the repository.\r\n\r\n  $ git clone https://github.com/geospatial-services-framework/gsf-js-client-sdk\r\n\r\n2. From the root directory of the project install the dependencies.\r\n\r\n  $ npm install\r\n\r\n3. Run the build script.\r\n\r\n  $ npm run build\r\n\r\n## Testing the SDK\r\n#### Using a Test Server\r\nWe have provided a simple mock server implementation that can be used for very basic testing of the SDK.  There are several other test scripts available. See the scripts section of the package.json file for more information.\r\n\r\n##### Run tests in the browser against mock server.\r\n\r\n  $ npm run test\r\n\r\n##### Run tests in Node.js against mock server.\r\n\r\n  $ npm run test-node\r\n\r\n## Building the Documentation\r\n1. Build the documentation.\r\n\r\n  $ npm run help\r\n\r\n2. View the generated help files located in the `/help` directory (on Windows).\r\n\r\n  $ start help/index.html\r\n\r\n[**GSF**]:../class/src/GSF.js~GSF.html\r\n[server-sent events]:https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "C:\\dev\\github\\gsf-js-client-sdk\\doc\\manual\\tutorial\\examples.md",
+    "name": "./doc/manual/tutorial/examples.md",
+    "content": "# Examples\r\nBelow are several examples of using the SDK with JavaScript.  For TypeScript specific examples see the [TypeScript example](#typescript).  Before using the SDK, it is also recommended that you read the [best practices](#bestPractices) section.\r\n\r\n## List Available Services\r\nThe GSF [**Client**] object provides the ability to list the available services on the server.\r\n\r\n```javascript\r\n// GSF Client\r\nconst client = GSF.client({\r\n    address: 'MyServer',\r\n    port: '9191'\r\n  });\r\n\r\n// Get an array of available services.\r\nclient.services().then((services) => {\r\n  services.forEach((service) => {\r\n    // Print each service name.\r\n    console.log(service.name);\r\n  });\r\n}).catch((err) => {\r\n  // There was an error.\r\n});\r\n```\r\n\r\n## List Jobs\r\nThe GSF [**Client**] object provides the ability to query and sort the job list.\r\n\r\n### The 'query' option\r\nThe [**JobListOptions**] object supports an option called 'query'.  This can be used to form advanced queries of the job database.  The primary building block of a query is the comparison operator, which may be used to select jobs matching the desired criteria. The job search API supports the following comparison operators:\r\n- $eq\r\n- $gt\r\n- $gte\r\n- $lt\r\n- $lte\r\n- $ne\r\n\r\nA simple query for any job that is not 'Succeeded':\r\n```javascript\r\n// GSF Client\r\nconst client = GSF.client({\r\n    address: 'MyServer',\r\n    port: '9191'\r\n  });\r\n\r\nconst jobListOptions = {\r\n  query: {\r\n\t  jobStatus: {\r\n\t\t  '$ne': 'Succeeded'\r\n  \t}\r\n  },\r\n};\r\n\r\n// List jobs.\r\nclient.jobInfoList(jobListOptions).then((jobInfoList) => {\r\n  // Print job list.\r\n  console.log(jobInfoList);\r\n}).catch((err) => {\r\n  // There was an error.\r\n});\r\n```\r\n### The 'sort' option\r\nIn addition to providing a query object, the [**JobListOptions**] also allows flexible sorting of the job list.  This field should be an array of sort arrays.  Multiple sort arrays may also be provided as the sorting will be evaluated from left to right.  Each field may be sorted in either ascending (1) or descending (-1) order.\r\n\r\nSort jobs by 'jobSubmitted' date in ascending order.\r\n```javascript\r\n// GSF Client\r\nconst client = GSF.client({\r\n    address: 'MyServer',\r\n    port: '9191'\r\n  });\r\n\r\nconst jobListOptions = {\r\n  sort: [ [ 'jobSubmitted', 1 ] ]\r\n};\r\n\r\n// List jobs.\r\nclient.jobInfoList(jobListOptions).then((jobInfoList) => {\r\n  // Print job list.\r\n  console.log(jobInfoList);\r\n}).catch((err) => {\r\n  // There was an error.\r\n});\r\n```\r\n\r\n### Advanced query\r\nThis example shows all of the features of the job search API used together.  The job search below would return the 10 most recent failed Spectral Index jobs in the database.  For more information please see the [**JobListOptions**] object and the GSF Job Search API Tutorial.\r\n\r\n```javascript\r\n// GSF Client\r\nconst client = GSF.client({\r\n    address: 'MyServer',\r\n    port: '9191'\r\n  });\r\n\r\nconst jobListOptions = {\r\n  query: {\r\n\t  taskName: {\r\n\t\t  '$eq': 'SpectralIndex'\r\n\t  },\r\n\t  jobStatus: {\r\n\t\t  '$eq': 'Failed'\r\n  \t}\r\n  },\r\n  sort: [ [ 'jobSubmitted', -1 ] ],\r\n  offset: 0,\r\n  limit: 10,\r\n  totals: 'all'\r\n};\r\n\r\n// List jobs.  This will result in an array of Job objects.\r\nclient.jobs(jobListOptions).then((jobList) => {\r\n  // Print job list.\r\n  console.log(jobList);\r\n}).catch((err) => {\r\n  // There was an error.\r\n});\r\n\r\n// List jobs.  This will result in a list of JobInfo object along with a count and totals.\r\nclient.jobInfoList(jobListOptions).then((jobInfoList) => {\r\n  // Print job list.\r\n  console.log(jobInfoList);\r\n}).catch((err) => {\r\n  // There was an error.\r\n});\r\n```\r\n\r\n## List Available Tasks\r\nThe [**Service**] object provides the ability to list the available tasks on the service.  The example below lists all tasks associated with the ENVI service.\r\n\r\n```javascript\r\n// GSF Client\r\nconst client = GSF.client({\r\n    address: 'MyServer',\r\n    port: '9191'\r\n  });\r\n\r\n// Get the ENVI service.\r\nconst service = client.service('ENVI');\r\n\r\n// Get an array of available tasks.\r\nservice.tasks().then((tasks) => {\r\n  tasks.forEach((task) => {\r\n    // Print each task name.\r\n    console.log(task.name);\r\n  });\r\n}).catch((err) => {\r\n  // There was an error.\r\n});\r\n```\r\n\r\n## Get Task Information\r\nThe [**Task**] object allows you to query the task and its parameters.  This may be useful when dynamically constructing UI elements representing task input parameters.\r\n\r\n```javascript\r\n// GSF Client\r\nconst client = GSF.client({\r\n    address: 'MyServer',\r\n    port: '9191'\r\n  });\r\n\r\n// Get the ENVI service.\r\nconst service = client.service('ENVI');\r\n\r\n// Get a task.\r\nconst task = service.task('SpectralIndex');\r\n\r\ntask.info().then((info) => {\r\n  // Print the task info.\r\n  console.log(info);\r\n}).catch((err) => {\r\n  // There was an error.\r\n});\r\n```\r\n\r\n## Run a Task\r\nThere are many ways to run tasks and retrieve results using the GSF JavaScript SDK.  The following examples assume you have completed the steps below to create a task object.\r\n\r\n```javascript\r\n// Get a task.\r\nconst task = GSF.client({address:'MyServer',port:'9191'}).service('ENVI').task('SpectralIndex');\r\n\r\nconst taskParameters = {\r\n  inputParameters: {\r\n    INPUT_RASTER: {\r\n      FACTORY: 'URLRaster',\r\n      URL: 'http://MyServer:9191/ese/data/qb_boulder_msi'\r\n    },\r\n    INDEX: 'Normalized Difference Vegetation Index'\r\n  }\r\n};\r\n```\r\n\r\n### Using Promises\r\nThe SDK provides a [**Promise**]-based interface for submitting tasks.  If the task succeeds, the promise will be fulfilled.  If the job fails, the promise will be rejected.  There are two ways to use promises for job submission.\r\n\r\n##### 1. Use [**.submit()**] and then [**.wait()**]\r\nThe [**Task**].[**submit()**] function returns a [**Promise**] to a [**Job**], and the [**Job**].[**wait()**] function returns a [**Promise**] to the JobResults.\r\n\r\n```javascript\r\n// Submit a job.\r\ntask.submit(taskParameters)\r\n  .then(job => job.wait())\r\n  .then((results) => {\r\n    // Do something with results.\r\n    // This function is an example and is not provided by the SDK.\r\n    AddToMap(results.OUTPUT_RASTER.best);\r\n  }).catch((jobErrorMessage) => {\r\n    // Display error.\r\n  });\r\n```\r\n\r\n##### 2. Use [**.submitAndWait()**]\r\nThis function simply combines the [**.submit()**] and [**.wait()**] functions.  This is perhaps the simplest way to submit a job and retrieve the results.  Use this if you are only intereseted in results and do not wish to interact with the [**Job**] object.\r\n\r\n```javascript\r\n// Submit a job.\r\ntask.submitAndWait(taskParameters).then((results) => {\r\n    // Do something with results.\r\n    // This function is an example and is not provided by the SDK.\r\n    AddToMap(results.OUTPUT_RASTER.best);\r\n  }).catch((jobErrorMessage) => {\r\n    // Display error.\r\n  });\r\n```\r\n\r\n### Using Server Events\r\nThe [**Client**] and [**Job**] objects give you access to all job related events emitted by the server.  These classes inheret from Node's [**EventEmitter**] and support methods such as .on(), .once(), .removeAllListeners(), etc. The following example shows how to listen for job events on the [**Client**].\r\n\r\n```javascript\r\n// GSF Client\r\nconst client = GSF.client({\r\n    address: 'MyServer',\r\n    port: '9191'\r\n  });\r\n\r\n// Set up an event listeners.\r\nclient.once('JobSucceeded', (data) => {\r\n  console.log('Job Succeeded: ', data.jobId);\r\n});\r\n\r\nclient.once('JobFailed', (data) => {\r\n  console.log('Job Failed: ', data.jobId);\r\n});\r\n\r\n// Create a service object.\r\nconst service = client.service('ENVI');\r\n\r\n// Create a task object.\r\nconst task = service.task('SpectralIndex');\r\n\r\nconst NDVIParameters = {\r\n  inputParameters: {\r\n    INPUT_RASTER: {\r\n      FACTORY: 'URLRaster',\r\n      URL: 'http://MyServer:9191/ese/data/qb_boulder_msi'\r\n    },\r\n    INDEX: 'Normalized Difference Vegetation Index'\r\n  }\r\n};\r\n\r\n// Submit a job.\r\ntask.submit(NDVIParameters);\r\n```\r\n\r\nFor a complete list of available events, see the [**Client**] class documentation.\r\n\r\n## Tracking Job Progress\r\nThere are two ways to track the progress of a job.\r\n\r\n### Progress Callbacks\r\nThe [**.submit()**] and [**.submitAndWait()**] functions support the inclusion of a progress callback for reporting job progress.\r\n\r\n```javascript\r\nconst progressCallback = function (data) {\r\n  console.log('Job progress percent: ', data.progress);\r\n  console.log('Job progress message: ', data.message);\r\n};\r\n\r\n// Submit a job.\r\ntask.submitAndWait(parameters, progressCallback).then((results) => {\r\n    // Do something with results.\r\n    // This function is an example and is not provided by the SDK.\r\n    AddToMap(results.OUTPUT_RASTER.best);\r\n  }).catch((jobErrorMessage) => {\r\n    // Display error.\r\n  });\r\n```\r\n\r\n### Progress Events\r\nJob progress events are emitted by the [**Client**] and [**Job**] objects.\r\n\r\n#### Client Progress Events\r\nIt is possible to listen to all job progress events emitted by the server using the [**Client**] object.\r\n\r\n```javascript\r\n// GSF Client\r\nconst client = GSF.client({\r\n    address: 'MyServer',\r\n    port: '9191'\r\n  });\r\n\r\n// Set up an event listeners.\r\nclient.on('JobProgress', (data) => {\r\n  console.log('Job: ', data.jobId, ' progress percent: ', data.progress);\r\n  console.log('Job: ', data.jobId, ' progress message: ', data.message);\r\n});\r\n\r\n// Create a service object.\r\nconst service = client.service('ENVI');\r\n\r\n// Create a task object.\r\nconst task = service.task('SpectralIndex');\r\n\r\nconst NDVIParameters = {\r\n  inputParameters: {\r\n    INPUT_RASTER: {\r\n      FACTORY: 'URLRaster',\r\n      URL: 'http://MyServer:9191/ese/data/qb_boulder_msi'\r\n    },\r\n    INDEX: 'Normalized Difference Vegetation Index'\r\n  }\r\n};\r\n\r\n// Submit a job.\r\ntask.submit(NDVIParameters);\r\n```\r\n\r\n#### Job Progress Events\r\nA [**Job**] object emits progress events for the particular job which it represents.\r\n\r\n```javascript\r\n// GSF Client\r\nconst client = GSF.client({\r\n    address: 'MyServer',\r\n    port: '9191'\r\n  });\r\n\r\n// Create a service object.\r\nconst service = client.service('ENVI');\r\n\r\n// Create a task object.\r\nconst task = service.task('SpectralIndex');\r\n\r\nconst NDVIParameters = {\r\n  inputParameters: {\r\n    INPUT_RASTER: {\r\n      FACTORY: 'URLRaster',\r\n      URL: 'http://MyServer:9191/ese/data/qb_boulder_msi'\r\n    },\r\n    INDEX: 'Normalized Difference Vegetation Index'\r\n  }\r\n};\r\n\r\n// Submit a job.\r\ntask.submit(NDVIParameters).then((job) => {\r\n  // Set up an event listener on the job.\r\n  job.on('JobProgress', (data) => {\r\n    console.log('Job ', data.jobId, ' progress percent: ', data.progress);\r\n    console.log('Job ', data.jobId, ' progress message: ', data.message);\r\n  });\r\n}).catch((jobErrorMessage) => {\r\n  // Display error.\r\n});\r\n```\r\n\r\n## Cancelling Jobs\r\nBelow is an example of cancelling a job based on its job ID.\r\n\r\n```javascript\r\nconst myJobId = 1;\r\nconst job = new client.job(myJobId);\r\nconst force = false; // Do not force cancel.\r\n\r\n// Cancel Job\r\njob.cancel(force).then(() => {\r\n  console.log('Cancel has been successfully requested.');\r\n}).catch((err) => {\r\n  // Display error.\r\n});\r\n```\r\n\r\n## <a name=\"typescript\"></a> Typescript Example\r\nBelow is an example of submitting a job using typescript.\r\n\r\n```typescript\r\nimport * as GSF from 'gsf-js-client-sdk';\r\n\r\n// Get a task.\r\nconst clientOptions: GSF.ClientOptions = {address: 'MyServer', port: '9191'};\r\nconst myClient: GSF.Client = GSF.client(clientOptions);\r\nconst ENVIService: GSF.Service = myClient.service('ENVI');\r\nconst myTask: GSF.Task = ENVIService.task('SpectralIndex');\r\n\r\nconst taskParameters: GSF.SubmitOptions = {\r\n    inputParameters: {\r\n        INPUT_RASTER: {\r\n            FACTORY: 'URLRaster',\r\n            URL: 'http://MyServer:9191/ese/data/qb_boulder_msi'\r\n        },\r\n        INDEX: 'Normalized Difference Vegetation Index'\r\n    }\r\n};\r\n\r\n// Submit a job.\r\ntask.submitAndWait(taskParameters)\r\n    .then((results: GSF.JobResults) => {\r\n        // Do something with results.\r\n        // This function is an example and is not provided by the SDK.\r\n        AddToMap(results.OUTPUT_RASTER.best);\r\n    }).catch((jobErrorMessage) => {\r\n        // Display error.\r\n    });\r\n```\r\n\r\n## <a name=\"bestPractices\"></a> Best Practices\r\n### Connecting to Servers\r\nThe examples throughout this documentation explain various concepts within the SDK using complete examples.  Most of the examples create a new [**Client**] object for every example.  This is to ensure a fully functional and self-contained example but is not a good practice when developing web apps.  It is recommended that you limit the number of [**Client**] objects that you create.  Ideally, your app will create only one instance of this class and pass the reference around where needed.  This helps ensure consistency and prevent the possibility of exceeding the browser's per-domain connection limit.\r\n\r\n[**.wait()**]:../class/src/Job.js~Job.html#instance-method-wait\r\n[**wait()**]:../class/src/Job.js~Job.html#instance-method-wait\r\n[**.submitAndWait()**]:../class/src/Task.js~Task.html#instance-method-submitAndWait\r\n[**.submit()**]:../class/src/Task.js~Task.html#instance-method-submit\r\n[**submit()**]:../class/src/Task.js~Task.html#instance-method-submit\r\n\r\n[**Client**]:../class/src/Client.js~Client.html\r\n[**JobListOptions**]:../typedef/index.html#static-typedef-JobListOptions\r\n[**Service**]:../class/src/Service.js~Service.html\r\n[**Task**]:../class/src/Task.js~Task.html\r\n[**Job**]:../class/src/Job.js~Job.html\r\n\r\n[**EventEmitter**]:https://nodejs.org/api/events.html\r\n\r\n[**Promise**]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise\r\n",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "manual",
+    "longname": "C:\\dev\\github\\gsf-js-client-sdk\\CHANGELOG.md",
+    "name": "./CHANGELOG.md",
+    "content": "# Change Log\r\nAll notable changes to this project will be documented in this file.\r\n\r\n## 4.0.0 / 2020-06-22\r\n\r\n### New Features\r\n- Support for GSF 3.0:\r\n    - Add 'query' option to JobListOptions for more advanced querying of the job database.\r\n    - Add 'sort' option to the JobListOptions for flexible sorting of the job list.\r\n    - Add 'totals' option to JobListOptions for totals broken down by job status.\r\n\r\n### Breaking Changes\r\n- Changes related to GSF 3.0:\r\n    - Change jobId type from number to string to support the new 'uniqueJobIds' configuration option in GSF.\r\n    - Remove 'reverse' and 'status' options from JobListOptions in favor or more powerful 'sort' and 'query' options.\r\n    - The JobInfoList is now an object containing the jobs array, job count, and totals.\r\n\r\nFor a detailed summary of the changes, see the V4 Migration Guide and examples in the documentation.\r\n\r\n## 3.0.0 / 2018-03-21\r\n\r\n### New Features\r\n- Updated the SDK to use the new GSF HTTP API.\r\n\r\n### Breaking Changes\r\n- Several breaking changes were made for this release.  For a detailed summary of the changes, see the Migration Guide in the documentation.\r\n\r\n## 2.2.0 / 2018-03-22\r\n\r\n### New Features\r\n- Added Server.jobInfoList() for fetching an array of the current JobInfo objects.\r\n\r\n### Bug Fixes\r\n- Fix #10 - Server.jobInfoList() will retrieve full JobInfo objects from the server.\r\n\r\n## 2.1.0 / 2018-03-21\r\n\r\n### New Features\r\n- Added headers object to the ServerArgs object to allow custom headers to be used in requests.\r\n\r\n## 2.0.0 / 2017-07-24\r\n\r\n### New Features\r\n- Added the ability to use the SDK in Node.js.  See documentation for more details.\r\n\r\n### Breaking Changes\r\n- Task class: Replaced 'server' and 'serviceName' constructor arguments with 'service'.  This only affects Task objects created using the Task class constructor; there is no change to Task objects created using the Service.Task() method.  See API documentation for more details.\r\n\r\n## 1.0.0 / 2017-02-26\r\n\r\n### New Features\r\n- Add a change log.\r\n",
+    "static": true,
+    "access": "public"
+  }
+]

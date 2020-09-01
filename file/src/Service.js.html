@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <base data-ice="baseUrl">
-  <title data-ice="title">Home | GSF JavaScript Client SDK</title>
+  <base data-ice="baseUrl" href="../../">
+  <title data-ice="title">src/Service.js | GSF JavaScript Client SDK</title>
   <link type="text/css" rel="stylesheet" href="css/style.css">
   <link type="text/css" rel="stylesheet" href="css/prettify-tomorrow.css">
   <script src="script/prettify/prettify.js"></script>
@@ -59,19 +59,127 @@
 </div>
 </nav>
 
-<div class="content" data-ice="content"><div data-ice="index" class="github-markdown"><p></p><h1 class="gsf-title">
-GSF JavaScript Client SDK
-</h1>
+<div class="content" data-ice="content"><h1 data-ice="title">src/Service.js</h1>
+<pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import superagent from &apos;superagent&apos;;
+import saNoCache from &apos;superagent-no-cache&apos;;
 
-<p></p>
-<p>The GSF JavaScript Client SDK provides a client-side JavaScript library for interacting with GSF.</p>
-<h3 id="-a-href----manual-migration-guide-v4-html--&#xBB;-migration-guide--v3-to-v4--a-"><a href="./manual/migration-guide-v4.html">&#xBB; Migration Guide: v3 to v4</a></h3><p><em>Update to v3 of the SDK.</em></p>
-<h3 id="-a-href----manual-migration-guide-v3-html--&#xBB;-migration-guide--v2-to-v3--a-"><a href="./manual/migration-guide-v3.html">&#xBB; Migration Guide: v2 to v3</a></h3><p><em>Update to v3 of the SDK.</em></p>
-<h3 id="-a-href----manual-installation-html--&#xBB;-installation-guide--a-"><a href="./manual/installation.html">&#xBB; Installation Guide</a></h3><p><em>Install the SDK.</em></p>
-<h3 id="-a-href----manual-getting-started-html--&#xBB;-getting-started--a-"><a href="./manual/getting-started.html">&#xBB; Getting Started</a></h3><p><em>Get started using the SDK.</em></p>
-<h3 id="-a-href----manual-examples-html--&#xBB;-examples--a-"><a href="./manual/examples.html">&#xBB; Examples</a></h3><p><em>Learn more using code examples.</em></p>
-<h3 id="-a-href----identifiers-html--&#xBB;-api-reference--a-"><a href="./identifiers.html">&#xBB; API Reference</a></h3><p><em>Read the full developer documentation.</em></p>
-</div>
+import utils from &apos;./utils/utils.js&apos;;
+import Task from &apos;./Task&apos;;
+import GSF_API from &apos;./utils/GSF_API&apos;;
+
+const nocache = utils.isIE() ? saNoCache.withQueryStrings : saNoCache;
+
+/**
+ * The Service class is used to inspect and create tasks for a service.
+ */
+class Service {
+  /**
+   * @param {Client} client - The GSF client object.
+   * @param {string} serviceName - The name of the service.
+   */
+  constructor(client, serviceName) {
+    /**
+     * The service name.
+     * @type {string}
+     */
+    this.name = serviceName;
+
+    // Client object.
+    this._client = client;
+  }
+
+  /**
+   * The ServiceInfo object contains information about a service.
+   * @typedef {Object} ServiceInfo
+   * @property {string} name - The name of the service.
+   * @property {string} description - A description of the service.
+   */
+
+  /**
+   * Retrieves the service information.
+   * @return {Promise&lt;ServiceInfo, error&gt;} Returns a Promise to the
+   *  ServiceInfo object.
+   */
+  info() {
+    return new Promise((resolve, reject) =&gt; {
+      // Build service info url.
+      const url = [this._client.rootURL, GSF_API.SERVICES_PATH, this.name].join(&apos;/&apos;);
+
+      // Get service info so we can pull off the tasks array.
+      superagent
+        .get(url)
+        .use(nocache) // Prevents caching of *only* this request
+        .set(this._client.headers)
+        .end((err, res) =&gt; {
+          if (res &amp;&amp; res.ok) {
+            resolve(res.body);
+          } else {
+            const status = ((err &amp;&amp; err.status) ? &apos;: &apos; + err.status : &apos;&apos;);
+            const text = ((err &amp;&amp; err.response &amp;&amp; err.response.text) ? &apos;: &apos; +
+             err.response.text : &apos;&apos;);
+            reject(&apos;Error requesting service info&apos; + status + text);
+          }
+        });
+    });
+  }
+
+  /**
+   * Returns a task object.
+   * @param {string} taskName - The name of the task.
+   * @return {Task} Returns the task object.
+   */
+  task(taskName) {
+    return new Task(this, taskName);
+  }
+
+  /**
+   * Retrieves the array of task info objects available on the service.
+   * @version 1.1.0
+   * @return {Promise&lt;TaskInfo[], error&gt;} Returns a Promise to an array of TaskInfo objects.
+   */
+  taskInfoList() {
+    return new Promise((resolve, reject) =&gt; {
+      // Build service info url.
+      const url = [this._client.rootURL, GSF_API.SERVICES_PATH,
+        this.name, GSF_API.TASKS_PATH].join(&apos;/&apos;);
+
+      // Get service info so we can pull off the tasks array.
+      superagent
+        .get(url)
+        .query({ taskInfo: true })
+        .use(nocache) // Prevents caching of *only* this request
+        .set(this._client.headers)
+        .end((err, res) =&gt; {
+          if (res &amp;&amp; res.ok) {
+            resolve(res.body.tasks);
+          } else {
+            const status = ((err &amp;&amp; err.status) ? &apos;: &apos; + err.status : &apos;&apos;);
+            const text = ((err &amp;&amp; err.response &amp;&amp; err.response.text) ? &apos;: &apos; +
+             err.response.text : &apos;&apos;);
+            reject(&apos;Error requesting task info objects&apos; + status + text);
+          }
+        });
+    });
+  }
+
+  /**
+   * Retrieves the array of task objects available on the service.
+   * @return {Promise&lt;Task[], error&gt;} Returns a Promise to an array of Task objects.
+   */
+  tasks() {
+    return this
+      .taskInfoList()
+      .then((taskInfoList) =&gt; (
+        taskInfoList.map((taskInfo) =&gt; (new Task(this, taskInfo.taskName))))
+      );
+  }
+}
+
+export default Service;
+
+
+</code></pre>
+
 </div>
 
 <footer class="footer">
