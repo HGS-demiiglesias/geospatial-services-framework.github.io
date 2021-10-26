@@ -1,28 +1,28 @@
 {
   "type": "File",
   "start": 0,
-  "end": 417,
+  "end": 403,
   "loc": {
     "start": {
       "line": 1,
       "column": 0
     },
     "end": {
-      "line": 16,
+      "line": 17,
       "column": 0
     }
   },
   "program": {
     "type": "Program",
     "start": 0,
-    "end": 417,
+    "end": 403,
     "loc": {
       "start": {
         "line": 1,
         "column": 0
       },
       "end": {
-        "line": 16,
+        "line": 17,
         "column": 0
       }
     },
@@ -99,9 +99,9 @@
         "trailingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const client = GSF.client({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\r\n ",
-            "start": 34,
-            "end": 322,
+            "value": "*\n * The GSF object provides an entry point to the SDK.\n * @example\n * const client = GSF.client({address:'MyServer',port:9191});\n *\n * @typedef {Object} GSF\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\n ",
+            "start": 32,
+            "end": 313,
             "loc": {
               "start": {
                 "line": 3,
@@ -117,44 +117,44 @@
       },
       {
         "type": "ExportDefaultDeclaration",
-        "start": 324,
-        "end": 415,
+        "start": 315,
+        "end": 402,
         "loc": {
           "start": {
-            "line": 11,
+            "line": 12,
             "column": 0
           },
           "end": {
-            "line": 15,
+            "line": 16,
             "column": 2
           }
         },
         "declaration": {
           "type": "ObjectExpression",
-          "start": 339,
-          "end": 414,
+          "start": 330,
+          "end": 401,
           "loc": {
             "start": {
-              "line": 11,
+              "line": 12,
               "column": 15
             },
             "end": {
-              "line": 15,
+              "line": 16,
               "column": 1
             }
           },
           "properties": [
             {
               "type": "ObjectMethod",
-              "start": 344,
-              "end": 411,
+              "start": 334,
+              "end": 399,
               "loc": {
                 "start": {
-                  "line": 12,
+                  "line": 13,
                   "column": 2
                 },
                 "end": {
-                  "line": 14,
+                  "line": 15,
                   "column": 3
                 }
               },
@@ -163,15 +163,15 @@
               "computed": false,
               "key": {
                 "type": "Identifier",
-                "start": 344,
-                "end": 350,
+                "start": 334,
+                "end": 340,
                 "loc": {
                   "start": {
-                    "line": 12,
+                    "line": 13,
                     "column": 2
                   },
                   "end": {
-                    "line": 12,
+                    "line": 13,
                     "column": 8
                   },
                   "identifierName": "client"
@@ -187,15 +187,15 @@
               "params": [
                 {
                   "type": "Identifier",
-                  "start": 351,
-                  "end": 364,
+                  "start": 341,
+                  "end": 354,
                   "loc": {
                     "start": {
-                      "line": 12,
+                      "line": 13,
                       "column": 9
                     },
                     "end": {
-                      "line": 12,
+                      "line": 13,
                       "column": 22
                     },
                     "identifierName": "clientOptions"
@@ -205,58 +205,58 @@
               ],
               "body": {
                 "type": "BlockStatement",
-                "start": 366,
-                "end": 411,
+                "start": 356,
+                "end": 399,
                 "loc": {
                   "start": {
-                    "line": 12,
+                    "line": 13,
                     "column": 24
                   },
                   "end": {
-                    "line": 14,
+                    "line": 15,
                     "column": 3
                   }
                 },
                 "body": [
                   {
                     "type": "ReturnStatement",
-                    "start": 373,
-                    "end": 406,
+                    "start": 362,
+                    "end": 395,
                     "loc": {
                       "start": {
-                        "line": 13,
+                        "line": 14,
                         "column": 4
                       },
                       "end": {
-                        "line": 13,
+                        "line": 14,
                         "column": 37
                       }
                     },
                     "argument": {
                       "type": "NewExpression",
-                      "start": 380,
-                      "end": 405,
+                      "start": 369,
+                      "end": 394,
                       "loc": {
                         "start": {
-                          "line": 13,
+                          "line": 14,
                           "column": 11
                         },
                         "end": {
-                          "line": 13,
+                          "line": 14,
                           "column": 36
                         }
                       },
                       "callee": {
                         "type": "Identifier",
-                        "start": 384,
-                        "end": 390,
+                        "start": 373,
+                        "end": 379,
                         "loc": {
                           "start": {
-                            "line": 13,
+                            "line": 14,
                             "column": 15
                           },
                           "end": {
-                            "line": 13,
+                            "line": 14,
                             "column": 21
                           },
                           "identifierName": "Client"
@@ -266,15 +266,15 @@
                       "arguments": [
                         {
                           "type": "Identifier",
-                          "start": 391,
-                          "end": 404,
+                          "start": 380,
+                          "end": 393,
                           "loc": {
                             "start": {
-                              "line": 13,
+                              "line": 14,
                               "column": 22
                             },
                             "end": {
-                              "line": 13,
+                              "line": 14,
                               "column": 35
                             },
                             "identifierName": "clientOptions"
@@ -293,9 +293,9 @@
           "leadingComments": [
             {
               "type": "CommentBlock",
-              "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const client = GSF.client({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\r\n ",
-              "start": 34,
-              "end": 322,
+              "value": "*\n * The GSF object provides an entry point to the SDK.\n * @example\n * const client = GSF.client({address:'MyServer',port:9191});\n *\n * @typedef {Object} GSF\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\n ",
+              "start": 32,
+              "end": 313,
               "loc": {
                 "start": {
                   "line": 3,
@@ -313,9 +313,9 @@
         "leadingComments": [
           {
             "type": "CommentBlock",
-            "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const client = GSF.client({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\r\n ",
-            "start": 34,
-            "end": 322,
+            "value": "*\n * The GSF object provides an entry point to the SDK.\n * @example\n * const client = GSF.client({address:'MyServer',port:9191});\n *\n * @typedef {Object} GSF\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\n ",
+            "start": 32,
+            "end": 313,
             "loc": {
               "start": {
                 "line": 3,
@@ -335,9 +335,9 @@
   "comments": [
     {
       "type": "CommentBlock",
-      "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const client = GSF.client({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\r\n ",
-      "start": 34,
-      "end": 322,
+      "value": "*\n * The GSF object provides an entry point to the SDK.\n * @example\n * const client = GSF.client({address:'MyServer',port:9191});\n *\n * @typedef {Object} GSF\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\n ",
+      "start": 32,
+      "end": 313,
       "loc": {
         "start": {
           "line": 3,
@@ -486,9 +486,9 @@
     },
     {
       "type": "CommentBlock",
-      "value": "*\r\n * The GSF object provides an entry point to the SDK.\r\n * @example\r\n * const client = GSF.client({address:'MyServer',port:9191});\r\n *\r\n * @typedef {Object} GSF\r\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\r\n ",
-      "start": 34,
-      "end": 322,
+      "value": "*\n * The GSF object provides an entry point to the SDK.\n * @example\n * const client = GSF.client({address:'MyServer',port:9191});\n *\n * @typedef {Object} GSF\n * @property {function(clientOptions: ClientOptions): Client} client - The function for creating a new Client object.\n ",
+      "start": 32,
+      "end": 313,
       "loc": {
         "start": {
           "line": 3,
@@ -515,15 +515,15 @@
         "updateContext": null
       },
       "value": "export",
-      "start": 324,
-      "end": 330,
+      "start": 315,
+      "end": 321,
       "loc": {
         "start": {
-          "line": 11,
+          "line": 12,
           "column": 0
         },
         "end": {
-          "line": 11,
+          "line": 12,
           "column": 6
         }
       }
@@ -543,15 +543,15 @@
         "updateContext": null
       },
       "value": "default",
-      "start": 331,
-      "end": 338,
+      "start": 322,
+      "end": 329,
       "loc": {
         "start": {
-          "line": 11,
+          "line": 12,
           "column": 7
         },
         "end": {
-          "line": 11,
+          "line": 12,
           "column": 14
         }
       }
@@ -568,15 +568,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 339,
-      "end": 340,
+      "start": 330,
+      "end": 331,
       "loc": {
         "start": {
-          "line": 11,
+          "line": 12,
           "column": 15
         },
         "end": {
-          "line": 11,
+          "line": 12,
           "column": 16
         }
       }
@@ -594,15 +594,15 @@
         "binop": null
       },
       "value": "client",
-      "start": 344,
-      "end": 350,
+      "start": 334,
+      "end": 340,
       "loc": {
         "start": {
-          "line": 12,
+          "line": 13,
           "column": 2
         },
         "end": {
-          "line": 12,
+          "line": 13,
           "column": 8
         }
       }
@@ -619,15 +619,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 350,
-      "end": 351,
+      "start": 340,
+      "end": 341,
       "loc": {
         "start": {
-          "line": 12,
+          "line": 13,
           "column": 8
         },
         "end": {
-          "line": 12,
+          "line": 13,
           "column": 9
         }
       }
@@ -645,15 +645,15 @@
         "binop": null
       },
       "value": "clientOptions",
-      "start": 351,
-      "end": 364,
+      "start": 341,
+      "end": 354,
       "loc": {
         "start": {
-          "line": 12,
+          "line": 13,
           "column": 9
         },
         "end": {
-          "line": 12,
+          "line": 13,
           "column": 22
         }
       }
@@ -670,15 +670,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 364,
-      "end": 365,
+      "start": 354,
+      "end": 355,
       "loc": {
         "start": {
-          "line": 12,
+          "line": 13,
           "column": 22
         },
         "end": {
-          "line": 12,
+          "line": 13,
           "column": 23
         }
       }
@@ -695,15 +695,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 366,
-      "end": 367,
+      "start": 356,
+      "end": 357,
       "loc": {
         "start": {
-          "line": 12,
+          "line": 13,
           "column": 24
         },
         "end": {
-          "line": 12,
+          "line": 13,
           "column": 25
         }
       }
@@ -723,15 +723,15 @@
         "updateContext": null
       },
       "value": "return",
-      "start": 373,
-      "end": 379,
+      "start": 362,
+      "end": 368,
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 4
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 10
         }
       }
@@ -751,15 +751,15 @@
         "updateContext": null
       },
       "value": "new",
-      "start": 380,
-      "end": 383,
+      "start": 369,
+      "end": 372,
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 11
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 14
         }
       }
@@ -777,15 +777,15 @@
         "binop": null
       },
       "value": "Client",
-      "start": 384,
-      "end": 390,
+      "start": 373,
+      "end": 379,
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 15
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 21
         }
       }
@@ -802,15 +802,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 390,
-      "end": 391,
+      "start": 379,
+      "end": 380,
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 21
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 22
         }
       }
@@ -828,15 +828,15 @@
         "binop": null
       },
       "value": "clientOptions",
-      "start": 391,
-      "end": 404,
+      "start": 380,
+      "end": 393,
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 22
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 35
         }
       }
@@ -853,15 +853,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 404,
-      "end": 405,
+      "start": 393,
+      "end": 394,
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 35
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 36
         }
       }
@@ -879,15 +879,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 405,
-      "end": 406,
+      "start": 394,
+      "end": 395,
       "loc": {
         "start": {
-          "line": 13,
+          "line": 14,
           "column": 36
         },
         "end": {
-          "line": 13,
+          "line": 14,
           "column": 37
         }
       }
@@ -904,15 +904,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 410,
-      "end": 411,
+      "start": 398,
+      "end": 399,
       "loc": {
         "start": {
-          "line": 14,
+          "line": 15,
           "column": 2
         },
         "end": {
-          "line": 14,
+          "line": 15,
           "column": 3
         }
       }
@@ -929,15 +929,15 @@
         "postfix": false,
         "binop": null
       },
-      "start": 413,
-      "end": 414,
+      "start": 400,
+      "end": 401,
       "loc": {
         "start": {
-          "line": 15,
+          "line": 16,
           "column": 0
         },
         "end": {
-          "line": 15,
+          "line": 16,
           "column": 1
         }
       }
@@ -955,15 +955,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 414,
-      "end": 415,
+      "start": 401,
+      "end": 402,
       "loc": {
         "start": {
-          "line": 15,
+          "line": 16,
           "column": 1
         },
         "end": {
-          "line": 15,
+          "line": 16,
           "column": 2
         }
       }
@@ -981,15 +981,15 @@
         "binop": null,
         "updateContext": null
       },
-      "start": 417,
-      "end": 417,
+      "start": 403,
+      "end": 403,
       "loc": {
         "start": {
-          "line": 16,
+          "line": 17,
           "column": 0
         },
         "end": {
-          "line": 16,
+          "line": 17,
           "column": 0
         }
       }
