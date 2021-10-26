@@ -504,6 +504,18 @@ window.esdocSearchIndex = [
     "method"
   ],
   [
+    "src/job.js~job#delete",
+    "class/src/Job.js~Job.html#instance-method-delete",
+    "src/Job.js~Job#delete",
+    "method"
+  ],
+  [
+    "src/job.js~job#file",
+    "class/src/Job.js~Job.html#instance-method-file",
+    "src/Job.js~Job#file",
+    "method"
+  ],
+  [
     "src/job.js~job#info",
     "class/src/Job.js~Job.html#instance-method-info",
     "src/Job.js~Job#info",
@@ -519,6 +531,12 @@ window.esdocSearchIndex = [
     "src/job.js~job#wait",
     "class/src/Job.js~Job.html#instance-method-wait",
     "src/Job.js~Job#wait",
+    "method"
+  ],
+  [
+    "src/job.js~job#workspace",
+    "class/src/Job.js~Job.html#instance-method-workspace",
+    "src/Job.js~Job#workspace",
     "method"
   ],
   [

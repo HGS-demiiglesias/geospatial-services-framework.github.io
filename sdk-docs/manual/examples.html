@@ -120,6 +120,7 @@
 <li data-ice="manualNav" class="indent-h3" data-link="manual/examples.html"><a href="manual/examples.html#using-promises" data-ice="link">Using Promises</a></li>
 <li data-ice="manualNav" class="indent-h5" data-link="manual/examples.html"><a href="manual/examples.html#1--use--a-href-----class-src-task-js-task-html-instance-method-submit---strong--submit----strong---a--and-then--a-href-----class-src-job-js-job-html-instance-method-wait---strong--wait----strong---a-" data-ice="link">1. Use .submit() and then .wait()</a></li>
 <li data-ice="manualNav" class="indent-h5" data-link="manual/examples.html"><a href="manual/examples.html#2--use--a-href-----class-src-task-js-task-html-instance-method-submitandwait---strong--submitandwait----strong---a-" data-ice="link">2. Use .submitAndWait()</a></li>
+<li data-ice="manualNav" class="indent-h2" data-link="manual/examples.html"><a href="manual/examples.html#list-and-retrieve-workspace-files" data-ice="link">List and Retrieve Workspace Files</a></li>
 <li data-ice="manualNav" class="indent-h3" data-link="manual/examples.html"><a href="manual/examples.html#using-server-events" data-ice="link">Using Server Events</a></li>
 <li data-ice="manualNav" class="indent-h2" data-link="manual/examples.html"><a href="manual/examples.html#tracking-job-progress" data-ice="link">Tracking Job Progress</a></li>
 <li data-ice="manualNav" class="indent-h3" data-link="manual/examples.html"><a href="manual/examples.html#progress-callbacks" data-ice="link">Progress Callbacks</a></li>
@@ -342,6 +343,50 @@ task.submitAndWait(taskParameters).then((results) =&gt; {
   }).catch((jobErrorMessage) =&gt; {
     // Display error.
   });</code>
+</code></pre>
+<h2 id="list-and-retrieve-workspace-files">List and Retrieve Workspace Files</h2><p>The GSF <a href="./manual/../class/src/Job.js~Job.html"><strong>Job</strong></a> object provides the ability to fetch a list of workspace files.  It is required that the &apos;enableNodeInfo&apos; configuration is set to true on the server for job workspace access.</p>
+<p>The task below, CustomTask, is a fictional task that writes a text file to the job workspace.  This also provides an example of using async/await instead of promises.</p>
+<pre><code class="lang-javascript"><code class="source-code prettyprint">const task = GSF.client({address:&apos;MyServer&apos;,port:&apos;9191&apos;}).service(&apos;ENVI&apos;).task(&apos;CustomTask&apos;);
+
+// Submit job.
+const job = await task.submit({});
+
+// Wait for job to complete.
+await job.wait();
+
+// Get the list of workspace files.
+const workspaceFiles = await job.workspace();
+console.log(workspaceFiles);
+// prints:
+// [
+//   {
+//     dev: 66311,
+//     mode: 33204,
+//     nlink: 1,
+//     uid: 1000,
+//     gid: 1000,
+//     rdev: 0,
+//     blksize: 4096,
+//     ino: 11768910,
+//     size: 18,
+//     blocks: 8,
+//     atimeMs: 1604352379848.0715,
+//     mtimeMs: 1604352379848.0715,
+//     ctimeMs: 1604352379848.0715,
+//     birthtimeMs: 1604352379848.0715,
+//     atime: &quot;2020-11-02T21:26:19.848Z&quot;,
+//     mtime: &quot;2020-11-02T21:26:19.848Z&quot;,
+//     ctime: &quot;2020-11-02T21:26:19.848Z&quot;,
+//     birthtime: &quot;2020-11-02T21:26:19.848Z&quot;,
+//     path: &quot;file.txt&quot;
+//   }
+// ]
+
+// Retrieve the contents of a text file.
+const fileBuffer = await job.file(workspaceFiles[0].path);
+const textDecoder = new TextDecoder(&apos;utf-8&apos;);
+const fileContents = textDecoder.decode(fileBuffer);
+console.log(fileContents); // prints: Text file contents.</code>
 </code></pre>
 <h3 id="using-server-events">Using Server Events</h3><p>The <a href="./manual/../class/src/Client.js~Client.html"><strong>Client</strong></a> and <a href="./manual/../class/src/Job.js~Job.html"><strong>Job</strong></a> objects give you access to all job related events emitted by the server.  These classes inheret from Node&apos;s <a href="https://nodejs.org/api/events.html"><strong>EventEmitter</strong></a> and support methods such as .on(), .once(), .removeAllListeners(), etc. The following example shows how to listen for job events on the <a href="./manual/../class/src/Client.js~Client.html"><strong>Client</strong></a>.</p>
 <pre><code class="lang-javascript"><code class="source-code prettyprint">// GSF Client
